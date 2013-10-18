@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="action_zone">Sélectionnez la zone</string>
+
+    <string-array name="navigation_options">
+        <item>Carte</item>
+        <item>Zones</item>
+        <item>Méduse</item>
+        <item>Traitement</item>
+        <item>A propos</item>
+        <item>Communauté</item>
+    </string-array>
+
+    <array name="navigation_icons">
+        <item>@drawable/ic_tab_map</item>
+        <item>@drawable/ic_tab_beach</item>
+        <item>@drawable/ic_tab_jellyfish</item>
+        <item>@drawable/ic_tab_treatment</item>
+        <item>@drawable/ic_tab_about</item>
+        <item>@drawable/ic_tab_community</item>    
+    </array>    
+    
+    <string name="geo_zone">Zones</string>
+    <string name="geo_municipality">Municipalité</string>
+    <string name="geo_beach">Plage</string>
+    
+    <string name="drawer_open">Ouvrir menu de navigation</string>
+    <string name="drawer_close">Fermer menu de navigation</string>
+    
+    <string name="map_safe">Sûr</string>
+    <string name="map_alert">Alerte</string>
+    <string name="map_danger">Danger</string>
+
+    <string name="title_main">iMedJelly</string>
+    <string name="title_beach">Plage</string>
+    <string name="title_jellyfish">Medusa</string>
+    <string name="title_treatment">Traitement</string>
+    <string name="title_comment">Commentaire</string>
+    <string name="title_services">Services</string>
+	<string name="title_state">État</string>
+	<string name="title_camera_upload">Télécharger photo</string>
+	
+	<string name="select_zone">Sélectionnez la zone</string>
+    
+    <string name="service_legend">Légende</string>
+    <string name="state_legend">Légende</string>
+    
+    <string name="notification_title">Notification</string>
+    
+    <string name="grid_image_desc">Medusa</string>
+    
+    <string name="beachName">Nom de la plage</string>
+    <string name="jellyfishPresence">Non vérifié</string>
+    <string name="beachDescription">Description</string>
+    <string name="beachRatingLabel">Note des utilisateurs</string>
+
+    <string name="jellyfish_no_info">Aucune information disponible</string>
+    <string name="no_warning">Pas observé de méduses</string>
+    <string name="low_warning">Méduses non dangereux</string>
+    <string name="high_warning">Danger de méduses</string>
+    <string name="very_high_warning">Grand danger de méduses</string>
+    
+    <string name="flag">Aucune information disponible</string>
+    <string name="green_flag">Conditions appropriées de la plage pour tous les nageurs</string>
+    <string name="yellow_flag">Conditions peu favorables à la baignade (attention avec mineurs)</string>
+    <string name="red_flag">Interdit de pénétrer dans la mer, la plage fermée par fortes vagues</string>
+
+    <string name="termometer">Thermomètre</string>
+    <string name="beachBackground">Plage</string>
+	<string name="bikeParking">Stationnement pour vélos</string>
+	<string name="blueFlag">Pavillon bleu</string>
+	<string name="childrenZone">Aire de jeux</string>
+	<string name="dump">Poubelles</string>
+	<string name="handicappedAccess">Accès pour handicapés</string>
+    <string name="handicappedFriendly">Handi-accueillante</string>
+    <string name="parking">Parking</string>
+    <string name="rentUmbrellaHammock">Parapluie location et hamac</string>
+    <string name="restaurant">Restaurant</string>
+    <string name="shower">Douches</string>
+    <string name="slogans">Slogans</string>
+    <string name="sportZone">Zones sportives</string>
+    <string name="surveillanceTower">Tour de sauveteur</string>
+    <string name="waterSource">Fontaine d\'eau</string>
+    <string name="wc">WC</string>
+    <string name="sky">Ciel</string>
+    <string name="windDirection">Direction du vent</string>
+    <string name="noSelected">Pas sélectionné</string>
+
+    <string name="beach_add_comment">Ajouter un commentaire</string>
+    
+    <string name="treatment_image">Image</string>
+    <string name="treatment_title">Picaduras de medusas: qué se debe hacer</string>
+    <string name="treatment_description" >Méduses sont des invertébrés qui vivent flottant dans la mer et ont des cellules urticantes qui utilisé pour capturer des proies et se défendre. Ces dernières années, les proliférations de méduses sont devenues quelque chose de commun.</string>
+    <string name="observation_title">Observations</string>
+    
+    <string name="feedback_success">Commentaire posté avec succès.</string>
+    <string name="feedback_failed">Erreur: </string>
+    <string name="feedback_username">Utilisateur</string>
+    <string name="feedback_email">Email</string>
+    <string name="feedback_comment">Commentaire</string>
+    <string name="feedback_send">Envoyer</string>
+    
+    <string name="newuser_success">Utilisateur créé avec succès.</string>
+    <string name="newuser_failed">Enregistrement a échoué: </string>
+    <string name="newuser_title">Nouvel utilisateur</string>
+	<string name="newuser_description">Rejoignez la communauté des utilisateurs MedJelly permet d\'accéder au forum et sondages pour partager des informations avec d\'autres utilisateurs.</string>   
+    <string name="newuser_username">Utilisateur</string>
+    <string name="newuser_email">Email</string>
+    <string name="newuser_password">Mot de passe</string>
+    <string name="newuser_join">S\'inscrire</string>
+    <string name="newuser_alreadyregistered"><u>Je suis déjà inscrit</u></string>
+    
+    <string name="observation_success">Observation envoyée avec succès.</string>
+    <string name="observation_failed">Observation a échoué: </string>
+    <string name="observation_text">Vous pouvez envoyer des photos et informations de méduses ont été retrouvés sur une plage.</string>
+    <string name="observation_jellyFishName">Méduse</string>
+    <string name="observation_comment">Commentaires</string>
+    <string name="observation_send">Joindre</string>
+    <string name="image_upload">Téléchargez photo</string>
+    
+    <string name="about_title">A propos</string>
+    <string name="about_authors">Application développée et mise à jour par:</string>
+	<string name="about_team">Équipe de Medjelly-Tunisie</string>
+	<string name="about_team_members">Ons Kéfi - Daly Yahia\nMohamed Néjib Daly Yahia\nMehdi Aissi\nSabrine El Inoubli</string>
+    <string name="about_colaboration">Avec la collaboration de:</string>
+	<string name="about_colaborators">Cruz Roja\nRescatadores\nPro-Activa\nMarsave-Mallorca\nSIRESA\nAltsport 2000\nMunicipalities of the Catalan coast\nAEMET\nGIEM\nCatalan Agency of Water\nCivil protection (Generalitat de Catalunya)\n</string>
+	
+	<string name="about_financed">Projet cofinancé par:</string>
+	<string name="about_description">Les données concernant la présence ou l\'absence des méduses sur les plages sont fournies par les équipes de la Faculté des Sciences de Bizerte (FSB) et de l\'Institut National Agronomique de Tunisie (INAT), ainsi que par nos partenaires associés : l\’APAL, la DGPA, le croissant rouge, la protection civile, l\’association « Réseau Enfants de la Terre », et les scouts, dans le cadre d\'une coopération établie avec l\’INAT et la FSB, pour informer les baigneurs et les professionnels de la mer sur la présence des méduses, les risques et les protocoles d\'actions en cas de piqûres. Cependant, ces informations peuvent varier durant la journée, vu que les méduses se déplacent en groupe dans la masse d\'eau et peuvent être dispersés par les courants et les vents d\'une zone à une autre, les emmenant soit près des côtes, soit au large en une courte période. Pour cela, l\'application Medjelly-Tunisie publie des informations selon l\'état de la plage dans la matinée, mais avec une possibilité que cet état change au cours de la journée. L\'application va mettre à jour les informations dès que possible, quand ces changements ainsi que de nouvelles données seront reçus.</string>
+	<string name="about_phone_number">900 102 289</string>
+	<string name="about_more_information">Pour plus d\'informations sur les méduses, contactez nous sur le numéro vert:</string>	
+
+    <string name="nj1a" >Pelagia noctiluca</string>
+    <string name="nj1b" >Rhizostoma pulmo</string>
+    <string name="nj2a" >Aequorea forskalea</string>
+    <string name="nj2b" >Cotylorhiza tuberculata</string>
+    <string name="nj3a" >Velella velella</string>
+    <string name="nj3b" >Aurelia aurita</string>
+    <string name="nj4a" >Chrysaora hysoscella</string>
+    <string name="nj4b" >Porpita porpita</string>
+    <string name="nj5a" >Carybdea marsupialis</string>
+    <string name="nj5b" >Physalia physalis</string>
+    <string name="nj6a" >Olindias phosphorica</string>
+    <string name="nj6b" >Mnemiopsis leidyi</string>
+    <string name="nj7a" >Phyllorhiza punctata</string>
+    <string name="nj7b" >Cassiopea andromeda</string>
+    <string name="nj8a" >Salpa democratica</string>
+    <string name="nj8b" >Discomedusa lobata</string>
+    <string name="nj9a" >Pelagia benovici</string>
+
+    <string name="ij1a" >Élevé</string>
+    <string name="ij1b" >Moyenne</string>
+    <string name="ij2a" >Basse</string>
+    <string name="ij2b" >Basse</string>
+    <string name="ij3a" >Basse</string>
+    <string name="ij3b" >Basse</string>
+    <string name="ij4a" >Élevé</string>
+    <string name="ij4b" >Basse</string>
+    <string name="ij5a" >Très élevé</string>
+    <string name="ij5b" >Très élevé</string>
+    <string name="ij6a" >Très élevé</string>
+    <string name="ij6b" >Sans danger</string>
+    <string name="ij7a" >Basse</string>
+    <string name="ij7b" >Basse</string>
+    <string name="ij8a" >Sans danger</string>
+    <string name="ij8b" >Basse</string>
+    <string name="ij9a" >Moyenne</string>
+    
+    <string name="j1a1" >Pelagia noctiluca</string>
+    <string name="j1a2" >Pélagie, Piqûeur mauve</string>
+    <string name="j1a3" >Dangerosité</string>
+    <string name="j1a4" >La piqûre par Pelagia noctiluca provoque habituellement des douleurs urticaires immédiates et un œdème. De plus, des vésicules et des papules brulantes peuvent apparaître et persister. Les démangeaisons sont typiques. Après guérison, il peut y avoir des cicatrices.</string>
+    <string name="j1a5" >Distribution et habitat</string>
+    <string name="j1a6" >Largement distribuée dans les eaux chaudes et tempérées des océans. Au début des années 80, Pelagia noctiluca était très abondante en Méditerranée. Néanmoins, depuis l\'année chaude 2003, sa présence est presque constante en Méditerranée occidentale. Il s\'agit d\'une espèce typiquement invasive  qui peut même atteindre les côtes. Des milliers d\'individus peuvent former de larges bancs tout au long des côtes.</string>
+    <string name="j1a7" >Fréquence</string>
+    <string name="j1a8" >Cette espèce pélagique est fréquente sur toutes côtes tunisiennes. Présente toute l’année, elle est principalement observée au large.</string>
+    <string name="j1a9" >Caractéristiques</string>
+    <string name="j1a10" >Elle est de couleur rose brillant ou mauve. L\’ombrelle hémisphérique peut mesurer entre 5 et 20 cm avec huit longs tentacules marginaux atteignant 10 mètres et quatre bras oraux épais. La surface de l\'ombrelle est couverte de points marron. Pelagia noctiluca, comme d’autres méduses, peut être bioluminescente. Les bras très épais et denses de Pelagia noctiluca lui permettent d’attaquer les cages d’élevage et tuer les poissons.  Étant donné que cette espèce mange aussi les œufs et les larves de poissons, l\'impact sur le rendement des pêcheries peut être très important.</string>
+    <string name="j1a11" ></string>
+    
+    <string name="j1b1" >Rhizostoma pulmo</string>
+    <string name="j1b2" >Poumon de mer ou la méduse fleur-chou</string>
+    <string name="j1b3" >Dangerosité</string>
+    <string name="j1b4" >La piqûre de Rhizostoma pulmo provoque une douleur modérée avec généralement une sensation de brûlure. Les symptômes locaux comprennent des démangeaisons urticaires, des éternuements et une irritation des yeux.</string>
+    <string name="j1b5" >Distribution et habitat</string>
+    <string name="j1b6" >Cette espèce est présente dans  les océans Atlantique Nord et du Sud, la Méditerranée, la mer Noire, et la mer rouge. Rhizostoma pulmo est considérée comme une espèce côtière. Les plus petites méduses apparaissent au printemps et les adultes de grande taille sont plus abondants en été et généralement observés  sur la surface de l\'eau.</string>
+    <string name="j1b7" >Fréquence</string>
+    <string name="j1b8" >Cette espèce prolifère du sud au nord de la Tunisie. Elle se déplace lentement en eau peu profonde et qui abonde en général en milieu côtier. Elle est fréquente dans les lagunes et les estuaires.</string>
+    <string name="j1b9" >Caractéristiques</string>
+    <string name="j1b10" >C’est l’une des plus grandes méduses de la côte catalane. Le diamètre de l’ombrelle varie entre 10 et 40 cm avec un poids pouvant atteindre 10 kg. La couleur est bleu laiteux à légèrement blanchâtre avec un contour violet au bord de l\'ombrelle. Cette espèce ne possède pas  de tentacules marginaux, mais huit bras oraux épais. Cette espèce est considérée comme un refuge pour d\'autres organismes marins tels que les poissons et les petits crabes qui sont transportés par les courants entre ses bras oraux. Les mouvements de Rhizostoma pulmo sont lents et puissants. Pour les asiatiques du Sud-Est, en particulier la Chine, elle est considérée comme un plat délicieux.</string>
+    
+    <string name="j2a1" >Aequorea forskalea</string>
+    <string name="j2a2" >Aequora</string>
+    <string name="j2a3" >Dangerosité</string>
+    <string name="j2a4" >Inoffensif pour les humains, mais il vaut mieux ne pas y toucher.</string>
+    <string name="j2a5" >Distribution et habitat</string>
+    <string name="j2a6" >\nElle est présente dans les océans Atlantique et Indo-Pacifique, dans les eaux tropicales et tempérées. Elle habite les eaux côtières et hauturière</string>
+    <string name="j2a7" >Fréquence</string>
+    <string name="j2a8" >Aequorea forskalea est très fréquente en  méditerranée  mais non signalée en Tunisie.</string>
+    <string name="j2a9" >Caractéristiques</string>
+    <string name="j2a10" >Elle présente une forme plate de l\'ombrelle transparente, qui peut atteindre jusqu\'à 17 cm de diamètre, avec une masse plus dense au centre. Elle se distingue facilement des autres méduses en raison de ces nombreux canaux radiaires bleus qui relient le centre du bord de l\'ombrelle. Elle a de nombreux tentacules marginaux minces et pas de bras oraux. Cette espèce a permis l\'isolement de la protéine fluorescente verte (GFP), une substance à la base de la fluorescence de nombreuses méduses. La découverte de cette protéine a permis de développer de nouvelles techniques pour le diagnostic des maladies et la recherche dans le domaine de la biologie moléculaire. Cette découverte a conduit à des applications dans ce secteur, nous permettant de marquer des lignées de cellules spécifiques. La découverte de la GFP par les chercheurs américains Osamu Shimomura, Martin Chalfie et Roger Tsien a mérité le prix Nobel de chimie en 2008.</string>
+
+    <string name="j2b1" >Cotylorhiza tuberculata</string>
+    <string name="j2b2" >méduse œuf au plat</string>
+    <string name="j2b3" >Dangerosité</string>
+    <string name="j2b4" >Le risque de piqûre est faible mais il est préférable de ne pas la toucher pour éviter toute réaction cutanée possible.</string>
+    <string name="j2b5" >Distribution et habitat</string>
+    <string name="j2b6" >Il s\'agit d\'une  espèce endémique de la  Méditerranée. C\'est une espèce côtière, montrant une certaine préférence pour les eaux chaudes. Elle nage en pleine eau au niveau des zones pélagiques, mais elle peut également se trouver à proximité des côtes. Cette méduse se tient en général en surface.</string>
+    <string name="j2b7" >Fréquence</string>
+    <string name="j2b8" >Elle est très fréquente sur les côtes tunisiennes. Les adultes sont présents avec une abondance maximale en fin d\'été et début de l\'automne.</string>
+    <string name="j2b9" >Caractéristiques</string>
+    <string name="j2b10" >La longueur de l\'ombrelle varie entre 20 et 35 cm. Elle est aplatie avec une protubérance rouge à oranger au centre. Les bras oraux sont de courts appendices  formant trois boutons à l\'extrême. L’ombrelle  a une couleur jaune-brun et les tentacules sont blancs avec des terminaisons bleu-violet. Cotylorhiza tuberculata peut présenter des micro-algues vivant dans son propre tissu, tout comme les récifs coralliens tropicaux. Fonctionnellement, elle peut être définie comme une plante même si elle se nourrit du zooplancton. Comme Rhizostoma pulmo, elle est souvent associée avec des poissons.</string>
+    
+    <string name="j3a1" >Velella velella</string>
+    <string name="j3a2" >Vélelle ou Barque de la Saint-Jean</string>
+    <string name="j3a3" >Dangerosité</string>
+    <string name="j3a4" >Inoffensif pour les humains, mais il vaut mieux ne pas y toucher.</string>
+    <string name="j3a5" >Distribution et habitat</string>
+    <string name="j3a6" >Prolifère dans les eaux chaudes et tempérées de tous les océans du monde, elle est très commune dans la Méditerranée. Elle vit à l\'interface eau / air, avec un flotteur au-dessus de l\'eau, et des polypes suspendus à environ un centimètre ci-dessous. Elle peut être présente dans d\'énormes essaims atteignant même plusieurs kilomètres. Comme leur mouvement dépend totalement des courants et des vents de surface, elles peuvent être présentent sur la côte ou échouées sur les plages.</string>
+    <string name="j3a7" >Fréquence</string>
+    <string name="j3a8" >Le long de la côte nord tunisienne, tout comme dans le bassin méditerranéen, elle est très fréquente au printemps.</string>
+    <string name="j3a9" >Caractéristiques</string>
+    <string name="j3a10" >Ce n\'est pas une méduse proprement dite, mais une colonie d\'hydroméduses en phase polypes flottantes. La colonie, qui forme un disque ovale bleu, est d\'environ 1-8 cm, et les polypes bleus sont attachés à un flotteur de chitine équipé d\'une " voile " qui porte la colonie avec l\'aide du vent. La colonie, vers la fin de sa durée de vie, qui dure quelques mois, produit des méduses de quelques millimètres.</string>
+
+    <string name="j3b1" >Aurelia aurita</string>
+    <string name="j3b2" >Aurélie ou la méduse bleue</string>
+    <string name="j3b3" >Dangerosité</string>
+    <string name="j3b4" >La piqûre d’Aurelia aurita est inoffensive pour les humains, mais il vaut mieux ne pas y toucher. Chez certaines personnes, certaines réactions cutanées peuvent être observées.</string>
+    <string name="j3b5" >Distribution et habitat</string>
+    <string name="j3b6" >Aurelia aurita est très abondante dans les océans de l\'hémisphère Nord. Généralement, il s\'agit d\'une espèce côtière et peut même être trouvée dans les ports.</string>
+    <string name="j3b7" >Fréquence</string>
+    <string name="j3b8" >Cette espèce présente dans le nord de Tunisie. Présente, pendant la saison hivernale et printanière, le plus souvent en milieu saumâtre, estuaire ou zone portuaire.</string>
+    <string name="j3b9" >Caractéristiques</string>
+    <string name="j3b10" >L’ombrelle est aplatie et peut atteindre jusqu\'à 25 cm. Il s\'agit d\'une méduse translucide, avec gonades violets disposées en quatre cercles au centre sous forme de fer à cheval. Du manubrium, quatre longs bras oraux s\'étendent avec de nombreux tentacules marginaux courts entourant l’ombrelle. Contrairement à d\'autres espèces de méduses plus délicates, cette méduse peut vivre dans un aquarium. En Chine, elle représente un plat très populaire.</string>
+
+    <string name="j4a1" >Chrysaora hysoscella</string>
+    <string name="j4a2" >Méduse rayonnée</string>
+    <string name="j4a3" >Dangerosité</string>
+    <string name="j4a4" >La piqûre laisse habituellement une blessure érythème, une douleur maximale dans les minutes qui la suivent puis disparait souvent après quelques heures. Quelques cas ont reporté des symptômes sévères.</string>
+    <string name="j4a5" >Distribution et habitat</string>
+    <string name="j4a6" >C\'est une espèce pélagique qui vit en Atlantique et peut être retrouvée dans le Nord, comme les fjords norvégiens, où elle peut atteindre des densités énormes. En Méditerranée, elle n\'est pas abondante, mais fréquente.</string>
+    <string name="j4a7" >Fréquence</string>
+    <string name="j4a8" >Même si elle peut être très abondante et communément observée au printemps dans certaines régions méditerranéennes espagnoles, elle est considérée comme une espèce rare en Tunisie.</string>
+    <string name="j4a9" >Caractéristiques</string>
+    <string name="j4a10" >Cette méduse de couleur blanc-jaune a une ombrelle qui peut atteindre 30 cm de diamètre, et un manubrium avec quatre bras oraux qui peuvent atteindre un mètre de long. La face supérieure de l\'ombrelle est décorée de 16 bandes brunes en forme de V, qui vont du centre de l\'ombrelle jusqu\'au bord.  Il ya 24 tentacules minces et longs regroupés par trois.</string>
+
+    <string name="j4b1" >Porpita porpita</string>
+    <string name="j4b2" >Porpite</string>
+    <string name="j4b3" >Dangerosité</string>
+    <string name="j4b4" >La piqûre de la porpite n’est mortelle, mais peut provoquer des irritations cutanées. </string>
+    <string name="j4b5" >Distribution et habitat</string>
+    <string name="j4b6" >Cette espèce se trouve dans les eaux chaudes au large de l\'Europe, dans le Golfe du Mexique, la mer Méditerranée, la Nouvelle-Zélande et les eaux du sud des États-Unis. Ces hydraires vivent à la surface de l\'océan, mais sont parfois soufflé vers le rivage, et de temps en temps vu par des milliers.</string>
+    <string name="j4b7" >Fréquence</string>
+    <string name="j4b8" >Cette espèce est très rare en Méditerranée et non signalée en Tunisie.</string>
+    <string name="j4b9" >Caractéristiques</string>
+    <string name="j4b10" >Cette espèce relativement petite mesure entre 1 et 5 cm. Elle se compose d\'un disque brun doré, un flotteur rempli de gaz dans le centre, et entouré par des hydraires colorés en bleu intense, violet ou en jaune,  qui ressemblent à des tentacules. La porpite est composée de zooïdes individuels, chacun spécialisé dans une fonction différente, comme nutrition, la défense ou la reproduction.</string>
+    
+    <string name="j5a1" >Carybdea marsupialis</string>
+    <string name="j5a2" >guêpe de mer</string>
+    <string name="j5a3" >Dangerosité</string>
+    <string name="j5a4" >Bien que Carybdea soit un cubozoaire, son venin n\'est pas mortel. La piqûre est très douloureuse, avec peu de douleur au début, puis plus sévère par la suite. Ces effets intenses sont courts. Habituellement, des papules rouges brillantes apparaissent sur la peau avec  crampes musculaires, des vomissements, de l\'agitation et de l\'anxiété peuvent être observés dans certains cas.</string>
+    <string name="j5a5" >Distribution et habitat</string>
+    <string name="j5a6" >Les cubozoaires peuvent être trouvés dans la plupart des eaux tropicales et subtropicales, et surtout Carybdea marsupialis a été trouvée dans les eaux tempérées. Il est probable que les registres de distribution sont incomplets, car la nature transparente de ces méduses les rend très difficiles à localiser en dépit de leur faible abondance sur les côtes. L\'habitat de prédilection de cette espèce semble être sur un substrat de sable, situé juste au-dessus du fond pendant la journée et se déplacent vers la surface la nuit. En outre, Carybdea est attirée par la lumière et se rapproche de la côte pendant la nuit.</string>
+    <string name="j5a7" >Fréquence</string>
+    <string name="j5a8" >Cette espèce est présente avec une forte abondance dans certaines régions de la méditerranéenne, mais observée uniquement dans la région de Hammamet en Tunisie. Cette méduse pélagique occupe les premiers mètres sous la surface des eaux chaudes à tempérées pendant la saison estivale et automnale.</string>
+    <string name="j5a9" >Caractéristiques</string>
+    <string name="j5a10" >Cette espèce de forme cubique est très petite, atteignant environ 5 ou 6 cm. Elle présente une couleur blanche ou bleu transparente, et quatre longs tentacules qui s\'étendent de chaque côté du cadre cubique. Elle nage de façon très vigoureuse, et se déplace facilement.</string>
+    
+    <string name="j5b1" >Physalia physalis</string>
+    <string name="j5b2" >Physalie, vessie de mer, galère portugaise</string>
+    <string name="j5b3" >Dangerosité</string>
+    <string name="j5b4" >Cette espèce a deux tailles différentes de nématocystes (petites et grandes) pour étourdir les proies ou les tuer. La piqûre de cette espèce est intense avec une douleur sévère. Une ligne de papules ovales blanches au centre et une marge rouge est observée dans la zone de contact. Dans certains cas, le contact avec Physalia peut être mortel, et peut causer certains effets globaux rares, telles que des tremblements,  diarrhée, des vomissements et des convulsions.</string>
+    <string name="j5b5" >Distribution et habitat</string>
+    <string name="j5b6" >Elle est abondante dans les eaux chaudes, tropicales et subtropicales des océans. Cependant, elle a été observée  sur les plages de l’Angleterre, des Pays de Galles et l’Irlande. En général, elle peut être trouvée dans l\'océan Atlantique, l\'océan Pacifique, l\'océan Indien et dans les Caraïbes. C\'est un animal marin pélagique qui flotte sur la surface de la mer, très souvent, soufflé par les vents et bousculé par les courants. Elle est plus fréquente dans l\'océan, mais les courants et les vents peuvent les diriger vers des eaux peu profondes ou les rejeter sur les plages. En Méditerranée, elle est rare, toutefois, quelques années, il y a eu de nombreux rapports concernant les occidentaux méditerranéens, y compris les eaux des îles Baléares.</string>
+    <string name="j5b7" >Fréquence</string>
+    <string name="j5b8" >Cette espèce est observée dans le nord de la Tunisie (La Galite)  au large pendant l’hiver et le printemps. Elle est considérée très rare en Tunisie.</string>
+    <string name="j5b9" >Caractéristiques</string>
+    <string name="j5b10" >Physalia n’est pas vraiment une méduse, mais une colonie de polypes siphonophores. En outre, ils ne sont pas des individus, tels que les méduses, mais ce sont des colonies. Cette espèce peut être reconnue grâce à son pneumatophore ou flotteur (poche remplie de gaz) bleuâtre atteignant  30 cm de longueur. Ces flotteurs comprennent un mécanisme qui contrôle le gaz pour réguler la profondeur de l\'organisme, ce qui les maintient sur la surface de l\'eau. Les tentacules de couleur bleue pourpre peuvent atteindre jusqu\'à 50 m de longueur.</string>
+    
+    <string name="j6a1" >Olindias phosphorica</string>
+    <string name="j6a2" >Olindias</string>
+    <string name="j6a3" >Dangerosité</string>
+    <string name="j6a4" >Après la piqûre de cette espèce, les lignes rouges en zigzag très caractéristiques apparaissent sur la peau. La douleur est immédiate et intense.</string>
+    <string name="j6a5" >Distribution et habitat</string>
+    <string name="j6a6" >C\'est une hydroméduse avec une large distribution mondiale, étant connue dans les eaux tempérées de l\'Atlantique et de la mer Méditerranée. Au cours des dernières années, elle a été très abondante le long des côtes de la Tunisie, provoquant des problèmes pour le tourisme. Elle est observée en été à de faibles profondeurs, près des côtes, en pleine eau ou, le plus souvent, au dessus du fond parmi les algues et les posidonies</string>
+    <string name="j6a7" >Fréquence</string>
+    <string name="j6a8" >Cette espèce est très fréquente en Tunisie, principalement dans la région du Sahel. Elle apparait au début de l’été jusqu’à la fin d’automne.</string>
+    <string name="j6a9" >Caractéristiques</string>
+    <string name="j6a10" >Cette espèce d\'hydroméduse Méditerranéenne est de couleur transparente, l\'ombrelle peut atteindre 8 cm de diamètre. Quartes bandes radiales disposées en forme de croix rouge distinctives peuvent être observées. De petits tentacules rouge-bleu entourent l\'ombrelle.</string>
+    
+    <string name="j6b1" >Mnemiopsis leidyi</string>
+    <string name="j6b2" >Méduse américaine</string>
+    <string name="j6b3" >Dangerosité</string>
+    <string name="j6b4" >Cette espèce n\'étant pas un cnidaire, mais un cténophore (ne possède pas de cellules urticantes), n\'est pas toxique. Elle est inoffensive pour les humains, mais très nocive pour les écosystèmes marins envahi.</string>
+    <string name="j6b5" >Distribution et habitat</string>
+    <string name="j6b6" >Cette espèce est originaire des estuaires et des zones côtières de l\'ouest de l\'océan Atlantique. Dans le début des années 80, elle est arrivée en mer Noire transportée par les eaux de ballast des pétroliers américains. Durant les trois dernières décennies, sa distribution s’est étendue à presque toutes les eaux d\'Eurasie, y compris le bassin méditerranéen. Les signalisations de cette espèce en Méditerranée occidentale ont eu lieu en 2006 et en 2009 (première observation en eaux catalanes).</string>
+    <string name="j6b7" >Fréquence</string>
+    <string name="j6b8" >Cette espèce est fréquente en France et en Espagne (milieux lagunaire et estuariens)  mais elle n’a pas été signalée en Tunisie.</string>
+    <string name="j6b9" >Caractéristiques</string>
+    <string name="j6b10" >Mnemiopsis leidyi est un cténophore, mais elle est comprise dans le groupe des méduses en raison de sa consistance gélatineuse. Son corps est de forme ovale lobée qui peut atteindre jusqu\'à 12 cm de longueur. De couleur transparente bioluminescente (bleu-vert), elle présente huit rangées de peignes ciliées verticaux. Cette espèce se déplace par propulsion grâce aux huits bandes ciliées. En mer Noire, où l\'écosystème est déjà affaibli par la pollution et la surpêche, Mnemiopsis leidyi a épuisé les stocks de poissons en mangeant des œufs et des larves de poissons et aussi la proie des larves planctoniques. </string>
+    
+    <string name="j7a1" >Phyllorhiza punctata</string>
+    <string name="j7a2" >Méduse ponctuée d’Australie</string>
+    <string name="j7a3" >Dangerosité</string>
+    <string name="j7a4" >Cette espèce ne cause pas de piqûres douloureuses et ne constitue donc pas une menace pour les baigneurs.</string>
+    <string name="j7a5" >Distribution et habitat</string>
+    <string name="j7a6" >Phyllorhiza punctata est une méduse côtière et estuarienne native de l’Indo-Pacifique.</string>
+    <string name="j7a7" >Fréquence</string>
+    <string name="j7a8" >Elle est uniquement observée dans le nord de la Tunisie (Région de Bizerte). Elle apparait en été et est affiliée à la lagune de Bizerte.</string>
+    <string name="j7a9" >Caractéristiques</string>
+    <string name="j7a10" >C\'est une grande méduse avec une ombrelle arrondie et un peu aplatie dont le diamètre peut atteindre jusqu\'à 72 cm. De couleur claire ou brune, présentant de nombreuses petites tâches cristallines uniformément réparties. Elle est dépourvue de tentacules marginaux, mais possède huit bras oraux dichotomiques sur la zone centrale de la bouche. Espèce vorace, elle se nourrit de plancton crustacé et, probablement, d’œufs et larves de poissons. Cette espèce, comme Rhizostoma, est comestible.</string>
+
+    <string name="j7b1" >Cassiopea andromeda</string>
+    <string name="j7b2" >cassiopea</string>
+    <string name="j7b3" >Dangerosité</string>
+    <string name="j7b4" >Cette méduse se compose d\'une coupole lisse et indivise, dont la face supérieure est recouverte de tentacules buccaux, ramifiés et à l\'aspect de chou-fleur, habituellement au nombre de huit, entre lesquels se dressent des excroissances membraneuses, ressemblant à des fanions et qui sont diversement colorés dans les tons bleus, verts-jaunes ou blancs. Quant à la coloration d\'ensemble, elle varie entre le blanc, le jaune à nuances de vert et le bleu. Le diamètre des méduses cassiopées atteint parfois 25 cm.</string>
+    <string name="j7b5" ></string>
+    <string name="j7b6" ></string>
+    <string name="j7b7" ></string>
+    <string name="j7b8" ></string>
+    <string name="j7b9" ></string>
+    <string name="j7b10" ></string>
+
+    <string name="j8a1" >Salpa democratica</string>
+    <string name="j8a2" >Salpes</string>
+    <string name="j8a3" >Dangerosité</string>
+    <string name="j8a4" >Organisme planctonique en forme de tonneau allongé est en fait un proche cousin des ascidies, si ce n\'est qu\'il mène une vie pélagique, que sa tunique est transparente, et que ses siphons sont diamétralement opposés: le siphon buccal, antérodorsal, s\'ouvre par une large fente bordée par deux lèvres, alors que le siphon cloacal* est terminal et de diamètre un peu plus réduit. Cet animal mène une vie libre, précédée d\'une phase éphémère au cours de laquelle de nombreuses salpes sont reliées entre elles au sein de chaînes spectaculaires pouvant atteindre plusieurs mètres de longueur.</string>
+    <string name="j8a5" ></string>
+    <string name="j8a6" ></string>
+    <string name="j8a7" ></string>
+    <string name="j8a8" ></string>
+    <string name="j8a9" ></string>
+    <string name="j8a10" ></string>
+    
+    <string name="j8b1" >Discomedusa lobata</string>
+    <string name="j8b2" ></string>
+    <string name="j8b3" >Dangerosité</string>
+    <string name="j8b4" >Cette espèce possède une ombrelle plutôt plate avec une mésoglée légèrement épaisse. Elle peut atteindre une largeur maximale de 15 cm, avec un nombre de tentacules compris entre huit et quarante. Sous l\'ombrelle, elle présente 16 stries radiales comprenant de nombreuses tâches pigmentaires brunes.</string>
+    <string name="j8b5" ></string>
+    <string name="j8b6" ></string>
+    <string name="j8b7" ></string>
+    <string name="j8b8" ></string>
+    <string name="j8b9" ></string>
+    <string name="j8b10" ></string>
+    
+    <string name="j9a1" >Pelagia benovici</string>
+    <string name="j9a2" ></string>
+    <string name="j9a3" >Dangerosité</string>
+    <string name="j9a4" >Ce cnidaire est presque plat avec une fine mésoglée transparente. En revanche, au cours de la nage active, cette espèce devient hémisphérique. Elle possède une ombrelle de couleur jaune-ocre, couverte de cnidocytes éminents de différentes formes (arrondie, ovale et pointue), avec pointes blanchâtres. Elle dispose de seize lobes marginaux, rectangulaire avec des coins arrondis. Elle possède également huit tentacules creux, blanc et transparents dont la longueur peut atteindre jusqu\'à trois fois le diamètre de l\'ombrelle. Les gonades sont blanc laiteux, en forme de fer à cheval avec une convexité périphérique, développées directement sur la surface sous-ombellaire.</string>
+    <string name="j9a5" ></string>
+    <string name="j9a6" ></string>
+    <string name="j9a7" ></string>
+    <string name="j9a8" ></string>
+    <string name="j9a9" ></string>
+    <string name="j9a10" ></string>
+
+    <string name="it" >Traitement</string>
+    
+    <string name="tt3" >Que faire en cas de piqûres de méduses?</string>
+    <string name="tt4" >Que dois-je faire quand il y a des méduses sur la plage?</string>
+    <string name="tt5" >Les piqûres de méduses</string>
+    <string name="tt6" >Comment vous sentez-vous lorsque vous êtes piqué?</string>
+    <string name="tt7" >Les personnes qui pourraient être plus à risque</string>
+    <string name="tt8" >Comment éviter les méduses? </string>
+    <string name="tt9" >Si je vois une méduse éloignée, puis-je plonger?</string>
+    <string name="tt10" >Les méduses peuvent-elles causer la mort?</string>
+    <string name="tt11" >Les méduses urticantes peuvent-elles être touchées?</string>
+    <string name="tt12" >De quoi est fait le liquide urticant des méduses?</string>
+    <string name="tt13" >Les remèdes naturels fonctionnent-ils?</string>
+    <string name="tt14" >Les lunettes anti-méduses, les masques et les combinaisons sont-ils utiles?</string>
+    <string name="tt15" >Les lotions anti-méduses sont-ils utiles?</string>
+
+    <string name="t1a" >Que faire en cas de piqûres de méduses?</string>
+    <string name="t1b" >Restez calme, respirez normalement, sortez de l\'eau immédiatement, et lavez la zone touchée avec l\'eau de mer. L\'eau de mer est essentielle pour nettoyer la peau des morceaux résiduels de méduses qui peuvent être collés sur la peau et pour la dilution de la toxine qui n\'a pas encore pénétrée la peau.
+	1. Laver avec de l\'eau de mer
+	2. Enlever les morceaux de tentacules avec des gants ou une pince 
+	3. Appliquer des compresses compresses froides
+	4. Si la douleur persiste, appliquer de la Lidocaine
+	5. Appliquer un antiseptique au niveau de la plaie jusqu\'au soulagement de la douleur
+	Vous ne devez pas faire:
+	1. Ne pas nettoyer la zone affectée avec de l\'eau douce
+	2. Ne pas gratter la zone affectée
+	3. Ne pas frotter avec du sable sur la zone affectée
+	4. Ne pas appliquer de l\'ammoniac
+	5. Ne pas mettre du vinaigre 
+	*Ces recommandations constituent une synthèse de la littérature médicale actuelle concernant le sujet des piqûres de méduses. Ces interventions où il n\'y a pas de consensus sont exclus. Ce protocole est le plus généralisé et peut être appliqué en cas de piqûres de la majorité des espèces qui se trouvent sur les côtes Catalanes. Il est très important d\'essayer d\'identifier les espèces qui produisent des piqûres urticantes afin d\'obtenir le meilleur traitement.
+	</string>
+
+    <string name="t2a" >Que dois-je faire quand il y a des méduses sur la plage?</string>
+    <string name="t2b" >- Ne pas aller nager
+	- Ne pas marcher le long du rivage où les vagues se brisent, les méduses semi-enterrées peuvent également piquer 
+	- Ne pas toucher les méduses, même si elles sont mortes 
+	- Si vous voyez une méduse dans la mer, sortir lentement de l\'eau sans faire de mouvements brusques 
+	-Utiliser la lotion de bronzage à titre préventif 
+	Les méduses n\'attaquent jamais les gens.
+	</string>
+
+    <string name="t3a" >Les piqûres de méduses</string>
+    <string name="t3b" >Le contact avec les tentacules des méduses -dans ou hors de l\'eau- provoque une sensation de brûlure douloureuse qui pourrait durer des jours ou des semaines. 
+	Les piqûres provoquent une éruption cutanée qui peut réapparaître plusieurs fois.
+	Prenez en compte que si vous avez été piqué une fois, vous serez plus sensible aux nouvelles piqûres. Une deuxième piqûre peut provoquer une réaction plus grave.
+	</string>
+
+    <string name="t4a" >Comment vous sentez-vous lorsque vous êtes piqué?</string>
+    <string name="t4b" >Une réaction inflammatoire locale qui provoque une sensation de brûlure et de la douleur. "La peau est rouge avec de petites urticaires, mais après 20 minutes, la sensation de brûlure est atténuée et reste des démangeaisons», explique Francesco Sacrini, dermatologue à la Clinique "Institut Humanitas", Milan. Le degré de douleur varie en fonction de la zone touchée, et devient intolérable si plus de 50% de la surface du corps est affectée.</string>
+
+    <string name="t5a" >Les personnes qui pourraient être plus à risque</string>
+    <string name="t5b" >- Les enfants 
+	- Les personnes qui souffrent d\'allergies (asthme, …) 
+	- Les personnes atteintes de maladies cardio-vasculaires graves 
+	- Les personnes qui ont été piqués par des méduses avant 
+	Il est conseillé aux personnes qui sont plus sensibles aux piqûres de prendre des précautions supplémentaires et, le cas échéant, visiter un centre médical.
+	</string>
+
+    <string name="t6a" >Comment éviter les méduses?</string>
+    <string name="t6b" >En regardant la mer: s\'ils sont présents, ils peuvent être normalement vus et le seul moyen de les éviter est de ne pas aller nager. Les méduses ne nous attaquent pas. Les méduses se déplacent verticalement dans la colonne d\'eau, par conséquent ils peuvent se trouver sur la surface ou dans le fond. Ce sont des animaux qui se déplacent, et sont transportés par les courants et les vents. Il n\'y a pas de règles prédéfinies: ils sont partout car ils font partie du plancton et les courants les font dérivés.</string>
+
+    <string name="t7a" >Si je vois une méduse éloignée, puis-je plonger?</string>
+    <string name="t7b" >Si il ya des méduses urticantes dans la mer, il est préférable de ne pas nager, sauf si elles sont vraiment rares. Les méduses qui sont urticantes, ont généralement de très longs tentacules: Pelagia noctiluca, par exemple, peut atteindre jusqu\'à 10 mètres de long, tandis que Phisalia physalis (Physalie ou vessie de mer) peut atteindre 20 mètres.</string>
+
+    <string name="t8a" >Les méduses peuvent-elles causer la mort?</string>
+    <string name="t8b" >Oui, certaines méduses peuvent provoquer un choc anaphylactique. En outre, une douleur aiguë de piqûre peut être mortelle pour les personnes souffrantes de problèmes cardiaques. Par conséquent, nous devons aller au poste de secours en cas de réaction cutanée diffuse, si vous avez de la difficulté à respirer, des sueurs, une pâleur, et une désorientation. Ferdinando Boero dit :"En Australie, les méduses causent plus de victimes que les requins en Floride, Phisalia physalis (Physalie ou vessie de mer) a aussi causée des victimes, mais à ce jour dans la Méditerranée, il n\'y a pas du tout eu de victimes, même si beaucoup de personnes piqués par des méduses finissent à l\'hôpital".</string>
+
+    <string name="t9a" >Les méduses urticantes peuvent-elles être touchées?</string>
+    <string name="t9b" >Mieux vaut ne pas les toucher, bien que son venin est presque inoffensif pour nous. Même les tentacules de méduses inoffensives ont des cnidocystes (petites cellules contenant le poison), qui peuvent rester dans la paume de votre main et si vous ne les avez pas lavé et qu\'ensuite vous touchez vos les yeux (ou d\'autres parties délicates), vous pouvez transférer le poison et provoquer une inflammation.</string>
+
+    <string name="t10a" >De quoi est fait le liquide urticant des méduses ?</string>
+    <string name="t10b" >A partir d\'un mélange de trois protéines: une avec un effet de paralysies, une autre avec un effet neurotoxique et une troisième avec un effet anti-inflammatoire. Il n\'existe aucun antidote spécifique pour ces poisons - cependant, ils sont sensibles à la chaleur, c\'est à dire qu\'ils se dégradent à des températures élevées.</string>
+
+    <string name="t11a" >Les remèdes naturels fonctionnent-ils?</string>
+    <string name="t11b" >Est-il bon d\'appliquer une pierre ou de l\'eau chaude, frotter avec du sable chaud, laver avec de l\'ammoniac, de l\'urine, du vinaigre ou de l\'alcool? Ces recours ne sont pas seulement inutiles, mais peuvent même aggraver la situation. La chaleur d\'une pierre ou du sable n\'est pas assez pour remplacer les 40-50 degrés qui doivent être atteints pour arrêter la toxine. Le contenu de l\'ammoniac et de l\'urine ne désactive pas la toxine, et peut même provoquer une inflammation dans la partie affectée.</string>
+
+    <string name="t12a" >Les lunettes anti-méduses, les masques et les combinaisons sont-ils utiles?</string>
+    <string name="t12b" >Nager avec des lunettes ou un masque aide à regarder et à voir les dangers sous l\'eau, et les combinaisons peuvent protéger la peau. En outre, les nouvelles combinaisons anti-méduses conçus et fabriqués en Australie sont utiles, et peuvent être trouvés en Espagne pour la vente en ligne.</string>
+
+    <string name="t13a" >Les lotions anti-méduses sont-ils utiles?</string>
+    <string name="t13b" >Sacrini explique: "Les lotions anti-méduses ont été créés en tenant compte des mécanismes de sécurité utilisés par le poisson clown (poissons qui ont une substance répulsive aux méduses). Les lotions anti-méduses, actuellement sur le marché, sont associées à un écran solaire. Ils sont basés, comme décrit dans des articles scientifiques, la plupart du temps sur 4 principes: s\'assurer que la peau est glissante et donc éviter que les tentacules ne se déposent; désorienter le mécanisme de reconnaissance des méduses (également composé d\'eau et de GAG); bloquer le système d\'activation des cellules urticantes; et lutte contre la pression osmotique dans les nématocystes. Elle a une réponse différente selon les espèces de méduses, la bonne application et le temps passé dans l\'eau.</string>
+
+</resources>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:typeface="sans"
+        android:id="@+id/newuser_title"
+        android:paddingLeft="10dp"
+        android:background="#FCD9B9"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/newuser_title" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/newuser_description"
+        android:id="@+id/newuser_description"
+        android:layout_gravity="left|center_vertical"
+        android:textStyle="bold"
+        android:padding="20dp"/>
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/feedback_username"
+        android:inputType="textPersonName"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"  >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:ems="10"
+        android:hint="@string/newuser_password"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:ems="10"
+        android:gravity="top|left"
+        android:height="100dp"
+        android:hint="@string/newuser_email"
+        android:inputType="textEmailAddress"
+        android:maxLines="10" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/newuser_join"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:text="@string/newuser_join"
+            android:width="80dp" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="@string/newuser_alreadyregistered"
+	    android:id="@+id/newuser_alreadyregistered"
+	    android:linksClickable="true"
+	    android:paddingTop="20dp"
+	    android:paddingLeft="20dp"> </TextView>
+
+</LinearLayout>

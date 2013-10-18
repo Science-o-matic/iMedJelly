@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="image_pressed">#FCD9B9</color>
+    <color name="image_focused">#FCD9B9</color>
+    <color name="item_pressed">#4d90fe</color>
+    <color name="item_default">#ffffff</color>
+</resources>

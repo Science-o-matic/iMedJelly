@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="action_zone">Seleccionad zona</string>
+
+    <string-array name="navigation_options">
+        <item>Mapa</item>
+        <item>Zonas</item>
+        <item>Medusas</item>
+        <item>Tratamiento</item>
+        <item>Acerca</item>
+        <item>Comunidad</item>
+    </string-array>
+
+    <array name="navigation_icons">
+        <item>@drawable/ic_tab_map</item>
+        <item>@drawable/ic_tab_beach</item>
+        <item>@drawable/ic_tab_jellyfish</item>
+        <item>@drawable/ic_tab_treatment</item>
+        <item>@drawable/ic_tab_about</item>
+        <item>@drawable/ic_tab_community</item>    
+    </array>    
+    
+    <string name="geo_zone">Zonas</string>
+    <string name="geo_municipality">Municipio</string>
+    <string name="geo_beach">Playa</string>
+    
+    <string name="drawer_open">Abrir menu de navegación</string>
+    <string name="drawer_close">Cerrar menu de navegación</string>
+    
+    <string name="map_safe">Segura</string>
+    <string name="map_alert">Alerta</string>
+    <string name="map_danger">Peligro</string>
+
+    <string name="title_main">iMedJelly</string>
+    <string name="title_beach">Playa</string>
+    <string name="title_jellyfish">Medusa</string>
+    <string name="title_treatment">Tratamiento</string>
+    <string name="title_comment">Comentario</string>
+    <string name="title_services">Servicios</string>
+	<string name="title_state">Estado</string>
+	<string name="title_camera_upload">Subir foto</string>
+	
+	<string name="select_zone">Seleccione zona</string>
+    
+    <string name="service_legend">Leyenda</string>
+    <string name="state_legend">Leyenda</string>
+    
+    <string name="notification_title">Notificación</string>
+    
+    <string name="grid_image_desc">Medusa</string>
+    
+    <string name="beachName">Nombre de playa</string>
+    <string name="jellyfishPresence">No verificado</string>
+    <string name="beachDescription">Descripción</string>
+    <string name="beachRatingLabel">Calificación de los usuarios</string>
+
+    <string name="jellyfish_no_info">Sin información disponible</string>
+    <string name="no_warning">No se han observado medusas</string>
+    <string name="low_warning">Medusas sin peligro</string>
+    <string name="high_warning">Peligro de medusas</string>
+    <string name="very_high_warning">Gran peligro de medusas</string>
+    
+    <string name="flag">Sin información disponible</string>
+    <string name="green_flag">Condiciones apropiadas de la playa para todos los bañistas</string>
+    <string name="yellow_flag">Precaución condiciones poco favorables para el baño (atención los menores)</string>
+    <string name="red_flag">Prohibido introducirse en el mar, playa cerrada por fuerte oleaje</string>
+
+    <string name="termometer">Termómetro</string>
+    <string name="beachBackground">Playa</string>
+	<string name="bikeParking">Aparcamiento de bicicletas</string>
+	<string name="blueFlag">Bandera azul</string>
+	<string name="childrenZone">Zona de niños</string>
+	<string name="dump">Papeleras</string>
+	<string name="handicappedAccess">Acceso para discapacitados</string>
+    <string name="handicappedFriendly">Amistoso con discapacidad</string>
+    <string name="parking">Estacionamiento</string>
+    <string name="rentUmbrellaHammock">Alquiler de sombrilla y hamaca</string>
+    <string name="restaurant">Restaurante</string>
+    <string name="shower">Duchas</string>
+    <string name="slogans">Lemas</string>
+    <string name="sportZone">Zonas deportivas</string>
+    <string name="surveillanceTower">Torre de salvavidas</string>
+    <string name="waterSource">Fuente de agua</string>
+    <string name="wc">WC</string>
+    <string name="sky">Cielo</string>
+    <string name="windDirection">Dirección del viento</string>
+    <string name="noSelected">No seleccionado</string>
+
+    <string name="beach_add_comment">Añadir comentario</string>
+    
+    <string name="treatment_image">Imagen</string>
+    <string name="treatment_title">Picaduras de medusas: qué se debe hacer</string>
+    <string name="treatment_description" >Las medusas son animales invertebrados que viven flotando en el mar y tienen unas células urticantes que utilizan para capturar presas y defenderse. En los últimos años, las proliferaciones de medusas se han convertido en algo frecuente.</string>
+    <string name="observation_title">Observaciones</string>
+    
+    <string name="feedback_success">Comentario enviado con éxito.</string>
+    <string name="feedback_failed">Error: </string>
+    <string name="feedback_username">Usuario</string>
+    <string name="feedback_email">Email</string>
+    <string name="feedback_comment">Comentario</string>
+    <string name="feedback_send">Enviar</string>
+    
+    <string name="newuser_success">Usuario creado con éxito.</string>
+    <string name="newuser_failed">Registro fallido: </string>
+    <string name="newuser_title">Nuevo usuario</string>
+	<string name="newuser_description">Unirse a la comunidad de usuarios MedJelly proporciona acceso al foro y a las encuestas para compartir información con otros usuarios.</string>   
+    <string name="newuser_username">Usuario</string>
+    <string name="newuser_email">Email</string>
+    <string name="newuser_password">Contraseña</string>
+    <string name="newuser_join">Registrarse</string>
+    <string name="newuser_alreadyregistered"><u>Ya estoy registrado</u></string>
+    
+    <string name="observation_success">Observación enviada con éxito.</string>
+    <string name="observation_failed">Observación fallida: </string>
+    <string name="observation_text">Puedes enviar imágenes y información de medusas encontradas en una playa.</string>
+    <string name="observation_jellyFishName">Medusa</string>
+    <string name="observation_comment">Comentarios</string>
+    <string name="observation_send">Enviar</string>
+    <string name="image_upload">Subir imagen</string>
+    
+    <string name="about_title">Acerca</string>
+    <string name="about_authors">Aplicación desarrollada y mantenida por:</string>
+    <string name="developers_logo">Desarrolladores</string>
+	<string name="about_team">Equipo de trabajo MedJelly:</string>
+	<string name="about_team_members">Paulo A.L.D. Nunes\nVerónica Fuentes\nMacarena Marambio\nIvar Rekve\nScience O\'Matic</string>
+    <string name="about_colaboration">Con la colaboración:</string>
+	<string name="about_colaborators">Cruz Roja\nRescatadores\nPro-Activa\nMarsave-Mallorca\nSIRESA\nAltsport 2000\nMunicipalidades de la costa de Catalunya\nAEMET\nGIEM\nAgencia Catalana del Agua\nProtección civil (Generalitat de Catalunya)</string>
+	<string name="about_financed">Proyecto co-financiado:</string>
+	<string name="about_financers">Co-financiadores del proyecto:</string>
+	<string name="about_description">El índice de peligrosidad parca cada playa (color del pin para cada playa en la pantalla de inicio de esta App) se obtiene a partir de un índice que han elaborado expertos del Instituto de Ciencias del Mar de Barcelona (CSIC) y que considera, conjuntamente, la peligrosidad propia de cada especie de medusa y su abundancia en las aguas de baño.  Ante la presencia de meduses en una playa pueden haber tres categorías diferentes:\n- Presencia de medusas, sin peligro (pin color verde)\n- Presencia de medusas, con peligro (pin color amarillo)\n- Presencia de medusas, con alto peligro (pin color rojo)\nAclaración: Toda la información de medusas se valida diariamente por los expertos del Instituto de Ciencias del Mar dentro del proyecto europeo ENPI MED-JELLYRISK. Una parte importante de la información de observación de medusas a las playas proviene de los ayuntamientos costeros y la colaboración con la Agencia Catalana del agua y la Dirección general de Protección Civil de la Generalitat de Cataluña. A su vez toda la información recibida por los investigadores del Instituto de Ciencias del Mar forma parte de una gran base de datos que intenta explicar el fenómeno de proliferaciones de meduses sus casusas y consecuencias.\n\nLa información sobre la presencia o ausencia de medusas en las playas es aportada por los Servicios de Salvamento y Socorrismo o por personal de los distintos ayuntamientos, en el marco de la colaboración establecida con el Institut de Ciències del Mar (CSIC), y con el objetivo de informar sobre la presencia de medusas, su peligrosidad y protocolos de actuación. Sin embargo, esta información podría ser variable durante el día, ya que las medusas son animales que se mueven con las masas de agua y pueden ser arrastradas por las corrientes y los vientos de un lugar a otro, acercándolas o alejándolas de la costa en breves espacios de tiempo. Es por este motivo, que la aplicación Medjelly publica la información según el estado de la playa cada mañana, siendo posible que a lo largo del día la situación cambie. La aplicación se actualizará siempre que sea posible y se reciba la información de dichos cambios.</string>
+	<string name="about_phone_number">900 102 289</string>
+	<string name="about_more_information">Para más información sobre medusas, por favor contacta con nosotros en este número de teléfono gratuito:</string>	
+	
+    <string name="nj1a" >Pelagia noctiluca</string>
+    <string name="nj1b" >Rhizostoma pulmo</string>
+    <string name="nj2a" >Aequorea forskalea</string>
+    <string name="nj2b" >Cotylorhiza tuberculata</string>
+    <string name="nj3a" >Velella velella</string>
+    <string name="nj3b" >Aurelia aurita</string>
+    <string name="nj4a" >Chrysaora hysoscella</string>
+    <string name="nj4b" >Porpita porpita</string>
+    <string name="nj5a" >Carybdea marsupialis</string>
+    <string name="nj5b" >Physalia physalis</string>
+    <string name="nj6a" >Olindias phosphorica</string>
+    <string name="nj6b" >Mnemiopsis leidyi</string>
+    <string name="nj7a" >Phyllorhiza punctata</string>
+    <string name="nj7b" >Cassiopea andromeda</string>
+    <string name="nj8a" >Salpa democratica</string>
+    <string name="nj8b" >Discomedusa lobata</string>
+    <string name="nj9a" >Pelagia benovici</string>
+
+    <string name="ij1a" >Alta</string>
+    <string name="ij1b" >Media</string>
+    <string name="ij2a" >Baja</string>
+    <string name="ij2b" >Baja</string>
+    <string name="ij3a" >Baja</string>
+    <string name="ij3b" >Baja</string>
+    <string name="ij4a" >Alta</string>
+    <string name="ij4b" >Baja</string>
+    <string name="ij5a" >Muy alta</string>
+    <string name="ij5b" >Muy alta</string>
+    <string name="ij6a" >Muy alta</string>
+    <string name="ij6b" >Sin peligro</string>
+    <string name="ij7a" >Baja</string>
+    <string name="ij7b" >Baja</string>
+    <string name="ij8a" >Sin peligro</string>
+    <string name="ij8b" >Baja</string>
+    <string name="ij9a" >Media</string>
+
+    <string name="j1a1" >Pelagia noctiluca</string>
+    <string name="j1a2" >Acalefo luminiscente</string>
+    <string name="j1a3" >Peligrosidad</string>
+    <string name="j1a4" >La picada producida por Pelagia generalmente produce un dolor inmediato con urticaria y edema. También podría aparecer y permanecer sensación de ardor, vesículas, pápulas y costras. El prurito es típico. Los secuelas pueden ser cicatrices o queloides.\n En caso de picadura de esta especie:\n NO APLICAR AGUA DULCE, VINAGRE, VENDAJES A PRESIÓN, NI ALCOHOL. En caso de shock o dificultad respiratoria buscar atención médica inmediatamente.\n 1) LAVAR CON AGUA DE MAR CUIDADOSAMENTE, NO FROTAR.\n 2) SI ESTÁ DISPONIBLE, APLICAR SOLUCIÓN DE BICARBONATO DURANTE 5 MINUTOS (50 por ciento bicarbonato comercial; 50 por ciento agua de mar) para prevenir envenenamiento posterior producido por tentáculos residuales en la piel.\n 3) UTILIZAR PINZAS, GUANTES O UNA TARJETA PLÁSTICA PARA QUITAR TENTÁCULOS O FRAGMENTOS RESIDUALES.\n 4) APLICAR HIELO (ICE PACKS) (envuelto en ropa o una toalla fina, no directamente en la piel) durante 5-15 minutos.\n 5) REEVALUAR EL DOLOR Y VOLVER A APLICAR HIELO SI ES NECESARIO.\n 6) SI EL DOLOR PERSISTE, CONSULTE AL MÉDICO O PROFESIONALES DEL CUIDADO DE LA SALUD – Pregunte por analgésicos + preparados de hidrocortisona (ej. lidocaína 3 por ciento + hidrocortisona).</string>
+    <string name="j1a5" >Distribución y Hábitat</string>
+    <string name="j1a6" >Extensamente distribuida en todas las aguas cálidas y templadas de los océanos del mundo. A principios de los ochenta, Pelagia era muy abundante en el Mediterráneo, luego desapareció y reapareció a intervalos de más o menos diez años, pero desde el cálido año 2003, su presencia es casi constante en el Mediterráneo occidental. Es típicamente una especie de mar abierto, a pesar de que pueden alcanzar la costa, especialmente a mediados del verano, y pueden formar extensos bancos, azotando la costa por meses.</string>
+    <string name="j1a7" >Frecuencia</string>
+    <string name="j1a8" >En la costa Catalana puede ser muy frecuente en primavera-verano, a pesar de que algunos años, dependiendo de las condiciones ambientales y climáticas, pueden estar ausentes en la mayoría de playas.</string>
+    <string name="j1a9" >Características</string>
+    <string name="j1a10" >Generalmente presenta un color rosado y malva brillante. La umbrela semiesférica puede medir entre 5 y 20 cm. La umbrela está armada de ocho largos tentáculos marginales, los cuales extendidos, pueden alcanzar hasta 10 metros de longitud, y de la boca nacen cuatro brazos orales, largos y gruesos. La superficie de la umbrela está cubierta con verrugas marrones. Pelagia, al igual que otras medusas, tiene la habilidad de bioluminiscencia o producir luz. Debido a que los brazos orales de esta especie son muy gruesos y densos, si alcanzan algún sistema de acuicultura, los peces de las granjas podrían verse afectados y producir su muerte. Dado además, que esta especie se alimenta de huevos de peces y larvas de peces, el impacto en las reservas de peces y en las pesquerías podría ser devastador.\n</string>
+    <string name="j1a11" >Es considerada una de las especies más abundante e importante a lo largo de la costa Catalana, y la mayoría de las picadas de medusas registradas durante las temporada de baño se le atribuyen a esta especie.</string>
+
+    <string name="j1b1" >Rhizostoma pulmo</string>
+    <string name="j1b2" >Acalefo azul, Aguamala</string>
+    <string name="j1b3" >Peligrosidad</string>
+    <string name="j1b4" >Cuando Rhizostoma pica, el dolor es moderado y comúnmente hay sensación de ardor o quemadura. Los síntomas locales incluyen urticaria local, estornudos e irritación ocular.\n En caso de picadura de esta especie:\n NO APLICAR AGUA DULCE, VINAGRE, VENDAJES A PRESIÓN, NI ALCOHOL. En caso de shock o dificultad respiratoria buscar atención médica inmediatamente.\n 1) LAVAR CON AGUA DE MAR CUIDADOSAMENTE, NO FROTAR.\n 2) SI ESTÁ DISPONIBLE, APLICAR SOLUCIÓN DE BICARBONATO DURANTE 5 MINUTOS (50 por ciento bicarbonato comercial; 50 por ciento agua de mar) para prevenir envenenamiento posterior producido por tentáculos residuales en la piel.\n 3) UTILIZAR PINZAS, GUANTES O UNA TARJETA PLÁSTICA PARA QUITAR TENTÁCULOS O FRAGMENTOS RESIDUALES.\n 4) APLICAR HIELO (ICE PACKS) (envuelto en ropa o una toalla fina, no directamente en la piel) durante 5-15 minutos.\n 5) REEVALUAR EL DOLOR Y VOLVER A APLICAR HIELO SI ES NECESARIO.\n 6) SI EL DOLOR PERSISTE, CONSULTE AL MÉDICO O PROFESIONALES DEL CUIDADO DE LA SALUD – Pregunte por analgésicos + preparados de hidrocortisona (ej. lidocaína 3 por ciernto + hidrocortisona).</string>
+    <string name="j1b5" >Distribución y Hábitat</string>
+    <string name="j1b6" >Su distribución incluye el Océano Atlántico Norte y Sur, el Mediterráneo, el Mar Negro, y el Mar Rojo. En el mar Catalán, esta especie es considerada una especie costera. Las pequeñas medusas son producidas en primavera y los adultos de mayor tamaño son más evidentes en verano. Generalmente se observa en o cerca de la superficie del agua.</string>
+    <string name="j1b7" >Frecuencia</string>
+    <string name="j1b8" >Se encuentra de forma abundante en nuestras costas.</string>
+    <string name="j1b9" >Características</string>
+    <string name="j1b10" >Es la medusa de mayor tamaño de la costa Catalana. El diámetro de la umbrela acampanada puede alcanzar entre 10 y 40 cm y pesar hasta 10 kilogramos. El color es blanco lechoso o ligeramente azulado con un ribete violeta que rodea el margen inferior de la umbrela. Esta especie carece de tentáculos marginales, pero presenta ocho brazos orales gruesos, con forma de Y invertida, fusionados y sin ramificaciones, los cuales también son de color blanco azulado.  Otros organismos, como peces y pequeños cangrejos, podrían utilizar esta especie como refugio y ser transportadas por las corrientes entre los brazos orales. En muchos países del Sudeste Asiático, especialmente China, es considerada un plato delicioso.</string>
+
+    <string name="j2a1" >Aequorea forskalea</string>
+    <string name="j2a2" >Aequorea</string>
+    <string name="j2a3" >Peligrosidad</string>
+    <string name="j2a4" >Inofensiva para los humanos, sin embargo se recomienda no tocarla.</string>
+    <string name="j2a5" >Distribución y Hábitat</string>
+    <string name="j2a6" >Su distribución abarca el océano Atlántico y el Indo-Pacifico, en todas las aguas templadas y tropicales apropiadas, ocurriendo ocasionalmente en zonas de océano abierto. Habita aguas costeras y de mar abierto.</string>
+    <string name="j2a7" >Frecuencia</string>
+    <string name="j2a8" >Durante los últimos años, se ha vuelto una especie frecuente en la costa Catalana, y se observan grandes números cuando está presente.</string>
+    <string name="j2a9" >Características</string>
+    <string name="j2a10" >Presenta una umbrela con forma de plato transparente, que puede alcanzar hasta 17 cm de diámetro, con una masa más densa en el centro. Se distingue fácilmente de otras medusas debido a la presencia de una gran cantidad de canales radiales azules que conectan el centro al margen de la umbrela. Presenta numerosos y finos tentáculos marginales y carece de brazos orales. Esta especie ha permitido el aislamiento de la proteína verde fluorescente (GFP), una substancia base en la fluorescencia de muchas medusas. El descubrimiento de esta proteína ha permitido el desarrollo de nuevas técnicas para el diagnóstico de enfermedades y para la investigación ene le campo de la biología molecular. Este descubrimiento ha conducido a aplicaciones en el campo diagnóstico, permitiendo el marcaje de células específicas. El descubrimiento de la GFP mereció el Premio Nobel de Química de 2008 a los investigadores Americanos Osamu Shimomura, Martin Chalfie y Roger Tsien.</string>
+
+    <string name="j2b1" >Cotylorhiza tuberculata</string>
+    <string name="j2b2" >Aguacuajada, Medusa huevo frito</string>
+    <string name="j2b3" >Peligrosidad</string>
+    <string name="j2b4" >Inofensiva para los humanos, sin embargo es mejor no tocarla ya que se han detectado casos con reacción dérmica luego del contacto.</string>
+    <string name="j2b5" >Distribución y Hábitat</string>
+    <string name="j2b6" >Es una especie endémica muy abundante del Mediterráneo. Es una especie costera, mostrando preferencia por aguas cálidas.</string>
+    <string name="j2b7" >Frecuencia</string>
+    <string name="j2b8" >Es muy frecuente en la costa Catalana; los adultos se observan en grandes abundancias hacia el final del verano y principios del otoño.</string>
+    <string name="j2b9" >Características</string>
+    <string name="j2b10" >La umbrela puede alcanzar entre 20 y 35 cm y es plana excepto en el centro, donde una formación prominente se extiende desde la campana. Los brazos orales son cortos y presenta en su extremo unos apéndices con forma de botón. La umbrela presenta una coloración amarilla-marrón, con un color naranjo oscuro o rojizo en el centro, y los tentáculos son blancos con extremos azul-violeta. Es una de las medusas más hermosas del Mediterráneo. Cotylorhiza presenta micro algas que viven en sus propios tejidos en una relación de simbiosis, al igual que las formaciones de corales de los arrecifes tropicales. Funcionalmente entonces, se podría decir que es una &quot;planta&quot; que se alimenta de zooplancton. Y como Rhizostoma, está comúnmente asociada a peces que la utilizan como refugio.</string>
+
+    <string name="j3a1" >Velella velella</string>
+    <string name="j3a2" >Barquitas de San Pedro</string>
+    <string name="j3a3" >Peligrosidad</string>
+    <string name="j3a4" >Inofensiva para los humanos, sin embargo se recomienda no tocarla.</string>
+    <string name="j3a5" >Distribución y Hábitat</string>
+    <string name="j3a6" >Ocurre en todas las aguas cálidas y templadas de los océanos del mundo, y es muy común en el Mediterráneo. Vive en la interface agua/aire, con el flotador sobre la superficie del agua, y los pólipos colgando un centímetro hacia abajo. Puede estar presente en grandes enjambres alcanzando incluso varios kilómetros. Como su movimiento depende exclusivamente de las corrientes y los vientos de superficie, pueden ser arrastradas a la costa y encontrarse varadas en las playas.</string>
+    <string name="j3a7" >Frecuencia</string>
+    <string name="j3a8" >A lo largo de la costa Catalana, como en toda la cuenca del Mediterráneo, son muy frecuentes, especialmente durante la primavera.</string>
+    <string name="j3a9" >Características</string>
+    <string name="j3a10" >Velella no es un fase de medusa sino una colonia flotante de pólipos de una hidromedusa. La colonia, que forma un disco oval azul, presenta entre 1 y 8 cm, y los pólipos azules están pegados a un flotador quitinoso equipado con una "vela" que transporta la colonia con la ayuda del viento. La colonia, hacia el final de su vida, la cual dura unos pocos meses, produce medusas de pocos milímetros.</string>
+
+    <string name="j3b1" >Aurelia aurita</string>
+    <string name="j3b2" >Medusa común, medusa luna</string>
+    <string name="j3b3" >Peligrosidad</string>
+    <string name="j3b4" >El veneno de Aurelia es inofensivo para los humanos, sin embargo se recomienda no tocarla. En algunos casos se han observado reacciones dérmicas al tacto.</string>
+    <string name="j3b5" >Distribución y Hábitat</string>
+    <string name="j3b6" >Aurelia vive en todos los océanos del hemisferio norte, donde puede ser muy abundante. Generalmente, se encuentra en la costa e incluso se puede encontrar en estuarios y bahías.</string>
+    <string name="j3b7" >Frecuencia</string>
+    <string name="j3b8" >A lo largo de la costa Catalana, su frecuencia ha disminuido los últimos años, considerándose actualmente una especie de baja frecuencia. Cuando está presente, se observa generalmente hacia el final de la primavera.</string>
+    <string name="j3b9" >Características</string>
+    <string name="j3b10" >La umbrela tiene forma de plato y puede alcanzar hasta 25 cm de diámetro. Es una medusa translúcida, con gónada violetas agrupadas en 4 círculos en el centro en forma de herradura, las cuales son visibles debido a la transparencia. Desde el manubrio, cuatro largos brazos orales se extienden, y muchos tentáculos marginales cortos rodean la umbrela. A diferencia de otras especies más delicadas, esta medusa es apta para vivir en acuarios y por tanto es las más frecuente de encontrar en los acuarios del mundo. En China es un plato muy popular.</string>
+
+    <string name="j4a1" >Chrysaora hysoscella</string>
+    <string name="j4a2" >Medusa compás</string>
+    <string name="j4a3" >Peligrosidad</string>
+    <string name="j4a4" >Esta picada usualmente deja eritemas, con máximo dolor a los pocos minutos de la picada que generalmente desaparecen dos horas después. Síntomas más severos han sido reportados en muy pocos casos.\n En caso de picadura de esta especie:\n NO APLICAR AGUA DULCE, VINAGRE, VENDAJES A PRESIÓN, NI ALCOHOL. En caso de shock o dificultad respiratoria buscar atención médica inmediatamente.\n 1) LAVAR CON AGUA DE MAR CUIDADOSAMENTE, NO FROTAR.\n 2) SI ESTÁ DISPONIBLE, APLICAR SOLUCIÓN DE BICARBONATO DURANTE 5 MINUTOS (50 por ciento bicarbonato comercial; 50 por ciento agua de mar) para prevenir envenenamiento posterior producido por tentáculos residuales en la piel.\n 3) UTILIZAR PINZAS, GUANTES O UNA TARJETA PLÁSTICA PARA QUITAR TENTÁCULOS O FRAGMENTOS RESIDUALES.\n 4) APLICAR HIELO (ICE PACKS) (envuelto en ropa o una toalla fina, no directamente en la piel) durante 5-15 minutos. 5) REEVALUAR EL DOLOR Y VOLVER A APLICAR HIELO SI ES NECESARIO. 6) SI EL DOLOR PERSISTE, CONSULTE AL MÉDICO O PROFESIONALES DEL CUIDADO DE LA SALUD – Pregunte por analgésicos + preparados de hidrocortisona (ej. lidocaína 3 por ciento + hidrocortisona).</string>
+    <string name="j4a5" >Distribución y Hábitat</string>
+    <string name="j4a6" >Es una especie pelágica que vive en el océano Atlántico donde puede alcanzar densidades enormes. En el Mediterráneo no es abundante, pero es frecuentemente observada.</string>
+    <string name="j4a7" >Frecuencia</string>
+    <string name="j4a8" >A pesar de que puede ser muy abundante en algunas zonas de la costa Mediterránea Española, en la costa Catalana es considerada una especie de baja frecuencia. Es comúnmente observada en primavera.</string>
+    <string name="j4a9" >Características</string>
+    <string name="j4a10" >La umbrela de coloración blanca-amarillenta puede alcanzar 30 cm de diámetro, y el manubrio presenta cuatro brazos orales que pueden alcanzar un metro de longitud. La parte superior de la umbrela está decorada con 16 bandas en forma de V de color marrón, que van desde el centro de la umbrela hasta el margen, donde hay 24 tentáculos largos y finos, en grupos de tres.</string>
+
+    <string name="j4b1" >Porpita porpita</string>
+    <string name="j4b2" >Botón azul</string>
+    <string name="j4b3" >Peligrosidad</string>
+    <string name="j4b4" >Estas medusas no tienen una picada letal, pero podrían causar irritación dérmica al contacto.</string>
+    <string name="j4b5" >Distribución y Hábitat</string>
+    <string name="j4b6" >Esta especie se encuentra en aguas cálidas de Europa, en el Golfo de México, en el Mediterráneo, Nueva Zelanda, y en aguas del sur de E.E.U.U.  estos hidroides viven en medio del oceáno, pero algunas veces pueden ser arrastrados a la costa, y ocasionalmente ser observados por miles.</string>
+    <string name="j4b7" >Frecuencia</string>
+    <string name="j4b8" >A lo largo de la costa Catalana esta especie es muy rara.</string>
+    <string name="j4b9" >Características</string>
+    <string name="j4b10" >Esta especie es relativamente pequeña y puede medir entre 1 y 5 cm. Consisten en un flotador duro de color marrón dorado, lleno de gas en el centro, que está rodeado de hidroides de color azul intenso, morados o amarillos, que parecen tentáculos. La medusa botón azul está hecha de zooides individuales, cada uno especializado en una función diferente, como alimentación, defensa o reproducción.</string>
+
+    <string name="j5a1" >Carybdea marsupialis</string>
+    <string name="j5a2" >Avispa de mar</string>
+    <string name="j5a3" >Peligrosidad</string>
+    <string name="j5a4" >A pesar de que Carybdea es una cubo medusa, su veneno no es letal. La picada es muy dolorosa, siendo bajo al comienzo pero después más severo, y los efectos son intensos pero de corta duración. Generalmente aparecen pápulas de color rojo brillante en la piel, y en algunos casos podría observarse calambres musculares, vómitos, cansancio y ansiedad. En el 2014 se ha publicado un trabajo científico donde se cita el primer caso registrado de efectos sistémicos después de la picada de esta especie.\n En caso de picadura de esta especie:\n NO APLICAR AGUA DULCE, VENDAJES A PRESIÓN, NI ALCOHOL. En caso de shock o dificultad respiratoria buscar atención médica inmediatamente.\n 1) LAVAR CON <b>AGUA DE MAR</b> CUIDADOSAMENTE, NO FROTAR.\n 2) LAVAR CON VINAGRE COMERCIAL.\n 3) UTILIZAR PINZAS, GUANTES O UNA TARJETA PLÁSTICA PARA QUITAR TENTÁCULOS O FRAGMENTOS RESIDUALES.\n 4) APLICAR CALOR (HOT PACKS) O INMERSIÓN EN AGUA CALIENTE (40-45ºC) DURANTE 5-15 MINUTOS.\n 5) REEVALUAR EL DOLOR Y VOLVER A APLICAR CALOR SI ES NECESARIO.\n 6) SI EL DOLOR PERSISTE, CONSULTE AL MÉDICO O PROFESIONALES DEL CUIDADO DE LA SALUD – Pregunte por analgésicos + preparados de hidrocortisona (ej. lidocaína 3-4% + hidrocortisona).</string>
+    <string name="j5a5" >Distribución y Hábitat</string>
+    <string name="j5a6" >Las cubomedusas se pueden encontrar en la mayoría de aguas tropicales y sub tropicales, y especialmente Carybdea marsupialis, puede además encontrarse en aguas templadas. Es muy probable que los registros de distribución estén incompletos debido a la transparencia de esta medusa, lo que hace más difícil su localización a pesar de su distribución en zonas costeras y poca profundidad.  Los hábitats preferidos de esta especie parecen ser los substratos arenosos, localizándose justo sobre el fondo durante el día y moviéndose hacia la superficie durante la noche. Además, Carybdea es atraída por la luz y por tanto se acerca a la costa durante la noche.</string>
+    <string name="j5a7" >Frecuencia</string>
+    <string name="j5a8" >Esta especie es muy abundante en ciertas área de la costa Mediterránea española, pero en la costa Catalana es considerada muy rara, a pesar de que su presencia podría estar subestimada.</string>
+    <string name="j5a9" >Características</string>
+    <string name="j5a10" >Esta especie de forma cúbica es muy pequeña, alcanzando aproximadamente unos 5 o 6 cm. Es transparente con una coloración blanca-azulada, y presenta cuatro tentáculos que se extienden de cada lado de la umbrela cúbica. Nada de forma muy vigorosa y se mueve con calma.</string>
+
+    <string name="j5b1" >Physalia physalis</string>
+    <string name="j5b2" >Carabela portuguesa</string>
+    <string name="j5b3" >Peligrosidad</string>
+    <string name="j5b4" >Esta especie tiene dos tamaños distintos de nematocistos (pequeños y grandes) para impresionar y matar a su presa. La picada de esta especie es intensa causando un dolor severo. En la zona de contacto se observa una línea de pápulas ovales blancas en el centro con una margen rojo. En algunos casos, el encuentro con Physalia puede ser letal, y entre los efectos globales que pueden observarse se incluyen temblores, diarrea, vómitos y convulsiones.\n En caso de picadura de esta especie:\n NO APLICAR AGUA DULCE, VINAGRE, VENDAJES A PRESIÓN, NI ALCOHOL. En caso de shock o dificultad respiratoria buscar atención médica inmediatamente.\n 1) LAVAR CON AGUA DE MAR CUIDASOAMENTE, NO FROTAR.\n 2) UTILIZAR PINZAS, GUANTES O UNA TARJETA PLÁSTICA PARA QUITAR TENTÁCULOS O FRAGMENTOS RESIDUALES.\n 3) APLICAR CALOR (HOT PACKS) O INMERSIÓN EN AGUA CALIENTE (40-45ºC) DURANTE 10 – 20 MINUTOS.\n 4) REEVALUAR EL DOLOR Y VOLVER A APLICAR CALOR SI ES NECESARIO.\n 5) SI EL DOLOR PERSISTE, CONSULTE AL MÉDICO O PROFESIONALES DEL CUIDADO DE LA SALUD – Pregunte por analgésicos + preparados de hidrocortisona (ej. lidocaína 3-4% + hidrocortisona).</string>
+    <string name="j5b5" >Distribución y Hábitat</string>
+    <string name="j5b6" >Generalmente se encuentra en aguas cálidas, tropicales y sub tropicales de los océanos del mundo, sin embargo, existen reportes de playas de Inglaterra, Gales e Irlanda. En general, se encuentra en los océanos Atlántico, Pacífico e Indico y en el mar Caribe. Es una animal marino pelágico que flota en la superficie del mar y es arrastrado por los vientos y empujado por las corrientes. Es mas común en mar abierto, pero las corrientes y los vientos podrían arrastrarlas a zonas de baja profundidad y hacia las playas. En el Mediterráneo no se encuentra frecuentemente, sin embargo, algunos años se han reportado numerosas observaciones en el mediterráneo occidental, incluyendo las aguas de las Islas Baleares.</string>
+    <string name="j5b7" >Frecuencia</string>
+    <string name="j5b8" >A lo largo de la costa Catalana es considerada muy rara, a pesar de que alguna observación aislada se ha reportado en los últimos años.</string>
+    <string name="j5b9" >Características</string>
+    <string name="j5b10" >Physalia no es precisamente una medusa, sino una colonia de pólipos de sifonóforo. Además, no son individuos, sino una colonia. Esta especie puede ser reconocida por su azulado neumatóforo, o flotador, que puede alcanzar hasta 30 cm de longitud. Este flotador es un pólipo muy grande de forma oblonga y lleno de gas. El flotador incluye un mecanismo para controlar el gas y regular la profundidad del organismo, que lo mantiene en la superficie del agua. Los tentáculos, morados azulados, pueden alcanzar hasta 50 metros de longitud.</string>
+
+    <string name="j6a1" >Olindias phosphorica</string>
+    <string name="j6a2" > </string>
+    <string name="j6a3" >Peligrosidad</string>
+    <string name="j6a4" >Después de la picada de esta especie, aparecen unas líneas rojas en zigzag muy características en la piel. El dolor es instantáneo e intenso.\n En caso de picadura de esta especie:\n NO APLICAR AGUA DULCE, VENDAJES A PRESIÓN, NI ALCOHOL. En caso de shock o dificultad respiratoria buscar atención médica inmediatamente.\n 1) LAVAR CON VINAGRE COMERCIAL (4-6% ácido acético) – SI NO, LAVAR CON AGUA DE MAR, NO FROTAR.\n 2) UTILIZAR PINZAS, GUANTES O UNA TARJETA PLÁSTICA PARA QUITAR TENTÁCULOS O FRAGMENTOS RESIDUALES.\n 3) APLICAR HIELO (ICE PACKS) (envuelto en ropa o una toalla fina, no directamente en la piel) durante 5-15 minutos.\n 4) REEVALUAR EL DOLOR Y VOLVER A APLICAR HIELO SI ES NECESARIO.\n 5) SI EL DOLOR PERSISTE, CONSULTE AL MÉDICO O PROFESIONALES DEL CUIDADO DE LA SALUD – Pregunte por analgésicos + preparados de hidrocortisona (ej. lidocaína 3 por ciento + hidrocortisona).</string>
+    <string name="j6a5" >Distribución y Hábitat</string>
+    <string name="j6a6" >Es una hidromedusa con una distribución global, que incluyen aguas templadas del Atlántico y el Mar Mediterráneo. En años recientes, ha sido muy abundante en las costas de Túnez en el Mediterráneo, causando problemas para la industria del turismo.</string>
+    <string name="j6a7" >Frecuencia</string>
+    <string name="j6a8" >La presencia de esta medusa a lo largo de la costa Catalana es esporádica. Nunca forma bancos extensos, pero puede ser muy abundante localmente. Se ha visto formando grandes poblaciones en algunas zonas de la costa Valenciana y en la costa Brava en Catalunya.</string>
+    <string name="j6a9" >Características</string>
+    <string name="j6a10" >Esta hidromedusa Mediterránea es de color transparente y la umbrela puede alcanzar hasta 8 cm de diámetro. En la umbrela se pueden observar cuatro canales radiales dispuestos en forma de cruz de color rojo. Pequeños tentáculos rojo-azulados rodean la umbrela.</string>
+
+    <string name="j6b1" >Mnemiopsis leidyi</string>
+    <string name="j6b2" >Medusa peine</string>
+    <string name="j6b3" >Peligrosidad</string>
+    <string name="j6b4" >Al no ser un cnidario, sino un ctenóforo, no posee cnidocistos y por tanto no es venenoso. Es inofensivo para los humanos, pero muy dañino para los ambientes marinos invadidos.</string>
+    <string name="j6b5" >Distribución y Hábitat</string>
+    <string name="j6b6" >Esta especie es nativa de estuarios y áreas costeras del Oceáno Atlántico occidental, desde la costa de Estados Unidos hasta Argentina. A principios de los 80 llegó al Mar Negro transportado en el agua de lastre de los tanqueros, y las últimas tres décadas se ha expandido a casi todas las aguas Euroasiáticas, incluyendo la cuenca del Mediterráneo. Los registros del Mediterráneo occidental aparecieron por primera vez en el año 2006, y en el año 2009 fue registrado por primera en aguas catalanas.</string>
+    <string name="j6b7" >Frecuencia</string>
+    <string name="j6b8" >Esta especie invasora fue registrada por primera vez en la costa Catalana en el año 2009. Actualmente, su presencia es intermitente en algunas partes de Cataluña, pero en la costa sur, especialmente en la costa del Delta del Ebro, existe una población establecida que se encuentra bajo un rigurosos seguimiento para poder estimar los posibles efectos de su invasión en esa zona.</string>
+    <string name="j6b9" >Características</string>
+    <string name="j6b10" >Mnemiopsis leidyi es un ctenóforo y no un cnidario, pero se incluye dentro del grupo de medusas debido a sus consistencia y composición gelatinosa. Tiene un cuerpo de forma ovalada con lóbulos que puede alcanzar hasta 12 cm de longitud. Es de color transparente y presenta cuatro hileras de peines ciliados que corren a lo largo de su cuerpo en sentido vertical y que producen iridiscencia azul-verdosa cuando es interrumpido. Esta especie no nada con las pulsaciones de su cuerpo (como lo hacen las medusas), sino con el batir de sus ocho hileras de cilios que impulsan el movimiento. En el Mar Negro, donde el ecosistema ya se encontraba debilitado por la contaminación y la sobre pesca, Mnemiopsis fue acusado de causar el colapso de los stocks de peces debido a la depredación sobre los huevos y las larvas de peces y también sobre las presas de las larvas planctónicas. No sabemos si su impacto en el Mediterráneo podría ser de tal magnitud, por lo que un riguroso estudio se esta llevando a cabo en el área invadida de la costa Catalana para así poder predecir y estimar el impacto de esta invasión.</string>
+
+    <string name="j7a1" >Phyllorhiza punctata</string>
+    <string name="j7a2" >Medusa de lunares blancos</string>
+    <string name="j7a3" >Peligrosidad</string>
+    <string name="j7a4" >Esta especie no produce picadas dolorosas por lo que no constituye una amenaza para los bañistas. De todas formas se recomienda no tocarla.</string>
+    <string name="j7a5" >Distribución y Hábitat</string>
+    <string name="j7a6" >Phyllorhiza punctata es una medusa costera y estuarina cuya distribución nativa incluye Australia y gran parte del Indo-Pacífico, incluyendo el Archipiélago de Filipinas.</string>
+    <string name="j7a7" >Frecuencia</string>
+    <string name="j7a8" >A lo largo de la costa Catalana la presencia de esta especie constituye una invasión, y en el año 2010 fue registrado su primera observación en el sur de Cataluña y en el año 2012 se detactaron grandes prolferaciones de esta especie. No hubieron registros en el año 2013.</string>
+    <string name="j7a9" >Características</string>
+    <string name="j7a10" >Es una medusa grande con una umbrela medianamente aplanada y redonda cuyo diámetro puede alcanzar 72 cm, con una coloración clara y posiblemente teñida de marrón con muchos lunares cristalinos y refractivos en la superficie y distribuidos uniformemente. Carece de tentáculos marginales, pero presente ocho brazos orales dicotómicos que forman un anillo alrededor de la boca, y que cada uno lleva 14 solapas de tejido y que se fusionan cerca de sus bases. Se alimenta de plancton de crustáceos y probablemente, de huevos y larvas de peces, siendo por tanto, un competidor y un depredador de los peces y que puede causar el agotamiento de los mares. Pocos años atrás invadió la costa de Florida, causando un repentino colapso de la fauna marina. Como Rhizostoma, es comestible.</string>
+
+    <string name="j7b1" >Cassiopea andromeda</string>
+    <string name="j7b2" >cassiopea</string>
+    <string name="j7b3" >Peligrosidad</string>
+    <string name="j7b4" >No es peligrosa, pero es mejor no tocarla porque produce mucus que contiene células con veneno, y por tanto al contacto, podría generar irritación dérmica.</string>
+    <string name="j7b5" >Distribución y Hábitat</string>
+    <string name="j7b6" >Su rango nativo incluye las aguas del Indo-Pacífico, y se encuentra típicamente en laguna de poca profundidad, en arenas de la zona intermareal o zonas de fango, o alrededor de manglares. La entrada al Mediterráneo fue a través del Canal de Suez, y en la actualidad habita algunas zonas de la costa Mediterránea.</string>
+    <string name="j7b7" >Frecuencia</string>
+    <string name="j7b8" >No existen registros sobre su presencia en la costa Catalana.</string>
+    <string name="j7b9" >Características</string>
+    <string name="j7b10" >Esta especie usualmente se encuentra en el fondo con la boca hacia arriba, y cuidadosamente pulsando su umbrela creando movimientos de agua sobre sus brazos. Es pequeña en tamaño alcanzando un máximo de 30 cm de diámetro, y con una coloración marrón amarillenta en la umbrela y con vetas y lunares blancos o pálidos. Sus brazos extendidos también presentan una coloración parduzca con tentáculos extendidos como volantes. Esta posición boca arriba permite que algas unicelulares, como las de las formaciones de corales, vivan en simbiosis con la medusa.</string>
+
+    <string name="j8a1" >Salpa democratica</string>
+    <string name="j8a2" >Salpas</string>
+    <string name="j8a3" >Peligrosidad</string>
+    <string name="j8a4" >Las salpas no poseen cnidocistos por lo que constituyen peligro para los humanos.</string>
+    <string name="j8a5" >Distribución y Hábitat</string>
+    <string name="j8a6" >Es un grupo de animales globalmente distribuido, principalmente en aguas tropicales y subtropicales. Generalmente forma bancos extensos que se esparcen lejos de la costa.</string>
+    <string name="j8a7" >Frecuencia</string>
+    <string name="j8a8" >Su frecuencia a lo largo de la costa Catalana es variable, y generalmente se observa durante la primavera cuando los blooms gelatinosos son comunes en ciertas áreas costeras.</string>
+    <string name="j8a9" >Características</string>
+    <string name="j8a10" >Es un tunicado planctónico con forma de barril, con una mancha naranjo claro visible gracias a la transparencia de su cuerpo. Presenta una fase de vida solitaria, conocida como oozoide, y la cadena de estos oozoides es la fase agregada del ciclo de vida. Las cadenas (o colonias) pueden alcanzar hasta 6 metros de longitud. Las explosiones poblacionales de estos animales son repentinas y pueden mantenerse por algunos días.</string>
+
+    <string name="j8b1" >Discomedusa lobata</string>
+    <string name="j8b2" ></string>
+    <string name="j8b3" >Peligrosidad</string>
+    <string name="j8b4" >No se conoce demasiado sobre los efectos de su picadura, de todas formas al posee células urticante tiene potencialidad de producir reacción al contacto. Se recomienda no tocarla.</string>
+    <string name="j8b5" >Distribución y Hábitat</string>
+    <string name="j8b6" >Conocida en el Mar del Norte, Este del Océano Atlántico y Mar Mediterráneo (sobre todo en el Mar Adriático).</string>
+    <string name="j8b7" >Frecuencia</string>
+    <string name="j8b8" >Especie considerada rara en el Mar Mediterráneo pero en el año 2013 mostró abundancias importante en diversas costas de este mar. En la costa Catalana se la detectó en numerosas playas y en grandes cantidades. En la literatura antigua donde se encuentra su descripción original se cita que la fase medusa de la especie es visible de Diciembre a Marzo, sin embargo en el año 2013 la especie se avistó durante todo los meses de Mayo, Junio y principios de Julio.</string>
+    <string name="j8b9" >Características</string>
+    <string name="j8b10" >Umbrela aplanada y tranparente de entre 4 y 15 cm de diámetro, con gónadas visibles de color blanquecino. Posee 24 tentáculos marginales muy finos y de la boca parte 4 brazos orales.</string>
+    
+    <string name="j9a1" >Pelagia benovici</string>
+    <string name="j9a2" ></string>
+    <string name="j9a3" >Peligrosidad</string>
+    <string name="j9a4" >Debido a que es una especie nueva no se conocen casos de picadas por esta especie. Basandonos en su morfología la picada ha de ser similar a la producida por la especie Pelagia noctiluca.</string>
+    <string name="j9a5" >Distribución y Hábitat</string>
+    <string name="j9a6" >Fue descubierta en el año 2013 en las costas del Mar Adriático. Se desconoce la extensión de su distribución.</string>
+    <string name="j9a7" >Frecuencia</string>
+    <string name="j9a8" >Al ser una especie nueva para la ciencia se desconoce esta información.</string>
+    <string name="j9a9" >Características</string>
+    <string name="j9a10" >Presenta una umbrela de color amarillo-ocre siendo sus gónadas de color blanco. La umbrela está armada de ocho largos tentáculos marginales color blanquecino. De la boca nacen cuatro brazos orales de consistecia muy delicada y color blanquecino. La superficie de la umbrela está densamente cubierta con pequeñas verrugas (acumulos de células urticantes) de diversas formas y tamaño y color blanquecino.</string>
+    
+    <string name="it" >Tratamiento</string>
+
+    <string name="tt3" >¿Qué hacer si te pica una medusa?</string>
+    <string name="tt4" >¿Qué hacer si hay medusas en la playa?</string>
+    <string name="tt5" >La picadura de la medusa</string>
+    <string name="tt6" >¿Qué se siente cuando te pica? </string>
+    <string name="tt7" >Personas que pueden presentar mayor riesgo </string>
+    <string name="tt8" >¿Cómo evitar las medusas? </string>
+    <string name="tt9" >Si veo una medusa a lo lejos, ¿puedo bucear? </string>
+    <string name="tt10" >¿Las medusas pueden llegar a provocar la muerte? </string>
+    <string name="tt11" >¿Se pueden tocar las medusas no urticantes? </string>
+    <string name="tt12" >¿De qué está hecho el líquido urticante de las medusas? </string>
+    <string name="tt13" >¿Funcionan los remedios naturales? </string>
+    <string name="tt14" >¿Las gafas, máscaras y trajes anti-medusas ayudan? </string>
+    <string name="tt15" >¿Y las cremas anti-medusas? </string>
+
+    <string name="t1a" >¿Qué hacer si te pica una medusa?</string>
+    <string name="t1b" >El protocolo que se presenta a continuación corresponde al protocolo general que puede aplicarse para todas las especie o cuando no se ha podido identificar la especie que ha producido la picadura. En la sección de esta App dedicada a cada especie de medusa se puede encontrar el protocolo específico para cada una de ellas. En el caso de picadura de medusa recomendamos: 
+Mantén la calma, respira normalmente, sal inmediatamente del agua, y lava la superficie afectada con agua de mar. El agua de mar es esencial para limpiar la piel de los posibles trozos de medusa que se hallan podido pegar a ésta y para diluir la toxina que aún no ha penetrado. \n\n1. lavar con agua de mar \n2. quitar los restos de tentáculos con guantes o pinzas \n3. aplicar compresas frías \n4. en caso que el dolor persista aplicar Lidocaina \n5. Aplicar antiséptico en la herida hasta que cicatrice \n\nLo que no hay que hacer: \n1. No lavar con agua dulce \n2. No rascar ni fregar la zona afectada \n3. No secar la piel con una toalla o aplicar arena \n4. No aplicar amoniaco ni vinagre ya que esta desaconsejado para algunas especies. 
+*Estas recomendaciones constituyen una síntesis de la literatura médica actual sobre el tema de picadas de medusas. Se excluyen aquellas intervenciones en las que no hay consenso. Es muy importante intentar identificar la especie que ha producido la picada para lograr el tratamiento más adecuado.</string>
+
+    <string name="t2a" >¿Qué hacer si hay medusas en la playa?</string>
+    <string name="t2b" >- No bañarse.- No pisar la zona donde rompen las olas: los restos de medusas medio enterrados también son urticantes.- No tocar ninguna medusa aunque esté muerta.- Si ves alguna, sal del agua lentamente sin hacer movimientos bruscos. Las medusas nunca atacan.- Utilizar la crema solar también como medida de prevención.</string>
+
+    <string name="t3a" >La picadura de la medusa</string>
+    <string name="t3b" >El contacto con los tentáculos de la medusa, dentro o fuera del agua, produce una sensación muy similar a la de una quemadura, y el dolor puede durar días o semanas.\n\nProvoca una erupción en la piel que puede reaparecer varias veces.\n\nHay que tener presente que una persona que ha sufrido una picadura de medusa queda sensibilizada; una segunda picadura podría causarle una reacción más grave.</string>
+
+    <string name="t4a" >¿Qué se siente cuando te pica?</string>
+    <string name="t4b" >Una reacción inflamatoria local que da ardor y dolor. “La piel se enrojece y aparecen pequeñas ronchas, pero después de 20 minutos, la sensación de ardor se atenúa y permanece la sensación de picor”, explica Francesco Sacrini, especialista en dermatología en el Instituto Clínico Humanitas, en Milán. El grado de dolor-ardor varía dependiendo de la zona afectada y se vuelve insoportable en caso de que se vea afectado más del 50% de la superficie corporal.</string>
+
+    <string name="t5a" >Personas que pueden presentar mayor riesgo</string>
+    <string name="t5b" >- Niños y niñas.\n- Personas con antecedentes alérgicos (atopía, asma).\n- Personas con afecciones cardiovasculares importantes.\n- Personas sensibilizadas por una picadura de medusa anterior.\n\t\nConviene que las personas más sensibles a las picaduras aumenten las precauciones y, en caso necesario, se dirijan a un centro médico.</string>
+
+    <string name="t6a" >¿Cómo evitar las medusas?</string>
+    <string name="t6b" >Mirar al mar: si están, normalmente se ven y la única manera para evitarlas es… no bañarse. Las medusas no nos atacan ni se dirigen hacia nosotros. Las medusas se desplazan verticalmente en la columna de agua, por lo tanto pueden estar en la superficie y pueden también descender hasta el fondo. Son animales que se mueven y que también son llevados a su vez por las corrientes. No hay reglas predefinidas: se encuentran en todas partes debido a que son parte del plancton y que son arrastradas con las corrientes.</string>
+
+    <string name="t7a" >Si veo una medusa a lo lejos, ¿puedo bucear?</string>
+    <string name="t7b" >Si hay medusas urticantes en el mar es mejor no bañarse, a menos que realmente sean muy pocas. Las medusas que pican normalmente tiene unos tentáculos muy largos: los de la Pelagia noctiluca, por ejemplo, pueden llegar hasta 10 metros de largo, mientras que los de la Physalia phisalis (Carabela portuguesa) pueden alcanzar los 20 metros.</string>
+
+    <string name="t8a" >¿Las medusas pueden llegar a provocar la muerte?</string>
+    <string name="t8b" >Sí, algunas pueden causar un shock anafiláctico. Además, el dolor agudo que causa la picadura puede ser fatal para aquellas personas con problemas cardiacos. Por tanto, debemos ir  al puesto de salvamento y socorrismo en caso de reacción cutánea difusa, si tenemos dificultad para respirar, sudoración, palidez y desorientación. Ferdinando Boero dice que: “En Australia, las medusas provocan más víctimas que los tiburones. En Florida la Carabela portuguesa también ha ocasionado víctimas. Pero hasta la fecha en el Mediterráneo no se ha producido ningún caso, aunque muchas de las personas picadas por medusas terminan en el hospital”.</string>
+
+    <string name="t9a" >¿Se pueden tocar las medusas no urticantes?</string>
+    <string name="t9b" >Mejor que no, aunque  para nosotros su veneno es casi inofensivo. Incluso los tentáculos de las medusas inofensivas, de hecho, tienen cnidocistos (pequeñas células que contienen el veneno), que pueden permanecer en la palma de la mano y, si no se lava y luego se tocan los ojos (u otras partes delicadas), podemos transferir el veneno y causar inflamación.</string>
+
+    <string name="t10a" >¿De qué está hecho el líquido urticante de las medusas?</string>
+    <string name="t10b" >A partir de una mezcla de tres proteínas: una con un efecto paralizante, otra con un efecto neurotóxico y  una tercera con un efecto inflamatorio. No hay antídotos específicos para estos venenos - pero, sin embargo, son sensibles al calor, es decir, que se degradan a altas temperaturas.</string>
+
+    <string name="t11a" >¿Funcionan los remedios naturales?</string>
+    <string name="t11b" >¿Es bueno aplicar una piedra o agua caliente, frotar con arena caliente, lavar con amoníaco, orina, vinagre o alcohol?\n\nEstos remedios no sólo son inútiles, sino que incluso pueden empeorar la situación. El calor de una piedra o de la arena no son suficientes para anular los 40-50 grados que se deberían alcanzar para parar la toxina. Y el contenido del amoníaco y de la orina tampoco desactivan la toxina, e incluso pueden inflamar aún más la parte afectada.</string>
+
+    <string name="t12a" >¿Las gafas, las máscaras y los trajes anti-medusas ayudan?</string>
+    <string name="t12b" >Nadar con gafas o máscara ayuda a mirar y ver los peligros bajo el agua, y los trajes de surf pueden proteger la piel. También son útiles los nuevos trajes anti-medusas que se han diseñado y producido en Australia, y que también pueden encontrarse en España por venta on-line.</string>
+
+    <string name="t13a" >¿Y las cremas anti-medusas?</string>
+    <string name="t13b" >Sacrini explica que: \"Las cremas llamadas anti-medusa fueron creadas estudiando los mecanismos de seguridad utilizados por los peces payaso [pez que tiene una sustancia repelente para las medusas). Las cremas anti-medusa, actualmente en el mercado, se asocian con filtros solares. Se basan, como se describe en los artículos científicos, en su mayoría en 4 principios: hacen que la piel esté resbaladiza y por tanto evitan que los tentáculos se posen; confunden el mecanismo de reconocimiento de las medusas (también compuesto de agua y de GAG); bloquean el sistema de activación de las células urticantes; y luchan contra la presión osmótica que se forma dentro de los nematocistos. Se tiene una respuesta distinta dependiendo de la especie de medusa, de la correcta aplicación y del tiempo de permanencia en el agua\".</string>
+
+</resources>

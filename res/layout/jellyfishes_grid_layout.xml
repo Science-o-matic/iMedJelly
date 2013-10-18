@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="172dp"
+    android:layout_height="131.8dp" >
+    
+    <ImageView 
+        android:id="@+id/grid_image"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/image_selection" 
+        android:contentDescription="@string/grid_image_desc"/>
+
+</RelativeLayout>

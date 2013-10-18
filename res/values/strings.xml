@@ -1,0 +1,491 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">iMedJelly</string>
+    
+    <string name="DevPrefix">https://app.bahiasoftware.es</string>
+    <string name="ProdPrefix">http://medjelly.com</string>
+    <string name="ServerUsername">medusas</string>
+    <string name="ServerPassword"></string>
+
+    <string name="action_zone">Select zone</string>
+
+    <string-array name="navigation_options">
+        <item>Map</item>
+        <item>Zones</item>
+        <item>Jelly Fishes</item>
+        <item>Treatment</item>
+        <item>About</item>
+        <item>Community</item>
+    </string-array>
+
+    <array name="navigation_icons">
+        <item>@drawable/ic_tab_map</item>
+        <item>@drawable/ic_tab_beach</item>
+        <item>@drawable/ic_tab_jellyfish</item>
+        <item>@drawable/ic_tab_treatment</item>
+        <item>@drawable/ic_tab_about</item>
+        <item>@drawable/ic_tab_community</item>    
+    </array>    
+    
+    <string name="geo_zone">Zones</string>
+    <string name="geo_municipality">Municipalities</string>
+    <string name="geo_beach">Beaches</string>
+    
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    
+    <string name="map_safe">Safe</string>
+    <string name="map_alert">Alert</string>
+    <string name="map_danger">Danger</string>
+    
+    <string name="SplashDescription">Splash</string>
+    
+    <string name="production_maps_api_key"></string>
+    <string name="development_maps_api_key"></string>
+
+    <string name="title_main">iMedJelly</string>
+    <string name="title_map">Map</string>
+    <string name="title_beach">Beach</string>
+    <string name="title_jellyfish">Jelly Fish</string>
+    <string name="title_treatment">Treatment</string>
+    <string name="title_comment">Comment</string>
+    <string name="title_services">Services</string>
+    <string name="title_state">State</string>
+    <string name="title_camera_upload">Upload photo</string>
+    
+    <string name="select_zone">Select zone</string>
+    
+    <string name="service_legend">Legend</string>
+    <string name="state_legend">Legend</string>
+    
+    <string name="notification_title">Notification</string>
+    <string name="community_url">http://medjelly.com/community</string>
+   
+    <string name="map_view_label">Beaches Map View</string>
+    <string name="beaches_view_label">Beaches View</string>
+    <string name="jellyfishes_view_label">JellyFishes View</string>
+    <string name="treatment_view_label">Treatment View</string>
+    <string name="about_view_label">About View</string>
+    <string name="community_view_label">Community View</string>
+    
+    <string name="grid_image_desc">Jelly Fish</string>
+    
+    <string name="beachName">Beach Name</string>
+    <string name="jellyfishPresence">Still not verified</string>
+    <string name="beachDescription">Description</string>
+    <string name="beachRatingLabel">User rating</string>
+    <string name="beachTemperature"> ºC</string>
+    <string name="beachInfoTime">12:10</string>
+    <string name="separator">" / "</string>
+    <string name="beachMinTemp">17</string>
+    <string name="beachMaxTemp">25</string>
+    <string name="beachWindSpeed">10</string>
+    <string name="beachMaxUV">8 UV</string>
+
+    <string name="jellyfish_no_info">No info available</string>
+    <string name="no_warning">No jellyfishes observed</string>
+    <string name="low_warning">Jellyfishes without danger</string>
+    <string name="high_warning">Danger of jellyfishes</string>
+    <string name="very_high_warning">High danger of jellyfishes</string>
+    
+    <string name="flag">No info available</string>
+    <string name="green_flag">Proper conditions for bath</string>
+    <string name="yellow_flag">Caution unfavourable conditions for bath</string>
+    <string name="red_flag">Bath forbidden, beach closed</string>
+    
+    <string name="termometer">Termometer</string>
+    <string name="beachBackground">Beach</string>
+	<string name="bikeParking">Bike parking</string>
+	<string name="blueFlag">Blue flag</string>
+	<string name="childrenZone">Children zone</string>
+	<string name="dump">Dump</string>
+	<string name="handicappedAccess">Handicapped access</string>
+    <string name="handicappedFriendly">Handicapped friendly</string>
+    <string name="parking">Parking</string>
+    <string name="rentUmbrellaHammock">Umbrella and hammock rent</string>
+    <string name="restaurant">Restaurant</string>
+    <string name="shower">Shower</string>
+    <string name="slogans">Slogans</string>
+    <string name="sportZone">Sport zone</string>
+    <string name="surveillanceTower">Surveillance tower</string>
+    <string name="waterSource">Water source</string>
+    <string name="wc">WC</string>
+    <string name="sky">Sky</string>
+    <string name="windDirection">Wind direction</string>
+    <string name="noSelected">No selected</string>
+
+    <string name="beach_add_comment">Add comment</string>
+    
+    <string name="treatment_image">Image</string>
+    <string name="treatment_title">Jellyfish stings: what you need to do</string>
+    <string name="treatment_description" >Jellyfish are invertebrates that float in the sea. They have stinging cells to capture prey and defend themselves. In recent years the frequency of jellyfish blooms has sharply increased.</string>
+    <string name="observation_title">Observations</string>
+    
+    <string name="feedback_success">Feedback sent successfully.</string>
+    <string name="feedback_failed">Feedback failed: </string>
+    <string name="feedback_username">Username</string>
+    <string name="feedback_email">Email</string>
+    <string name="feedback_comment">Comments</string>
+    <string name="feedback_send">Send</string>
+    
+    <string name="newuser_success">User created successfully.</string>
+    <string name="newuser_failed">Registration failed: </string>
+	<string name="newuser_title">New user</string>
+	<string name="newuser_description">Joining the MedJelly user community you will have access to the forum and polls to share information will other users.</string>
+    <string name="newuser_username">Username</string>
+    <string name="newuser_email">Email</string>
+    <string name="newuser_password">Password</string>
+    <string name="newuser_join">Sign in</string>
+    <string name="newuser_alreadyregistered"><u>Already registered</u></string>
+    
+    <string name="observation_success">Observation sent successfully.</string>
+    <string name="observation_failed">Observation failed: </string>
+    <string name="observation_text">You can send images and information about jellyfishes found in beach.</string>
+    <string name="observation_jellyFishName">Jellyfish</string>
+    <string name="observation_comment">Comments</string>
+    <string name="observation_send">Send</string>
+    <string name="image_upload">Upload image</string>
+    
+    <string name="about_title">About</string>
+    <string name="about_authors">Application developed and maintaned by:</string>
+    <string name="developers_logo">Developers</string>
+	<string name="about_team">MedJelly work team:</string>
+	<string name="about_team_members">Paulo A.L.D. Nunes\nVerónica Fuentes\nMacarena Marambio\nIvar Rekve\nScience O\'Matic</string>
+    <string name="about_colaboration">With the colaboration:</string>
+	<string name="about_colaborators">Cruz Roja\nRescatadores\nPro-Activa\nMarsave-Mallorca\nSIRESA\nAltsport 2000\nMunicipalities of the Catalan coast\nAEMET\nGIEM\nCatalan Agency of Water\nCivil protection (Generalitat de Catalunya)\n</string>
+	<string name="about_financed">Project co-financed:</string>
+	<string name="about_financers">Project co-financers:</string>
+	<string name="about_description">The dangerousness for each beach(color ot the pin for each beach on the main screen of this app) is obtained from an index that the experts of the Institute of Marine Sciences of Barcelona (CSIC) have developed and considered together, thedangerousness of each jellyfish species and the abundance of it in the water. In the case of presence of jellyfish on a beach, three different categories can ocurr:\n- Presence of jellyfish, safely (green pin)\n- Presence of jellyfish, with danger (yellow pin)\n- Presence of jellyfish, high risk (red pin)\n\nAll information jellyfish is validated daily by experts from the Institute of Marine Sciences in the frame of the European project ENPI MED-JELLYRISK. An important part of the information about jellyfish on beaches is obtained by coastal municipalities and by the collaboration with the Catalan Water Agency and Civil Protection of the Generalitat of Catalonia. In turn all the information received by the researchers of the Institute of Marine Sciences is part of a large database that attempts to explain the phenomenon of jellyfish proliferations, it causes and consequences.\n\nDisclaimer Medjelly App\nThe data regarding the presence or absence of jellyfish in the beaches is delivered by the Rescue Services or by personnel of the different municipalities, in the frame of the established cooperation with the Institute of Marine Science (CSIC), and with the aim to inform about the jellyfish presence, the risk and the action protocols. However, this information may be variable along the day, because jellyfish are animals that move together with the water mass and may be dispersed by the currents and winds from one place to another, moving them closer or further to the coast in brief periods of time. For this reason, the Medjelly app publishes the information according to the state of the beach in the morning, but with the possibility that this state changes along the day. The application will update the information whenever it is possible, and when those changes and new information is received.</string>
+	<string name="about_phone_number">900 102 289</string>
+	<string name="about_more_information">For more information about jellyfishes, please contact with us on this free phone number:</string>
+	
+	<string-array name="jellyfish_arrays">
+        <item>Pelagia noctiluca</item>
+    	<item>Rhizostoma pulmo</item>
+    	<item>Aequorea forskalea</item>
+    	<item>Cotylorhiza tuberculata</item>
+    	<item>Velella velella</item>
+    	<item>Aurelia aurita</item>
+    	<item>Chrysaora hysoscella</item>
+    	<item>Porpita porpita</item>
+    	<item>Carybdea marsupialis</item>
+    	<item>Physalia physalis</item>
+    	<item>Olindias phosphorica</item>
+    	<item>Mnemiopsis leidyi</item>
+    	<item>Phyllorhiza punctata</item>
+    	<item>Cassiopea andromeda</item>
+    	<item>Salpa democratica</item>
+    </string-array>
+	
+    <string name="nj1a" >Pelagia noctiluca</string>
+    <string name="nj1b" >Rhizostoma pulmo</string>
+    <string name="nj2a" >Aequorea forskalea</string>
+    <string name="nj2b" >Cotylorhiza tuberculata</string>
+    <string name="nj3a" >Velella velella</string>
+    <string name="nj3b" >Aurelia aurita</string>
+    <string name="nj4a" >Chrysaora hysoscella</string>
+    <string name="nj4b" >Porpita porpita</string>
+    <string name="nj5a" >Carybdea marsupialis</string>
+    <string name="nj5b" >Physalia physalis</string>
+    <string name="nj6a" >Olindias phosphorica</string>
+    <string name="nj6b" >Mnemiopsis leidyi</string>
+    <string name="nj7a" >Phyllorhiza punctata</string>
+    <string name="nj7b" >Cassiopea andromeda</string>
+    <string name="nj8a" >Salpa democratica</string>
+    <string name="nj8b" >Discomedusa lobata</string>
+    <string name="nj9a" >Pelagia benovici</string>
+
+    <string name="ij1a" >High</string>
+    <string name="ij1b" >Medium</string>
+    <string name="ij2a" >Low</string>
+    <string name="ij2b" >Low</string>
+    <string name="ij3a" >Low</string>
+    <string name="ij3b" >Low</string>
+    <string name="ij4a" >High</string>
+    <string name="ij4b" >Low</string>
+    <string name="ij5a" >Very high</string>
+    <string name="ij5b" >Very high</string>
+    <string name="ij6a" >Very high</string>
+    <string name="ij6b" >No danger</string>
+    <string name="ij7a" >Low</string>
+    <string name="ij7b" >Low</string>
+    <string name="ij8a" >No danger</string>
+    <string name="ij8b" >Low</string>
+    <string name="ij9a" >Medium</string>
+
+
+    <string name="j1a1" >Pelagia noctiluca</string>
+    <string name="j1a2" >Mauve stinger</string>
+    <string name="j1a3" >Danger</string>
+    <string name="j1a4" >La picada producida por Pelagia generalmente produce un dolor inmediato con urticaria y edema. También podría aparecer y permanecer sensación de ardor, vesículas, pápulas y costras. El prurito es típico. Los secuelas pueden ser cicatrices o queloides.\n En caso de picadura de esta especie:\n NO APLICAR AGUA DULCE, VINAGRE, VENDAJES A PRESIÓN, NI ALCOHOL. En caso de shock o dificultad respiratoria buscar atención médica inmediatamente.\n 1) LAVAR CON AGUA DE MAR CUIDADOSAMENTE, NO FROTAR.\n 2) SI ESTÁ DISPONIBLE, APLICAR SOLUCIÓN DE BICARBONATO DURANTE 5 MINUTOS (50 por ciento bicarbonato comercial; 50 por ciento agua de mar) para prevenir envenenamiento posterior producido por tentáculos residuales en la piel.\n 3) UTILIZAR PINZAS, GUANTES O UNA TARJETA PLÁSTICA PARA QUITAR TENTÁCULOS O FRAGMENTOS RESIDUALES.\n 4) APLICAR HIELO (ICE PACKS) (envuelto en ropa o una toalla fina, no directamente en la piel) durante 5-15 minutos.\n 5) REEVALUAR EL DOLOR Y VOLVER A APLICAR HIELO SI ES NECESARIO.\n 6) SI EL DOLOR PERSISTE, CONSULTE AL MÉDICO O PROFESIONALES DEL CUIDADO DE LA SALUD – Pregunte por analgésicos + preparados de hidrocortisona (ej. lidocaína 3 por ciento + hidrocortisona).</string>
+    <string name="j1a5" >Distribution and Habitat</string>
+    <string name="j1a6" >Widely distributed in warm and temperate waters of the world’s ocean. In the early eighties, Pelagia was very abundant in the Mediterranean, then disappeared and reappeared at intervals of about  ten years, but since the warm year 2003, its presence is almost constant in the western Mediterranean. It is typically an offshore species, although they can reach the coastline, especially in midsummer, when they can form extensive swarms that lash the coast for months.</string>
+    <string name="j1a7" >Frequency</string>
+    <string name="j1a8" >On the Catalan coast can be very frequent in spring-summer, although some years, depending on the environmental and weather conditions, they can be absent at the majority of beaches.</string>
+    <string name="j1a9" >Characteristics</string>
+    <string name="j1a10" >It usually presents a brilliant pink and mauve colour. The semi-spherical umbrella can measure between 5 and 20 cm. The umbrella is armed with eight long marginal tentacles, that can reach up to ten meters. The mouth is equipped with four long, thick oral arms. The surface of the umbrella is covered with brown warts. Pelagia, unlike most jellyfish, has the ability to bioluminesce or produce light. If Pelagia arrive at an aquaculture system, fishes in the farms can be killed. Given that this species also eats fish eggs and fish larvae, the impact on fish stocks and fisheries can be devastating.</string>
+    <string name="j1a11" >It is considered one of the most abundant and important species along the Catalan coats, and the vast majority of jellyfish stings recorded along the bathing season are attributable to this species.</string>
+
+    <string name="j1b1" >Rhizostoma pulmo</string>
+    <string name="j1b2" >Barrel jellyfish</string>
+    <string name="j1b3" >Danger</string>
+    <string name="j1b4" >When Rhizostoma stings, a moderate pain with burning sensation is commonly sensed. Local symptoms include local hives, sneezing, and eye irritation.\n In case you have been stung by this species:\n DO NOT APPLY FRESHWATER, NO VINEGAR, NO PRESSURE BANDAGE, NO ALCOHOL. Seek immediate medical attention if shock or breathing difficulties occur.\n 1) CAREFULLY WASH WITH SEAWATER, DO NOT RUB.\n 2) IF AVAILABLE, APPLY A BAKING SODA SLURRY (50 percent commercial baking soda; 50 percent seawater) FOR FIVE MINUTES to prevent further envenomation from attached tentacles.\n 3) USE A PLASTIC CARD TO REMOVE RESIDUALS OF TENTACLES.\n 4) APPLY ICE PACKS (wrapped in a cloth or thin towel, not directly on the skin) for 5-15 minutes - Warn victim that ice pack may be uncomfortable at first!\n 5) REASSESS PAIN AND REAPPLY ICE PACKS IF NECESSARY.\n 6) IF PAIN PERSISTS, CONSULT YOUR PHARMACIST OR HEALTH CARE PROFESSIONALS – Ask for analgesic + hydrocortisone preparations (eg. lidocaine 3 percent + hydrocortisone).</string>
+    <string name="j1b5" >Distribution and Habitat</string>
+    <string name="j1b6" >Its distribution includes the North and South Atlantic Oceans, the Mediterranean, the Black Sea, and the Red Sea. On the Catalan sea this species is considered as a coastal species. The small jellies are produced in spring and the big adults are more evident in summer. Usually recorded at or near the water surface.</string>
+    <string name="j1b7" >Frequency</string>
+    <string name="j1b8" >It lives in abundance along our coast.</string>
+    <string name="j1b9" >Characteristics</string>
+    <string name="j1b10" >It is the biggest jellyfish on the Catalan coast. The diameter of its bell-shaped umbrella can reach between 10 and 40 cm and can weigh up to 10 kilograms. The colour is milky white or slightly blue with a violet ring along the edge of the umbrella. This species lacks marginal tentacles, but it has eight thick oral arms that fuse together to forma n inverted Y-shaped with no branches, which are also white-blue colour. Other organisms, like fishes and small crabs, may use this species as shelter, and are transported by the currents between its oral arms. The bearing of Rhizostoma is majestic, and the movements are slow and mighty. For many people of Southeast Asia, especially the Chinese, it is considered a delicious dish.</string>
+
+    <string name="j2a1" >Aequorea forskalea</string>
+    <string name="j2a2" >Many-ribbed jellyfish</string>
+    <string name="j2a3" >Danger</string>
+    <string name="j2a4" >Harmless to humans, although it is better not to touch it.</string>
+    <string name="j2a5" >Distribution and Habitat</string>
+    <string name="j2a6" >It is distributed in all suitable temperate to tropical waters, occurring occasionally even in mid-ocean. Inhabits coastal and offshore waters.</string>
+    <string name="j2a7" >Frequency</string>
+    <string name="j2a8" >On the Catalan coast during recent years it has become a frequent species, and when it occurs is in large numbers.</string>
+    <string name="j2a9" >Characteristics</string>
+    <string name="j2a10" >It presents a transparent plate-shaped umbrella, which can reach up to 17 cm in diameter, with a denser mass in the centre. It is distinguished easily from the other jellyfish due to many blue radial channels that connect the centre to the margin of the umbrella. It has numerous thin marginal tentacles and no oral arms. This species has allowed the isolation of the green fluorescent protein (GFP), a substance at the base of the bioluminscence of many jellyfish. The discovery of this protein has allowed us to develop new techniques for diagnosis of diseases and research in the field of molecular biology. This discovery has led to applications in the diagnostic field, allowing us to mark specific cell lines. The discovery of the GFP led to the Chemistry Nobel Prize in 2008 for American researchers Osamu Shimomura, Martin Chalfie and Roger Tsien.</string>
+
+    <string name="j2b1" >Cotylorhiza tuberculata</string>
+    <string name="j2b2" >Fried egg jellyfish</string>
+    <string name="j2b3" >Danger</string>
+    <string name="j2b4" >Harmless to humans, although it is better not to touch it since some skin reaction can be detected.</string>
+    <string name="j2b5" >Distribution and Habitat</string>
+    <string name="j2b6" >It is a very abundant endemic species in the Mediterranean. It is a coastal species, showing some preference for warmer waters.</string>
+    <string name="j2b7" >Frequency</string>
+    <string name="j2b8" >It is very frequent on the Catalan coast; the adults are seen in highest abundances in late summer/early autumn.</string>
+    <string name="j2b9" >Characteristics</string>
+    <string name="j2b10" >The umbrella that can reach between 20 and 35 cm is flat except for the centre, where a prominent bump extends from the bell. The oral arms are short and present some blue button-shaped appendages at the ends. The umbrella has a yellow-brown colour, with dark orange or reddish colour in the rounded centre, and the tentacles are white with blue-violet endings. It is one of the most beautiful jellyfish of the Mediterranean. Cotylorhiza may present microalgae that live in its own tissues in symbiosis, just as the coral formations of tropical coral reefs. Functionally, then, you can define it as a <i>plant</i> and an animal because they feed on zooplankton. As for Rhizostoma, is often associated with fish that adopt this species as a refuge.</string>
+
+    <string name="j3a1" >Velella velella</string>
+    <string name="j3a2" >By-the-wind Sailor</string>
+    <string name="j3a3" >Danger</string>
+    <string name="j3a4" >Harmless to humans, although it is better not to touch it.</string>
+    <string name="j3a5" >Distribution and Habitat</string>
+    <string name="j3a6" >Occurs in warm and temperate waters of all the worlds’ oceans, and it is very common in the Mediterranean. It lives at the water/air interface, with the sail above the water, and polyps hanging down about a centimetre below. It may be present in huge swarms reaching even several kilometres. As their movement depend totally on currents and surface winds, they can be blown up to the coast and be found stranded on the beaches.</string>
+    <string name="j3a7" >Frequency</string>
+    <string name="j3a8" >Along the Catalan coast, as in the whole Mediterranean basin, they are very frequent, especially during springtime.</string>
+    <string name="j3a9" >Characteristics</string>
+    <string name="j3a10" >It is not a medusa stage of a jellyfish but a floating colony of hydromedusae polyps. The colony, that forms a blue oval disc, is about 1-8 cm long, and the blue polyps are attached to a chitinous float equipped with a "sail" that carries the colony with the aid of the wind. The colony, toward the end of its life, which lasts for a few months, produces jellyfish of a few millimetres.</string>
+
+    <string name="j3b1" >Aurelia aurita</string>
+    <string name="j3b2" >Moon jellyfish</string>
+    <string name="j3b3" >Danger</string>
+    <string name="j3b4" >The poison of Aurelia is harmless to humans, although it is better not to touch it. In some people skin reactions were observed.</string>
+    <string name="j3b5" >Distribution and Habitat</string>
+    <string name="j3b6" >Aurelia lives in all the oceans of the northern hemisphere, where it can be very abundant. Generally, it is an inshore species and can even be found in lagoons, estuaries and harbours.</string>
+    <string name="j3b7" >Frequency</string>
+    <string name="j3b8" >Along the Catalan coast, its frequency has dropped recent years, considered nowadays a low frequency species. When present, it can be often observed at the end of the spring.</string>
+    <string name="j3b9" >Characteristics</string>
+    <string name="j3b10" >Its plate-shaped umbrella can reach up to 25 cm. It is a translucent jellyfish, with violet gonads arranged in four horseshoe-shaped circles visible in the centre of the transparent bell . From the center, four long oral arms extend, and many short, fine marginal tentacles surround the umbrella. Unlike other species, this jellyfish is suitable for living in aquariums and then can be observed in marine aquarium around the world.</string>
+
+    <string name="j4a1" >Chrysaora hysoscella</string>
+    <string name="j4a2" >Compass jellyfish</string>
+    <string name="j4a3" >Danger</string>
+    <string name="j4a4" >This sting usually leaves blistering injuries, with maximum pain within minutes of the sting that often disappears two hours later. More severe symptoms have been reported only in a few cases.\n In case you have been stung by this species:\n DO NOT APPLY FRESHWATER, NO VINEGAR, NO PRESSURE BANDAGE, NO ALCOHOL. Seek immediate medical attention if shock or breathing difficulties occur.\n 1) CAREFULLY WASH WITH SEAWATER, DO NOT RUB.\n 2) IF AVAILABLE, APPLY A BAKING SODA SLURRY (50 percent commercial baking soda; 50 percent seawater) FOR FIVE MINUTES to prevent further envenomation from attached tentacles.\n 3) USE A PLASTIC CARD TO REMOVE RESIDUALS OF TENTACLES.\n 4) APPLY ICE PACKS (wrapped in a cloth or thin towel, not directly on the skin) for 5-15 minutes - Warn victim that ice pack may be uncomfortable at first!\n 5) REASSESS PAIN AND REAPPLY ICE PACKS IF NECESSARY.\n 6) IF PAIN PERSISTS, CONSULT YOUR PHARMACIST OR HEALTH CARE PROFESSIONALS – Ask for analgesic + hydrocortisone preparations (eg. lidocaine 3 percent + hydrocortisone).</string>
+    <string name="j4a5" >Distribution and Habitat</string>
+    <string name="j4a6" >It is a pelagic species that lives in the Atlantic where it can reach enormous densities. In the Mediterranean it is not plentiful, but it is frequently found.</string>
+    <string name="j4a7" >Frequency</string>
+    <string name="j4a8" >Although it may be very abundant in some Spanish Mediterranean areas, on the Catalan coast it is considered as a species of low frequency. It is commonly observed in spring.</string>
+    <string name="j4a9" >Characteristics</string>
+    <string name="j4a10" >This white-yellow jellyfish has an umbrella that can reach 30 cm in diameter, and a manubrium with four oral arms that can reach a meter in length. The upper side of the umbrella is decorated with 16 brown V-shaped bands, which goe from the centre of the umbrella to the margin, where there are 24 long, thin tentacles in groups of three.</string>
+
+    <string name="j4b1" >Porpita porpita</string>
+    <string name="j4b2" >Blue button</string>
+    <string name="j4b3" >Danger</string>
+    <string name="j4b4" >Blue button jellies do not have a lethal sting, but they can cause skin irritation.</string>
+    <string name="j4b5" >Distribution and Habitat</string>
+    <string name="j4b6" >This species is found in warm waters off Europe, in the Gulf of Mexico, the Mediterranean Sea, New Zealand and southern U.S. waters. These hydroids live on the ocean surface, but are sometimes blown in to shore, and occasionally seen by the thousands.</string>
+    <string name="j4b7" >Frequency</string>
+    <string name="j4b8" >Along the Catalan coast this species is very rare.</string>
+    <string name="j4b9" >Characteristics</string>
+    <string name="j4b10" >This species is relatively small and may measure between 1 and 5 cm. They consist of a hard, golden brown, gas-filled float in the centre, surrounded by intense blue, purple or yellow hydroids, which look like tentacles. The blue button jelly is made up of individual zooids, each specialized for a different function, such as eating, defence or reproduction.</string>
+
+    <string name="j5a1" >Carybdea marsupialis</string>
+    <string name="j5a2" >Box jellyfish</string>
+    <string name="j5a3" >Danger</string>
+    <string name="j5a4" >Although Carybdea is a cubozoan, its poison is not lethal. The sting is very painful, with little pain at first and then severe, but the intense effects are short. Usually, bright red bumps appear on the skin, and muscle cramps, vomiting, restlessness and anxiety may be observed in some cases.\n In case you have been stung by this species:\n DO NOT APPLY FRESHWATER, NO PRESSURE BANDAGE, NO ALCOHOL. Seek immediate medical attention if shock or breathing difficulties occur.\n 1) WASH WITH SEAWATER, DO NOT RUB.\n 2) WASH WITH COMMERCIAL VINEGAR\n 3) USE A PLASTIC CARD TO REMOVE RESIDUALS OF TENTACLES.\n 4) APPLY HOT PACKS OR HOT WATER IMMERSION (40-45°C) 5-15 minutes.\n 5) REASSESS PAIN AND REAPPLY HOT PACK IF NECESSARY.\n 6) IF PAIN PERSISTS, CONSULT YOUR PHARMACIST OR HEALTH CARE PROFESSIONAL – Ask for analgesic + hydrocortisone preparations (eg. Lidocaine 3-4% + hydrocortisone).</string>
+    <string name="j5a5" >Distribution and Habitat</string>
+    <string name="j5a6" >Cubozoans can be found in most tropical and subtropical waters, and especially Carybdea marsupialis has been found in temperate waters as well. It is likely that the distribution records are incomplete as the transparent nature of these medusae makes them very difficult to locate despite their shallow and coastal distribution. The preferred habitat of this species appears to be over sandy substrate, located just above the bottom during the day and moving up toward the surface at night. Moreover, Carybdea is attracted by the light and approaches the coast during the night.</string>
+    <string name="j5a7" >Frequency</string>
+    <string name="j5a8" >This species is present in high abundances is some areas of the Spanish Mediterranean coast, but along the Catalan coast it is considered very rare, although its presence may be underestimated more than absent.</string>
+    <string name="j5a9" >Characteristics</string>
+    <string name="j5a10" >This box-shaped species is very small, reaching approximately 5 or 6 cm. It has a transparent blue or white colour and four long tentacles that extend from each corner of the cubic umbrella. It swims in a very vigorous way, and it moves easily.</string>
+
+    <string name="j5b1" >Physalia physalis</string>
+    <string name="j5b2" >Portuguese Man-of-War</string>
+    <string name="j5b3" >Danger</string>
+    <string name="j5b4" >This species has two different sizes of nematocysts (small and large) for stunning or killing prey. The sting of this species is intense with severe pain. A line of white oval bumps in the centre and a red margin is observed in the contact area. In some cases, the encounter with Physalia can be lethal, and some rare overall effects include tremors, diarrhea, vomiting and convulsions.\n In case you have been stung by this species:\n DO NOT APPLY FRESHWATER, NO PRESSURE BANDAGE, NO ALCOHOL, NO VINEGAR. Seek immediate medical attention if shock or breathing difficulties occur.\n 1) WASH WITH SEAWATER - DO NOT RUB.\n 2) USE A PLASTIC CARD TO REMOVE RESIDUALS OF TENTACLES.\n 3) APPLY HOT PACKS OR HOT WATER IMMERSION (40-45°C) 10-20 minutes.\n 4) REASSESS PAIN AND REAPPLY HOT PACK IF NECESSARY.\n 5) IF PAIN PERSISTS, CONSULT YOUR PHARMACIST OR HEALTH CARE PROFESSIONAL – Ask for analgesic + hydrocortisone preparations (eg. Lidocaine 3-4% + hydrocortisone).</string>
+    <string name="j5b5" >Distribution and Habitat</string>
+    <string name="j5b6" >It is often found in warm, tropical and subtropical waters of the world’s oceans, however, there have been reports from beaches in England, Wales and Ireland. In general, it can be found in the Atlantic Ocean, Pacific Ocean, Indian Ocean and the Caribbean. It is a pelagic marine animal that floats in the surface of the sea and it is blown about by the winds and pushed around by the currents. It is most common in the open ocean, but currents and winds may direct them into shallow waters or wash them up on beaches. In the Mediterranean it is not encountered frequently, however, some years we had numerous reports form the Western Mediterranean including waters from the Balearic Islands.</string>
+    <string name="j5b7" >Frequency</string>
+    <string name="j5b8" >Along the Catalan coast it is considered very rare, although some isolated observations have been reported in recent years.</string>
+    <string name="j5b9" >Characteristics</string>
+    <string name="j5b10" >Physalia is not properly a medusa, but a colony of siphonophore polyps. In addition, they are not individuals, such as the jellyfish, but they are colonies. This species can be recognized by the bluish float, which can be up to 30 cm in length. This float is an overgrown polyp that is oblong shaped and filled with gas. The float includes a mechanism that controls the gas, which keeps them on the surface of the water. The blue to purple tentacles may reach up to 50 m length.</string>
+
+    <string name="j6a1" >Olindias phosphorica</string>
+    <string name="j6a2" >Cigar jellyfish</string>
+    <string name="j6a3" >Danger</string>
+    <string name="j6a4" >After the sting of this species, very characteristic zigzag red lines appear on the skin. The pain is instant and intense.\n In case you have been stung by this species:\n DO NOT APPLY FRESHWATER, NO PRESSURE BANDAGE, NO ALCOHOL. Seek immediate medical attention if shock or breathing difficulties occur.\n 1) WASH WITH SEAWATER, DO NOT RUB.\n 2) WASH WITH COMMERCIAL VINEGAR 3) USE A PLASTIC CARD TO REMOVE RESIDUALS OF TENTACLES.\n 4) APPLY HOT PACKS OR HOT WATER IMMERSION (40-45°C) 5-15 minutes.\n 5) REASSESS PAIN AND REAPPLY HOT PACK IF NECESSARY.\n 6) IF PAIN PERSISTS, CONSULT YOUR PHARMACIST OR HEALTH CARE PROFESSIONAL – Ask for analgesic + hydrocortisone preparations (eg. Lidocaine 3-4% + hydrocortisone).</string>
+    <string name="j6a5" >Distribution and Habitat</string>
+    <string name="j6a6" >It is a hydromedusa with a broad global distribution, being known from temperate Atlantic waters and from the Mediterranean Sea. In recent years, it has been very abundant along the coasts of Tunisia in the Mediterranean, causing problems for the tourism industry.</string>
+    <string name="j6a7" >Frequency</string>
+    <string name="j6a8" >The presence of these jellyfish along the Catalan coast is sporadic. It never forms extensive swarms, but can be locally abundant.</string>
+    <string name="j6a9" >Characteristics</string>
+    <string name="j6a10" >This Mediterranean hydromedusa species is transparent in colour and the umbrella can reach up to 8 cm diameter. Through the umbrella four radial canals arranged in a distinctive red cross-like pattern can be observed. Small red-blue tentacles surround the umbrella.</string>
+
+    <string name="j6b1" >Mnemiopsis leidyi</string>
+    <string name="j6b2" >Sea walnut, Comb jelly</string>
+    <string name="j6b3" >Danger</string>
+    <string name="j6b4" >Because it is not a cnidarian, but a ctenophore, it doesn’t have cnidocysts and therefore it is not poisonous. It is harmless to humans, but very harmful to the invaded marine ecosystems.</string>
+    <string name="j6b5" >Distribution and Habitat</string>
+    <string name="j6b6" >This species is native to estuaries and coastal areas of the western Atlantic Ocean, from the U.S. coast to Argentina. In the early eighties,  it arrived in the Black Sea transported in ballast water of tankers, and has expanded during the last three decades to almost all Eurasian waters, including the Mediterranean basin. Records from the western Mediterranean first appeared in the year 2006, and in the year 2009, it was first recorded in Catalan waters.</string>
+    <string name="j6b7" >Frequency</string>
+    <string name="j6b8" >This invasive species was first reported on the Catalan coast in the year 2009. Nowadays, its presence is intermittent in some parts of Catalonia, but in the southern area, especially in the Ebro Delta coast, there is an established population that is under a rigorous study in order to determine possible invasion effects.</string>
+    <string name="j6b9" >Characteristics</string>
+    <string name="j6b10" >Mnemiopsis leidyi is a ctenophore and not a cnidarian, but is included in the jellyfish group due to its gelatinous consistency. It has a lobed oval-shaped body that can reach up to 12 cm in length. It is transparent and has eight rows of ciliated combs that run along the body vertically and glow blue-green when disturbed. This species does not swim with the pulsations of the body (as do jellyfish), but the eight ciliated bands while beating, propel its movements. In the Black Sea, where the ecosystem was already weakened by pollution and overfishing, Mnemiopsis leidyi has depleted the fish stocks by eating eggs and fish larvae and also the prey of planktonic larvae. We do not know if its impact in the Mediterranean will be such as that suffered by the Black Sea, therefore rigorous research is taking place in the Catalan invaded area in order to predict and estimate the invasion impact.</string>
+
+    <string name="j7a1" >Phyllorhiza punctata</string>
+    <string name="j7a2" >Australian White Spotted jellyfish</string>
+    <string name="j7a3" >Danger</string>
+    <string name="j7a4" >This species does not sting painfully and therefore does not constitute a threat to bathers.</string>
+    <string name="j7a5" >Distribution and Habitat</string>
+    <string name="j7a6" >Phyllorhiza punctata is a coastal and estuarine jellyfish whose wide native distribution includes Australia and much of the Indo-Pacific including the Philippine archipelago.</string>
+    <string name="j7a7" >Frequency</string>
+    <string name="j7a8" >A Along the Catalan coast the presence of this species constitutes and invasión.In the year 2010, it was first reported on the southern coast of Catalonia with no further records until now.</string>
+    <string name="j7a9" >Characteristics</string>
+    <string name="j7a10" >It is a large jellyfish with a rounded and somewhat flattened umbrella which can reach up to 72 cm diameter, with a clear colour or possibly tinted brown with many small crystalline refractive spots close to the surface and uniformly distributed. It lacks marginal tentacles, but eight highly branching oral arms ring the central mouth area, that each bears 14 lappets (flaps of tissue) and become fused near their bases. It feeds on plankton of crustaceans and, probably, of eggs and larvae of fish, being therefore, both a predator and a competitor of fish and can cause the depletion of the seas. A few years ago, it invaded the coast of Florida, causing a sudden collapse of the marine fauna. As for Rhizostoma, it is edible.</string>
+
+    <string name="j7b1" >Cassiopea andromeda</string>
+    <string name="j7b2" >Upside-down jellyfish</string>
+    <string name="j7b3" >Danger</string>
+    <string name="j7b4" >It is not dangerous, but it is better not to touch it because it produces mucus with stinging cells, and if you contact it, you may have skin irritation.</string>
+    <string name="j7b5" >Distribution and Habitat</string>
+    <string name="j7b6" >Its native range includes the Indo-Pacific waters, typically found in shallow lagoons, intertidal sand or mud flats, and around mangroves. Its entrance to the Mediterranean was through the Suez Canal, and it inhabits nowadays some areas along the Mediterranean coasts.</string>
+    <string name="j7b7" >Frequency</string>
+    <string name="j7b8" >There are no records of its presence along the Catalan coast.</string>
+    <string name="j7b9" >Characteristics</string>
+    <string name="j7b10" >This species usually lies mouth upward on the bottom, gently pulsating its bell to create water flow over its arms. It is small in size, reaching a maximum of 30 cm diameter, and with a yellow-brown colour on the umbrella with white or pale spots and streaks. The outstretched arms are also brownish with extended frilly tentacles. This facing upward allows unicellular algae, such as those of the corals formations, to live in symbiosis with the medusa.</string>
+
+    <string name="j8a1" >Salpa democratica</string>
+    <string name="j8a2" >Salp</string>
+    <string name="j8a3" >Danger</string>
+    <string name="j8a4" >Salps don’t have cnidocysts; therefore they are harmless to humans.</string>
+    <string name="j8a5" >Distribution and Habitat</string>
+    <string name="j8a6" >It is a globally distributed group of animals, mainly found in subtropical and tropical waters. It usually forms very extensive swarms that spread away from the coast.</string>
+    <string name="j8a7" >Frequency</string>
+    <string name="j8a8" >Sits frequency along the Catalan coast may be variable, and usually observed during springtime when gelatinous blooms are common in some coastal areas.</string>
+    <string name="j8a9" >Characteristics</string>
+    <string name="j8a10" >It is a barrel-shaped planktonic tunicate, with a clear orange stain visible due to the transparency of the body. It has a solitary life history phase, which is known as an oozoid, and the chain of these oozoids is the aggregate portion of the life cycle. The chains (or colonies) may reach even 6 meters long. Population explosions of these animals are sudden but they last only a few days.</string>
+
+    <string name="j8b1" >Discomedusa lobata</string>
+    <string name="j8b2" ></string>
+    <string name="j8b3" >Danger</string>
+    <string name="j8b4" >Not much is known about the effects of their sting, but it posses stinging cells and can potentialy produce a reaction to contact. It is recommended not to touch it.</string>
+    <string name="j8b5" >Distribution and Habitat</string>
+    <string name="j8b6" >Known from the North Sea, Eastern Atlantic Ocean and Mediterranean Sea (especially in the Adriatic Sea).</string>
+    <string name="j8b7" >Frequency</string>
+    <string name="j8b8" >Species considered rare in the Mediterranean Sea but in 2013 showed significant abundances in several coastal areas. On the Catalan coast was detected in numerous beaches and in large quantities. In ancient literature where his original description cites the medusa stage of the species is visible from December to March, however in 2013 the species was seen throughout the months of May, June and early July.</string>
+    <string name="j8b9" >Characteristics</string>
+    <string name="j8b10" >The umbrella is transparent, flattened, and between 4 and 15 cm in diameter with visible whitish gonads. It has 24 very fine marginal tentacles and 4 oral arms.</string>
+
+    <string name="j9a1" >Pelagia benovici</string>
+    <string name="j9a2" ></string>
+    <string name="j9a3" >Danger</string>
+    <string name="j9a4" >Because it is a new species for science no stings cases by this species are known. Based on morphology, it should be similar to that produced by Pelagia noctiluca.</string>
+    <string name="j9a5" >Distribution and Habitat</string>
+    <string name="j9a6" >Was discovered in 2013 off the coast of the Adriatic Sea. The extent of its distribution is unknown.</string>
+    <string name="j9a7" >Frequency</string>
+    <string name="j9a8" >Since is a new species to science this information is unknown.</string>
+    <string name="j9a9" >Characteristics</string>
+    <string name="j9a10" >It has a yellow-ocher umbrella with white gonads. The umbrella is armed with eight long marginal tentacles. From the mouth come four oral arms. The surface of the umbrella is densely covered with small warts (accumulations of stinging cells) of different shapes and size and whitish in color.</string>
+
+    <string name="it" >Treatment</string>
+
+    <string name="tt3" >What to do if a jellyfish stings you?</string>
+    <string name="tt4" >What to do when there are jellyfish on the beach?</string>
+    <string name="tt5" >Jellyfish stings</string>
+    <string name="tt6" >How does it feel when you get stung?</string>
+    <string name="tt7" >People who might be at greater risk</string>
+    <string name="tt8" >How to avoid jellyfish?</string>
+    <string name="tt9" >If I see a jellyfish in the distance, may I dive?</string>
+    <string name="tt10" >May jellyfish cause death? </string>
+    <string name="tt11" >May mild stinging jellyfish be touch?</string>
+    <string name="tt12" >What is the jellyfish stinging liquid made of? </string>
+    <string name="tt13" >Do natural remedies work?</string>
+    <string name="tt14" >Do the anti-jellyfish glasses, masks and costumes help?</string>
+    <string name="tt15" >Are the anti-jellyfish lotions useful?</string>
+
+    <string name="t1a" >What to do if a jellyfish stings you?</string>
+    <string name="t1b" >The protocol presented below is the general protocol that can be applied to all species or when it was not possible to identify the species that caused the sting. In the section of this app dedicated to each species of jellyfish, the specific protocols can be found. In case of jellyfish sting:
+Stay calm, breathe normally, leave the water immediately, and wash the affected area with seawater. The seawater is essential for cleaning the skin and washes the pieces of jellyfish that may be stuck to the skin and for diluting the toxin that has not penetrated yet.
+1. Wash with seawater
+2. Remove rest of tentacles with gloves or tweezers
+3. Apply  cold compresses
+4. If the pain persists, apply Lidocain
+5. Apply antiseptic on the wound until it heals
+
+You must not do:
+1. Do not clean the affected area with fresh water
+2. Do not scrub the affected area
+3. Do not dry or put sand on the affected area
+4. Do not apply ammonia
+5. Do not apply vinegar 
+
+*These recommendations constitute a synthesis of the current medical literature concerning the topic of jellyfish stings. Those interventions for which there is no consensus are excluded.. It is very important to try to identify the species that is producing the stings in order to achieve the best treatment.</string>
+
+    <string name="t2a" >What should I do when there are jellyfish on the beach?</string>
+    <string name="t2b" >- Do not go swimming.
+- Do not walk along the shoreline where the waves break, as half-buried jellyfish remains also sting.
+- Do not touch any jellyfish, even if they are dead.
+- If you see one in the sea, slowly get out of the water without moving suddenly to avoid contacting more tentacles.. Jellyfish never attack people.
+- Use suntan lotion as a preventive measure.</string>
+
+    <string name="t3a" >Jellyfish stings</string>
+    <string name="t3b" >Contact with jellyfish tentacles -in or out of the water- causes a painful burning sensation that could last for days or weeks.
+ 
+Stings cause a rash that can reappear several times.
+ 
+Take into account that if you have been stung before, you may be more sensitive to new stings. A second sting could cause a much more serious reaction.
+</string>
+
+    <string name="t4a" >How does it feel when you get stung?</string>
+    <string name="t4b" >A local inflammatory reaction that gives burning and pain. "The skin is red with small hives, but after 20 minutes, the burning sense is attenuated and remains the itching sense," explains Francesco Sacrini, dermatologist at the Clinic Institute Humanitas, Milan. The degree of pain varies depending on the affected area, and becomes unbearable if more than 50% of the body surface is affected. </string>
+
+    <string name="t5a" >People who might be at greater risk</string>
+    <string name="t5b" >- Children.
+- People who suffer allergies (atopy, asthma).
+- People with severe cardiovascular diseases.
+- People who have been stung by jellyfish before.
+ 
+It is advisable for people who are more sensitive to stings to take extra precautions and, if necessary, visit a medical centre.
+</string>
+
+    <string name="t6a" >How to avoid jellyfish?</string>
+    <string name="t6b" >Looking at the sea: if they are present, they can be normally seen and the only way to avoid them is ... not bathing. Jellyfish do not attack us and go for us. Jellyfish move vertically in the water column, therefore they may be on the surface or near the bottom. They are animals that move but are also carried by the currents and winds. There are no predefined rules: they are everywhere because they are part of the plankton and the currents drift them.</string>
+
+    <string name="t7a" >If I see a jellyfish in the distance, may I dive?</string>
+    <string name="t7b" >If there are stinging jellyfish in the sea it is better not to swim, unless there are very few. Jellyfish that sting hard usually have very long tentacles: Pelagia noctiluca, for example, can reach up to 10 meters long, while Physalia physalis (Portuguese man-of-war) can reach 20 meters.</string>
+
+    <string name="t8a" >May jellyfish cause death?</string>
+    <string name="t8b" >Yes, some may cause anaphylactic shock. Moreover, sting sharp pain may be fatal for people with heart problems. Therefore, we must go to the lifeguard station in case of diffuse cutaneous reaction, if you have difficulty breathing, sweating, pallor, and disorientation. Ferdinando Boero says: "In Australia, jellyfish cause more victims than sharks. In Florida, the Portuguese man-of-war has also caused victims. But to date in the Mediterranean, there have been no victims at all, although many people stung by jellyfish end up in the hospital.</string>
+
+    <string name="t9a" >May mild stinging jellyfish be touch?</string>
+    <string name="t9b" >Better not, although its venom is almost harmless for us. Even the tentacles of harmless jellyfish, have cnidocysts (small cells containing the poison), which may remain in the palm of your hand and if you do not wash it and then have contact with the eyes (or other delicate parts), we may transfer the poison and cause inflammation.</string>
+
+    <string name="t10a" >What is the jellyfish stinging liquid made of?</string>
+    <string name="t10b" >From a mixture of three proteins: one with paralyses effect, another with a neurotoxic effect and a third with an inflammatory effect. There are no specific antidotes for these poisons - however, they are heat sensitive, i.e. they degrade at high temperatures.</string>
+
+    <string name="t11a" >Do natural remedies work?</string>
+    <string name="t11b" >Is it good to apply a stone or hot water, rub with hot sand, washed with ammonia, urine, vinegar or alcohol? These remedies are not only useless, but may even worsen the situation. The heat of a stone or sand is not enough to override the 40-50 degrees that should be reached to stop the toxin. The content of ammonia and urine doesn\'t deactivate the toxin, and may even cause further inflammation in the affected part.</string>
+
+    <string name="t12a" >Do the anti-jellyfish glasses, masks and costumes help?</string>
+    <string name="t12b" >Swimming with glasses or mask help to look and see the dangers under water, and wetsuits can protect the skin. Also, the new anti-jellyfish wetsuits designed and produced in Australia are useful, and may be found in Spain for sale on-line.</string>
+
+    <string name="t13a" >Are the anti-jellyfish lotions useful?</string>
+    <string name="t13b" >Sacrini explains: "The anti-jellyfish lotions were created considering the security mechanisms used by the clown fish [fish that has a jellyfish repellent substance.) Anti-jellyfish lotions, currently on the market, are associated with sunscreen. They are based, as described in scientific articles, mostly on 4 principles: make sure the skin is slippery and therefore prevent the tentacles from landing; confuse the recognition mechanism of jellyfish (also composed of water and GAG); block the activation system of the stinging cells; and struggle against the osmotic pressure within the nematocysts. It has a different answer depending on the species of jellyfish, the right application and the time spent in water.</string>
+    
+</resources>

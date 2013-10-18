@@ -1,0 +1,454 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="action_zone">Seleccioneu zona</string>
+
+    <string-array name="navigation_options">
+        <item>Mapa</item>
+        <item>Zones</item>
+        <item>Meduses</item>
+        <item>Tractament</item>
+        <item>Sobre</item>
+        <item>Comunitat</item>
+    </string-array>
+
+    <array name="navigation_icons">
+        <item>@drawable/ic_tab_map</item>
+        <item>@drawable/ic_tab_beach</item>
+        <item>@drawable/ic_tab_jellyfish</item>
+        <item>@drawable/ic_tab_treatment</item>
+        <item>@drawable/ic_tab_about</item>
+        <item>@drawable/ic_tab_community</item>    
+    </array>    
+    
+    <string name="geo_zone">Zones</string>
+    <string name="geo_municipality">Municipi</string>
+    <string name="geo_beach">Platja</string>
+    
+    <string name="drawer_open">Obrir menu de navegació</string>
+    <string name="drawer_close">Tancar menu de navegació</string>
+    
+    <string name="map_safe">Segura</string>
+    <string name="map_alert">Alerta</string>
+    <string name="map_danger">Perill</string>
+    
+    <string name="title_main">iMedJelly</string>
+    <string name="title_beach">Platja</string>
+    <string name="title_jellyfish">Medusa</string>
+    <string name="title_treatment">Tractament</string>
+    <string name="title_comment">Comentari</string>
+	<string name="title_services">Serveis</string>
+	<string name="title_state">Estat</string>
+	<string name="title_camera_upload">Pujar foto</string>
+	
+	<string name="select_zone">Seleccioneu zona</string>
+	
+	<string name="service_legend">Llegenda</string>
+	<string name="state_legend">Llegenda</string>
+	
+	<string name="notification_title">Notificació</string>
+
+    <string name="grid_image_desc">Medusa</string>
+    
+    <string name="beachName">Nom de platja</string>
+    <string name="jellyfishPresence">No verificat</string>
+    <string name="beachDescription">Descripció</string>
+    <string name="beachRatingLabel">Qualificació del usuaris</string>
+
+    <string name="jellyfish_no_info">Sense informació disponible</string>
+    <string name="no_warning">No s\'han observat meduses</string>
+    <string name="low_warning">Meduses sense perillositat</string>
+    <string name="high_warning">Perill de meduses</string>
+    <string name="very_high_warning">Alt perill de meduses</string>
+    
+    <string name="flag">Sense informació disponible</string>
+    <string name="green_flag">Condicions apropiades de la platja per a tots els banyistes</string>
+    <string name="yellow_flag">Precaució condicions poc favorables per al bany (atenció els menors)</string>
+    <string name="red_flag">Prohibit introduir-se en el mar, platja tancada per fort oleatje</string>
+ 
+    <string name="termometer">Termòmetre</string>
+    <string name="beachBackground">Platja</string>
+	<string name="bikeParking">Aparcament de bicicletes</string>
+	<string name="blueFlag">Bandera blava</string>
+	<string name="childrenZone">Zona de nens</string>
+	<string name="dump">Papeleres</string>
+	<string name="handicappedAccess">Accés minusvàlids</string>
+    <string name="handicappedFriendly">Amistós amb discapacitat</string>
+    <string name="parking">Aparcament</string>
+    <string name="rentUmbrellaHammock">Lloguer de para-sol i hamaca</string>
+    <string name="restaurant">Restaurant</string>
+    <string name="shower">Duches</string>
+    <string name="slogans">Eslògans</string>
+    <string name="sportZone">Zones esportives</string>
+    <string name="surveillanceTower">Torre de vigilància</string>
+    <string name="waterSource">Font d\'aigua</string>
+    <string name="wc">WC</string>
+    <string name="sky">Cel</string>
+    <string name="windDirection">Direcció del vent</string>
+    <string name="noSelected">No seleccionat</string>
+
+    <string name="beach_add_comment">Afegir comentari</string>
+    
+    <string name="treatment_image">Imatge</string>
+    <string name="treatment_title">Picades de les meduses: que cal fer</string>
+    <string name="treatment_description" >Les meduses són animals invertebrats que viuen flotant en el mar  i tenen unes cél·lules urticants que utilitzen per capturar preses i defensar-se. En els darrers anys, les proliferacions de meduses s\'han fet força freqüents.</string>
+    <string name="observation_title">Observacions</string>
+    
+    <string name="feedback_success">Comentari enviat amb exit.</string>
+    <string name="feedback_failed">Error: </string>
+    <string name="feedback_username">Usuari</string>
+    <string name="feedback_email">Email</string>
+    <string name="feedback_comment">Comentari</string>
+    <string name="feedback_send">Enviar</string>
+    
+    <string name="newuser_success">Usuari creat amb éxit.</string>
+    <string name="newuser_failed">Registrament fallit: </string>
+    <string name="newuser_title">Nou usuari</string>
+	<string name="newuser_description">Incorporar-se a la comunitat d\'usuaris MedJelly permet accedir al fòrum i a les enquestes per compartir informació amb altres usuaris.</string>
+    <string name="newuser_username">Usuari</string>
+    <string name="newuser_email">Email</string>
+    <string name="newuser_password">Contrasenya</string>
+    <string name="newuser_join">Unir-se</string>
+    <string name="newuser_alreadyregistered"><u>Ja estic registrat</u></string>
+    
+    <string name="observation_success">Observació enviada amb éxit.</string>
+    <string name="observation_failed">Observació fallida: </string>
+    <string name="observation_text">Pots enviar imatges i informació de medusas trobades en una platja.</string>
+    <string name="observation_jellyFishName">Medusa</string>
+    <string name="observation_comment">Comentaris</string>
+    <string name="observation_send">Enviar</string>
+    <string name="image_upload">Pujar imatge</string>
+    
+    <string name="about_title">Sobre</string>
+    <string name="about_authors">Aplicació desenvolupada i mantinguda per:</string>
+    <string name="developers_logo">Desenvolupadors</string>
+	<string name="about_team">Equip de treball MedJelly:</string>
+	<string name="about_team_members">Paulo A.L.D. Nunes\nVerónica Fuentes\nMacarena Marambio\nIvar Rekve\nScience O\'Matic</string>
+    <string name="about_colaboration">Amb la col.laboració:</string>
+	<string name="about_colaborators">Cruz Roja\nRescatadores\nPro-Activa\nMarsave-Mallorca\nSIRESA\nAltsport 2000\nMunicipalidades de la costa de Catalunya\nAEMET\nGIEM\nAgencia Catalana del Agua\nProtección civil (Generalitat de Catalunya)</string>
+	<string name="about_financed">Projecte co-financiat:</string>
+	<string name="about_financers">Co-financiadors del projecte:</string>
+	<string name="about_description">L\'índex de perillositat (color del pin per a cada platja en la pantalla d\'inici d\'aquesta App) s\’obté a partir d\’un índex que han elaborat experts del Institut de Ciències del Mar de Barcelona (CSIC) i  que considera, conjuntament,  la perillositat pròpia de cada espècie de medusa  i la seva abundància a les aigües de bany. Davant la presència de meduses en una platja poden haver-hi tres categories diferents:\n- Presència de meduses, sense perill (pin color verd)\n- Presència de meduses, amb perill (pin color groc)\n- Presència de meduses, amb alt perill (pin color vermell)\n\nTota la informació de meduses es valida diàriament pels experts del Institut de Ciències del Mar  dintre del  projecte europeu ENPI MED-JELLYRISK. Una part important de la informació d\’observació de meduses a les platges prové dels ajuntaments costaners i de l\’Agència Catalana de l\’Aigua  i  la Direcció General de Protecció Civil de la Generalitat de Catalunya. Al seu torn tota la informació rebuda pels investigadors de l\'Institut de Ciències del Mar forma part d\'una gran base de dades que intenta explicar el fenomen de proliferacions de meduses les seves causes i conseqüències.\n\nLa informació sobre la presència o absència de meduses a les platges, és aportada pels Serveis de Salvament i Socorrisme o per personal dels diferents Ajuntaments, en el marc de la col•laboració establerta amb el Institut de Ciències del Mar (CSIC), i amb l\'objectiu d\'informar sobre la presència de meduses, la seva perillositat i protocols d\'actuació. Tot i això, aquesta informació pot variar durant el dia, ja que les meduses són animals que es desplacen per les masses d\’aigua, i poden ser arrossegades per les corrents i els vents d\’un lloc a un altre, acostant-les o allunyant-les de la costa en breus espais de temps. És per aquest motiu, que l\’aplicació Medjelly publica la informació segons l\’estat de la platja cada matí, sent possible que al llarg del dia la situació canviï. L\'aplicació s\'actualitzarà sempre que sigui possible i es rebi la informació d\'aquests canvis.</string>
+	<string name="about_phone_number">900 102 289</string>
+	<string name="about_more_information">Per obtenir més informació sobre les meduses, si us plau, contacti amb nosaltres en aquest número de telèfon gratuït:</string>
+	
+    <string name="nj1a" >Pelagia noctiluca</string>
+    <string name="nj1b" >Rhizostoma pulmo</string>
+    <string name="nj2a" >Aequorea forskalea</string>
+    <string name="nj2b" >Cotylorhiza tuberculata</string>
+    <string name="nj3a" >Velella velella</string>
+    <string name="nj3b" >Aurelia aurita</string>
+    <string name="nj4a" >Chrysaora hysoscella</string>
+    <string name="nj4b" >Porpita porpita</string>
+    <string name="nj5a" >Carybdea marsupialis</string>
+    <string name="nj5b" >Physalia physalis</string>
+    <string name="nj6a" >Olindias phosphorica</string>
+    <string name="nj6b" >Mnemiopsis leidyi</string>
+    <string name="nj7a" >Phyllorhiza punctata</string>
+    <string name="nj7b" >Cassiopea andromeda</string>
+    <string name="nj8a" >Salpa democratica</string>
+    <string name="nj8b" >Discomedusa lobata</string>
+    <string name="nj9a" >Pelagia benovici</string>
+
+    <string name="ij1a" >Alta</string>
+    <string name="ij1b" >Mitja</string>
+    <string name="ij2a" >Baixa</string>
+    <string name="ij2b" >Baixa</string>
+    <string name="ij3a" >Baixa</string>
+    <string name="ij3b" >Baixa</string>
+    <string name="ij4a" >Alta</string>
+    <string name="ij4b" >Baixa</string>
+    <string name="ij5a" >Molt alta</string>
+    <string name="ij5b" >Molt alta</string>
+    <string name="ij6a" >Molt alta</string>
+    <string name="ij6b" >Sense perill</string>
+    <string name="ij7a" >Baixa</string>
+    <string name="ij7b" >Baixa</string>
+    <string name="ij8a" >Sense perill</string>
+    <string name="ij8b" >Baixa</string>
+    <string name="ij9a" >Mitja</string>
+
+    <string name="j1a1" >Pelagia noctiluca</string>
+    <string name="j1a2" >Medusa luminescent</string>
+    <string name="j1a3" >Perillositat</string>
+    <string name="j1a4" >La picada produïda per Pelagia generalment provoca un dolor immediat amb urticària i edema. També podria aparèixer i romandre sensació de cremor, vesícules, pàpules i crostes. El prurit és típic. Les seqüeles poden ser cicatrius o queloides.
+En cas de picada d\’aquesta espècie: NO APLICAR AIGUA DOLÇA, VINAGRE, VENDATGES A PRESSIÓ, NI ALCOHOL. En cas de shock o dificultat respiratòria buscar atenció mèdica immediatament.1) RENTAR AMB AIGUA DE MAR CUROSAMENT, NO FREGAR.
+2) SI ÉS POSSIBLE, APLICAR SOLUCIÓ DE BICARBONAT DURANT 5 MINUTS (50 por ciento bicaronat comercial; 50 por ciento aigua de mar) per prevenir l\’enverinament posterior produït per tentacles residuals a la pell.
+3) UTILITZAR PINCES, GUANTS O UNA TARJETA PLÀSTICA PER EXTREURE TENTANCLES O FRAGMENTS RESIDUALS.
+4) APLICAR GEL (ICE PACKS) (embolicats amb roba o una tovallola fina, mai directament sobre la pell) durant 5 a 15 minuts
+5) REAVALUAR EL DOLOR I TORNAR A APLICAR GEL EN CAS DE QUE SIGUI NECESSARI
+6) SI EL MAL PERSISTEIX, CONSULTAR AL METGE O A PROFESSIONALS D’ÀMBIT DE LA SALUT – Preguntar per analgèsics + preparats d\’hidrocortisona (p.ex. lidocaína 3 por ciento + hidrocortisona)</string>
+    <string name="j1a5" >Distribució i Hàbitat</string>
+    <string name="j1a6" >Extensament distribuïda en totes les aigües càlides i temperades dels oceans del món. A principis dels vuitanta, Pelagia era molt abundant en el Mediterrani, després va desaparèixer i va reaparèixer a intervals de més o menys deu anys, però des del càlid any 2003, la seva presència és gairebé constant en el Mediterrani occidental. És típicament una espècie de mar obert, malgrat que poden arribar a la costa, especialment a mitjans d’estiu, i poden formar extensos bancs, assotant la costa per mesos.</string>
+    <string name="j1a7" >Freqüència</string>
+    <string name="j1a8" >A la costa Catalana pot ser molt freqüent a la primavera-estiu, malgrat que alguns anys, depenent de les condicions ambientals i climàtiques, poden estar absents en la majoria de platges.</string>
+    <string name="j1a9" >Característiques</string>
+    <string name="j1a10" >Generalment presenta un color rosat i malva brillant. L\’ombrel•la semiesfèrica pot mesurar entre 5 i 20 cm. L\’ombrel•la està armada de vuit llargs tentacles marginals, els quals estesos, poden aconseguir fins a 10 metres de longitud, i de la boca neixen quatre braços orals, llargs i gruixuts. La superfície de l\’ombrel•la està coberta amb berrugues marrons. Pelagia, igual que altres meduses, té l\'habilitat de bioluminescència o produir llum. Degut a que els braços orals d\'aquesta espècie són molt gruixuts i densos, si arribèssin a algun sistema d\'aqüicultura, els peixos de les granges podrien veure\'s afectats i produir la seva mort. A més a més, aquesta espècie menja ous i larves de peixos, l\'impacte en les reserves de peixos i en les pesqueries podria ser devastador.</string>
+    <string name="j1a11" >És considerada una de les espècies més abundant i important al llarg de la costa Catalana, i la majoria de les picades de meduses registrades durant les temporada de bany se li atribueixen a aquesta espècie.</string>
+
+    <string name="j1b1" >Rhizostoma pulmo</string>
+    <string name="j1b2" >Born blau</string>
+    <string name="j1b3" >Perillositat</string>
+    <string name="j1b4" >Quan Rhizostoma pica, el dolor és moderat i freqüentment produeix sensació de cremor o cremada. Els símptomes locals inclouen urticària local, esternuts i irritació ocular. 
+En cas de picada d’aquesta espècie: NO APLICAR AIGUA DOLÇA, VINAGRE, VENDATGES A PRESSIÓ, NI ALCOHOL. En cas de shock o dificultat respiratòria buscar atenció mèdica immediatament.
+1) RENTAR AMB AIGUA DE MAR CUROSAMENT, NO FREGAR.
+2) SI ÉS POSSIBLE, APLICAR SOLUCIÓ DE BICARBONAT DURANT 5 MINUTS (50 por ciento bicaronat comercial; 50 por ciento aigua de mar) per prevenir l\’enverinament posterior produït per tentacles residuals a la pell.
+3) UTILITZAR PINCES, GUANTS O UNA TARJETA PLÀSTICA PER EXTREURE TENTANCLES O FRAGMENTS RESIDUALS.
+4) APLICAR GEL (ICE PACKS) (embolicats amb roba o una tovallola fina, mai directament sobre la pell) durant 5 a 15 minuts
+5) REAVALUAR EL DOLOR I TORNAR A APLICAR GEL EN CAS DE QUE SIGUI NECESSARI
+6) SI EL MAL PERSISTEIX, CONSULTAR AL METGE O A PROFESSIONALS D’ÀMBIT DE LA SALUT – Preguntar per analgèsics + preparats d’hidrocortisona (p.ex. lidocaína 3 por ciento + hidrocortisona)</string>
+    <string name="j1b5" >Distribució i Hàbitat</string>
+    <string name="j1b6" >La seva distribució inclou l\'Oceà Atlàntic Nord i Sud, el Mediterrani, el Mar Negre, i el Mar Roig. En el mar Català, aquesta espècie és considerada una espècie costanera. Les petites meduses són produïdes a la primavera i els adults de major grandària són més evidents a l\'estiu. Generalment s\'observa en o prop de la superfície de l\'aigua.</string>
+    <string name="j1b7" >Freqüència</string>
+    <string name="j1b8" >Es troba de forma abundant en les nostres costes.</string>
+    <string name="j1b9" >Característiques</string>
+    <string name="j1b10" >És la medusa de major grandària de la costa Catalana. El diàmetre de l\’ombrel•la acampanada pot aconseguir entre 10 i 40 cm i pesar fins a 10 quilograms. El color és blanc lletós o lleugerament blau amb un rivet violeta que envolta el marge inferior de l\’ombrel•la. Aquesta espècie manca de tentacles marginals, però presenta vuit braços orals gruixos, amb forma d\'Y invertida, fusionats i sense ramificacions, els quals també són de color blau blanc. Altres organismes, com a peixos i petits crancs, podrien utilitzar aquesta espècie com a refugi i ser transportades pels corrents entre els braços orals. En molts països del Sud-est Asiàtic, especialment Xina, és considerada un plat deliciós.</string>
+
+    <string name="j2a1" >Aequorea forskalea</string>
+    <string name="j2a2" >Aequorea</string>
+    <string name="j2a3" >Perillositat</string>
+    <string name="j2a4" >Inofensiva per als humans, no obstant això es recomana no tocar-la.</string>
+    <string name="j2a5" >Distribució i Hàbitat</string>
+    <string name="j2a6" >La seva distribució abasta l\'oceà Atlàntic i l\'Indo-Pacífic, a totes les aigües temperades i tropicals apropiades, ocorrent ocasionalment en zones d\'oceà obert. Habita aigües costaneres i de mar obert.</string>
+    <string name="j2a7" >Freqüència</string>
+    <string name="j2a8" >>Durant els últims anys, s\'ha tornat una espècie freqüent a la costa Catalana, i s\'observen en grans nombres quan està present.</string>
+    <string name="j2a9" >Característiques</string>
+    <string name="j2a10" >Presenta una ombrel•la amb forma de plat transparent, que pot aconseguir fins a 17 cm de diàmetre, amb una massa més densa en el centre. Es distingeix fàcilment d\'altres meduses a causa de la presència d\'una gran quantitat de canals radials blaus que connecten el centre al marge de l\’ombrel•la. Presenta nombrosos i fins tentacles marginals i manca de braços orals. Aquesta espècie ha permès l\'aïllament de la proteïna verda fluorescent (GFP), una substància base en la fluorescència de moltes meduses. El descobriment d\'aquesta proteïna ha permès el desenvolupament de noves tècniques per al diagnòstic de malalties i per a la investigació en el camp de la biologia molecular. Aquest descobriment ha conduït a moltes aplicacions en el camp diagnòstic, permetent el marcatge de cèl•lules específiques. El descobriment de la GFP va merèixer el Premi Nobel de Química de 2008 als investigadors Americans Osamu Shimomura, Martin Chalfie i Roger Tsien.</string>
+
+    <string name="j2b1" >Cotylorhiza tuberculata</string>
+    <string name="j2b2" >Ou ferrat</string>
+    <string name="j2b3" >Perillositat</string>
+    <string name="j2b4" >Inofensiva per als humans, no obstant això, és millor no tocar-la ja que s\'han detectat casos amb reacció dèrmica després del contacte.</string>
+    <string name="j2b5" >Distribució i Hàbitat</string>
+    <string name="j2b6" >És una espècie endèmica molt abundant del Mediterrani. És una espècie costanera, mostrant preferència per aigües càlides.</string>
+    <string name="j2b7" >Freqüència</string>
+    <string name="j2b8" >És molt freqüent en la costa Catalana; els adults s\'observen en grans abundàncies cap al final de l\'estiu i principis de la tardor.</string>
+    <string name="j2b9" >Característiques</string>
+    <string name="j2b10" >l\’ombrel•la pot aconseguir entre 20 i 35 cm i és plana excepte en el centre, on una formació prominent s\'estén des de la campana. Els braços orals són curts i presenta en el seu extrem uns apèndixs amb forma de botó. l\’ombrel•la presenta una coloració groga-marró, amb un color tarongenc fosc o vermellós en el centre, i els tentacles són blancs amb extrems blau-violeta. És una de les meduses més belles del Mediterrani. Cotylorhiza pot presentar micro algues que viuen en els seus propis teixits en una relació de simbiosi, igual que les formacions de corals dels esculls tropicals. Funcionalment llavors, es podria dir que és una “planta” que s\'alimenta de zooplàncton. I com Rhizostoma, està comunament associada a peixos que la utilitzen com a refugi.</string>
+
+    <string name="j3a1" >Velella velella</string>
+    <string name="j3a2" >Barquetes de Sant Pere</string>
+    <string name="j3a3" >Perillositat</string>
+    <string name="j3a4" >Inofensiva per als humans, no obstant això es recomana no tocar-la.</string>
+    <string name="j3a5" >Distribució i Hàbitat</string>
+    <string name="j3a6" >Es troba en totes les aigües càlides i temperades dels oceans del món, i és molt comú en el Mediterrani. Viu en la interfase aigua/aire, amb el flotador sobre la superfície de l\'aigua, i els pòlips penjant un centímetre cap avall. Pot estar present en grans eixams aconseguint fins i tot diversos quilòmetres. Com el seu moviment depèn exclusivament dels corrents i els vents de superfície, poden ser arrossegades a la costa i trobar-se encallades a les platges.</string>
+    <string name="j3a7" >Freqüència</string>
+    <string name="j3a8" >Al llarg de la costa Catalana, així com a tota la conca del Mediterrani, són molt freqüents, especialment durant la primavera.</string>
+    <string name="j3a9" >Característiques</string>
+    <string name="j3a10" >Velella no és un fase de medusa sinò una colònia flotant de pòlips d\'una hidromedusa. La colònia, que forma un disc oval blau, presenta entre 1 i 8 cm, i els pòlips blaus estan enganxats a un flotador quitinós equipat amb una “vela” que transporta la colònia amb l\'ajuda del vent. La colònia, cap al final de la seva vida, la qual dura uns pocs mesos, produeix meduses de pocs mil•límetres.</string>
+
+    <string name="j3b1" >Aurelia aurita</string>
+    <string name="j3b2" >Born</string>
+    <string name="j3b3" >Perillositat</string>
+    <string name="j3b4" >El verí de Aurelia és inofensiu per als humans, no obstant això es recomana no tocar-la. En alguns casos s\'han observat reaccions dèrmiques al contacte.</string>
+    <string name="j3b5" >Distribució i Hàbitat</string>
+    <string name="j3b6" >Aurelia viu en tots els oceans de l\'hemisferi nord, on pot ser molt abundant. Generalment, es troba a la costa i fins i tot es pot trobar en estuaris i badies.</string>
+    <string name="j3b7" >Freqüència</string>
+    <string name="j3b8" >Al llarg de la costa Catalana, la seva freqüència ha disminuït els últims anys, considerant-se actualment una espècie de baixa freqüència. Quan està present, s\'observa generalment cap al final de la primavera.</string>
+    <string name="j3b9" >Característiques</string>
+    <string name="j3b10" >l\’ ombrel•la té forma de plat i pot aconseguir fins a 25 cm de diàmetre. És una medusa translúcida, amb gònades violetes agrupades en 4 cercles en el centre en forma de ferradura, les quals són visibles a causa de la transparència. Des del manubri, quatre llargs braços orals s\'estenen, i molts tentacles marginals curts envolten l\’ombrel•la. A diferència d\'altres espècies més delicades, aquesta medusa és apta per viure en aquaris i per tant és de les més freqüents de trobar en els aquaris del món. A la Xina és un plat molt popular.</string>
+
+    <string name="j4a1" >Chrysaora hysoscella</string>
+    <string name="j4a2" >Born radiat</string>
+    <string name="j4a3" >Perillositat</string>
+    <string name="j4a4" >Aquesta picada usualment deixa eritemes, amb màxim dolor als pocs minuts de la picada que generalment desapareixen dues hores després. Símptomes més severs han estat reportats en molt pocs casos.\n En cas de picada d’aquesta espècie: NO APLICAR AIGUA DOLÇA, VINAGRE, VENDATGES A PRESSIÓ, NI ALCOHOL. En cas de shock o dificultat respiratòria buscar atenció mèdica immediatament.
+1) RENTAR AMB AIGUA DE MAR CUROSAMENT, NO FREGAR.
+2) SI ÉS POSSIBLE, APLICAR SOLUCIÓ DE BICARBONAT DURANT 5 MINUTS (50 per cent bicaronat comercial; 50 per cent aigua de mar) per prevenir l\’enverinament posterior produït per tentacles residuals a la pell.
+3) UTILITZAR PINCES, GUANTS O UNA TARJETA PLÀSTICA PER EXTREURE TENTANCLES O FRAGMENTS RESIDUALS.
+4) APLICAR GEL (ICE PACKS) (embolicats amb roba o una tovallola fina, mai directament sobre la pell) durant 5 a 15 minuts
+5) REAVALUAR EL DOLOR I TORNAR A APLICAR GEL EN CAS DE QUE SIGUI NECESSARI
+6) SI EL MAL PERSISTEIX, CONSULTAR AL METGE O A PROFESSIONALS D’ÀMBIT DE LA SALUT – Preguntar per analgèsics + preparats d’hidrocortisona (p.ex. lidocaína 3 per cent + hidrocortisona)</string>
+    <string name="j4a5" >Distribució i Hàbitat</string>
+    <string name="j4a6" >És una espècie pelàgica que viu en l\'oceà Atlàntic i pot ser trobada en el nord, en zones com els fiords de Noruega, on pot aconseguir densitats enormes. En el Mediterrani no és abundant, però és freqüentment observada.</string>
+    <string name="j4a7" >Freqüència</string>
+    <string name="j4a8" >Malgrat que pot ser molt abundant en algunes zones de la costa Mediterrània Espanyola, en la costa Catalana és considerada una espècie de baixa freqüència. És comunament observada a la primavera.</string>
+    <string name="j4a9" >Característiques</string>
+    <string name="j4a10" >l\’ombrel•la de coloració blanca-groguenca pot aconseguir 30 cm de diàmetre, i el manubri presenta quatre braços orals que poden aconseguir un metre de longitud. La part superior de l\’ombrel•la està decorada amb 16 bandes en forma d’V de color marró, que van des del centre de l\’ombrel•la fins al marge, on hi ha 24 tentacles llargs i fins, en grups de tres.</string>
+
+    <string name="j4b1" >Porpita porpita</string>
+    <string name="j4b2" >Porpita</string>
+    <string name="j4b3" >Perillositat</string>
+    <string name="j4b4" >Aquestes meduses no tenen una picada letal, però podrien causar irritació dèrmica al contacte.</string>
+    <string name="j4b5" >Distribució i Hàbitat</string>
+    <string name="j4b6" >Aquesta espècie es troba en aigües càlides d\'Europa, en el Golf de Mèxic, en el Mediterrani, Nova Zelanda, i en aigües del sud d’Estat Units. Aquests hidroids viuen enmig de l\’oceà, però algunes vegades poden ser arrossegats a la costa, i ocasionalment ser observats milers d’ells.</string>
+    <string name="j4b7" >Freqüència</string>
+    <string name="j4b8" >Al llarg de la costa Catalana aquesta espècie és molt rara.</string>
+    <string name="j4b9" >Característiques</string>
+    <string name="j4b10" >Aquesta espècie és relativament petita i pot mesurar entre 1 i 5 cm. Consisteix en un flotador dur de color marró daurat, ple de gas en el centre, que està envoltat d’hidroids de color blau intens, morats o grocs, que semblen tentacles. La medusa botó blau està feta de zooids individuals, cadascun especialitzat en una funció diferent, com l\’alimentació, la defensa o la reproducció.</string>
+
+    <string name="j5a1" >Carybdea marsupialis</string>
+    <string name="j5a2" >Cubomedusa</string>
+    <string name="j5a3" >Perillositat</string>
+    <string name="j5a4" >Malgrat que Carybdea és una cubomedusa, el seu verí no és letal. La picada és molt dolorosa, sent baix al començament però després més sever, i els efectes són intensos però de curta durada. Generalment apareixen pàpules de color vermell brillant en la pell, i en alguns casos podria observar-se enrampades musculars, vòmits, cansament i ansietat. Al 2014 s’ha publicat un treball cientofic on es cita el primer cas registrat d’efectes sistèmics després de la picada d’aquesta espècie.
+En cas de picada d’aquesta espècie: NO APLICAR AIGUA DOLÇA, VINAGRE, VENDATGES A PRESSIÓ, NI ALCOHOL. En cas de shock o dificultat respiratòria buscar atenció mèdica immediatament.
+1) RENTAR AMB AIGUA DE MAR CUROSAMENT, NO FREGAR.
+2) SI ÉS POSSIBLE, APLICAR SOLUCIÓ DE BICARBONAT DURANT 5 MINUTS (50 per cent bicaronat comercial; 50 per cent aigua de mar) per prevenir l\’enverinament posterior produït per tentacles residuals a la pell.
+3) UTILITZAR PINCES, GUANTS O UNA TARJETA PLÀSTICA PER EXTREURE TENTANCLES O FRAGMENTS RESIDUALS.
+4) APLICAR CALOR (HOT PACKS) O INMERSIÓ EN AIGUA CALENTA (40-45ºC) durant 5-15 minuts
+5) REAVALUAR EL DOLOR I TORNAR A APLICAR GEL EN CAS DE QUE SIGUI NECESSARI
+6) SI EL MAL PERSISTEIX, CONSULTAR AL METGE O A PROFESSIONALS D’ÀMBIT DE LA SALUT – Preguntar per analgèsics + preparats d’hidrocortisona (p.ex. lidocaína 3 per cent + hidrocortisona)</string>
+    <string name="j5a5" >Distribució i Hàbitat</string>
+    <string name="j5a6" >Les cubomeduses es poden trobar en la majoria d\'aigües tropicals i subtropicals, i especialment Carybdea marsupialis, pot a més trobar-se en aigües temperades. És molt probable que els registres de distribució estiguin incomplerts a causa de la transparència d\'aquesta medusa, la qual cosa fa més difícil la seva localització malgrat la seva distribució en zones costaneres i poca profunditat. Els hàbitats preferits d\'aquesta espècie semblen ser els substrats sorrencs, localitzant-se just sobre el fons durant el dia i movent-se cap a la superfície durant la nit. A més, Carybdea és atreta per la llum i per tant s\'apropa a la costa durant la nit.</string>
+    <string name="j5a7" >Freqüència</string>
+    <string name="j5a8" >Aquesta espècie és molt abundant en certes àrees de la costa Mediterrània espanyola, però a la costa Catalana és considerada molt rara, malgrat que la seva presència podria estar subestimada.</string>
+    <string name="j5a9" >Característiques</string>
+    <string name="j5a10" >Aquesta espècie de forma cúbica és molt petita, aconseguint aproximadament uns 5 o 6 cm. És transparent amb una coloració blau blanc, i presenta quatre tentacles que s\'estenen de cada costat de l\’ombrel•la cúbica. No té una forma gens vigorosa i es mou amb calma.</string>
+
+    <string name="j5b1" >Physalia physalis</string>
+    <string name="j5b2" >Caravel·la portuguesa</string>
+    <string name="j5b3" >Perillositat</string>
+    <string name="j5b4" >Aquesta espècie té dos tamanys diferents de nematocists (petits i grans) per impressionar i matar a la seva presa. La picada d\'aquesta espècie és intensa i causa un dolor sever. A la zona de contacte s\'observa una línia de pàpules ovals blanques en el centre amb un marge vermell. En alguns casos, la trobada amb Physalia pot ser letal, i entre els efectes globals que poden observar-se s\'inclouen tremolors, diarrea, vòmits i convulsions.
+En cas de picada d’aquesta espècie: NO APLICAR AIGUA DOLÇA, VINAGRE, VENDATGES A PRESSIÓ, NI ALCOHOL. En cas de shock o dificultat respiratòria buscar atenció mèdica immediatament.
+1) RENTAR AMB AIGUA DE MAR CUROSAMENT, NO FREGAR.
+2) SI ÉS POSSIBLE, APLICAR SOLUCIÓ DE BICARBONAT DURANT 5 MINUTS (50 per cent bicaronat comercial; 50 per cent aigua de mar) per prevenir l\’enverinament posterior produït per tentacles residuals a la pell.
+3) UTILITZAR PINCES, GUANTS O UNA TARJETA PLÀSTICA PER EXTREURE TENTANCLES O FRAGMENTS RESIDUALS.
+4) APLICAR CALOR (HOT PACKS) O INMERSIÓ EN AIGUA CALENTA (40-45ºC) durant 5 a 15 minuts
+5) REAVALUAR EL DOLOR I TORNAR A APLICAR GEL EN CAS DE QUE SIGUI NECESSARI
+6) SI EL MAL PERSISTEIX, CONSULTAR AL METGE O A PROFESSIONALS D’ÀMBIT DE LA SALUT – Preguntar per analgèsics + preparats d’hidrocortisona (p.ex. lidocaína 3 per cent + hidrocortisona)</string>
+    <string name="j5b5" >Distribució i Hàbitat</string>
+    <string name="j5b6" >Generalment es troba en aigües càlides, tropicals i subtropicals dels oceans del món, no obstant això, existeixen reports de platges d\'Anglaterra, Gal•les i Irlanda. En general, es troba en els oceans Atlàntic, Pacífic i Índic i en el mar Carib. És un animal marí pelàgic que sura a la superfície del mar i és arrossegat pels vents i empès pels corrents. És mes comú en mar obert, però els corrents i els vents podrien arrossegar-les a zones de baixa profunditat i cap a les platges. En el Mediterrani no es troba freqüentment, no obstant això, alguns anys s\'han reportat nombroses observacions en el mediterrani occidental, incloent les aigües de les Illes Balears.</string>
+    <string name="j5b7" >Freqüència</string>
+    <string name="j5b8" >Al llarg de la costa Catalana és considerada molt rara, mlgrat que alguna observació aïllada s\'ha reportat en els últims anys.</string>
+    <string name="j5b9" >Característiques</string>
+    <string name="j5b10" >Physalia no és precisament una medusa, sinó una colònia de pòlips de sifonòfor. A més, no són individus, sinó una colònia. Aquesta espècie pot ser reconeguda pel seu blavós pneumatòfor, o flotador, que pot aconseguir fins a 30 cm de longitud. Aquest flotador és un pòlip molt gran de forma oblonga i ple de gas. El flotador inclou un mecanisme per controlar el gas i regular la profunditat de l\'organisme, que ho manté en la superfície de l\'aigua. Els tentacles, blau morats, poden aconseguir fins a 50 metres de longitud.</string>
+
+    <string name="j6a1" >Olindias phosphorica</string>
+    <string name="j6a2" >Olindias</string>
+    <string name="j6a3" >Perillositat</string>
+    <string name="j6a4" >Després de la picada d\'aquesta espècie, apareixen unes línies vermelles en ziga-zaga molt característiques en la pell. El dolor és instantani i intens.
+En cas de picada d’aquesta espècie: NO APLICAR AIGUA DOLÇA, VINAGRE, VENDATGES A PRESSIÓ, NI ALCOHOL. En cas de shock o dificultat respiratòria buscar atenció mèdica immediatament.
+1) RENTAR AMB AIGUA DE MAR CUROSAMENT, NO FREGAR.
+2) SI ÉS POSSIBLE, APLICAR SOLUCIÓ DE BICARBONAT DURANT 5 MINUTS (50 per cent bicaronat comercial; 50 per cent aigua de mar) per prevenir l\’enverinament posterior produït per tentacles residuals a la pell.
+3) UTILITZAR PINCES, GUANTS O UNA TARJETA PLÀSTICA PER EXTREURE TENTANCLES O FRAGMENTS RESIDUALS.
+4) APLICAR GEL (ICE PACKS) (embolicats amb roba o una tovallola fina, mai directament sobre la pell) durant 5-15 minuts
+5) REAVALUAR EL DOLOR I TORNAR A APLICAR GEL EN CAS DE QUE SIGUI NECESSARI
+6) SI EL MAL PERSISTEIX, CONSULTAR AL METGE O A PROFESSIONALS D’ÀMBIT DE LA SALUT – Preguntar per analgèsics + preparats d’hidrocortisona (p.ex. lidocaína 3 per cent + hidrocortisona)</string>
+    <string name="j6a5" >Distribució i Hàbitat</string>
+    <string name="j6a6" >És una hidromedusa amb una distribució global, que inclouen aigües temperades de l\’Atlàntic i el Mar Mediterrani. En anys recents, ha estat molt abundant en les costes de Tunísia en el Mediterrani, causant problemes per a la indústria del turisme.</string>
+    <string name="j6a7" >Freqüència</string>
+    <string name="j6a8" >La presència d\'aquesta medusa al llarg de la costa Catalana és esporàdica. Mai forma bancs extensos, però pot ser molt abundant localment.</string>
+    <string name="j6a9" >Característiques</string>
+    <string name="j6a10" >Aquesta hidromedusa Mediterrània és de color transparent i l\’ombrel•la pot aconseguir fins a 8 cm de diàmetre. En l\’ombrel•la es poden observar quatre canals radials disposats en forma de creu de color vermell. Petits tentacles blau vermell envolten l\’ombrel•la.</string>
+
+    <string name="j6b1" >Mnemiopsis leidyi</string>
+    <string name="j6b2" >Bombeta</string>
+    <string name="j6b3" >Perillositat</string>
+    <string name="j6b4" >Al no ser un cnidari, sinó un ctenòfor, no posseeix cnidocists i per tant no és verinós. És inofensiu per als humans, però molt nociu per als ambients marins envaïts.</string>
+    <string name="j6b5" >Distribució i Hàbitat</string>
+    <string name="j6b6" >Aquesta espècie és nativa d\'estuaris i àrees costaneres de l\’Oceà Atlàntic occidental, des de la costa d\'Estats Units fins a Argentina. A principis dels 80 va arribar al Mar Negre transportat en l\'aigua de llast dels tanquers Americans, i les últimes tres dècades s\'ha expandit a gairebé totes les aigües Euroasiàtiques, incloent la conca del Mediterrani. Els registres del Mediterrani occidental van aparèixer per primera vegada l\'any 2006, i l\'any 2009 va ser registrat per primera vegada en aigües catalanes.</string>
+    <string name="j6b7" >Freqüència</string>
+    <string name="j6b8" >Aquesta espècie invasora va ser registrada per primera vegada en la costa Catalana l\'any 2009. Actualment, la seva presència és intermitent en algunes parts de Catalunya, però a la costa sud, especialment en la costa del Delta de l\'Ebre, existeix una població establerta que es troba sota un rigorós seguiment per poder estimar els possibles efectes de la seva invasió en aquesta zona.</string>
+    <string name="j6b9" >Característiques</string>
+    <string name="j6b10" >Mnemiopsis leidyi és un ctenòfor i no un cnidari, però s\'inclou dins del grup de meduses a causa de la seva consistència i composició gelatinosa. Té un cos de forma ovalada amb lòbuls que pot aconseguir fins a 12 cm de longitud. És de color transparent i presenta quatre fileres de pintes ciliades que corren al llarg del seu cos en sentit vertical i que produeixen iridescència blava-verdosa quan és interromput. Aquesta espècie no neda amb les pulsacions del seu cos (com ho fan les meduses), sinó amb el batre de les seves vuit fileres de cilis que impulsen el moviment. En el Mar Negre, on l\'ecosistema ja es trobava afeblit per la contaminació i la sobrepesca, Mnemiopsis va ser acusat de causar el col•lapse dels estocs de peixos a causa de la depredació sobre els ous i les larves de peixos i també sobre les preses de les larves planctòniques. No sabem si el seu impacte en el Mediterrani podria ser de tal magnitud, per la qual cosa un rigorós estudi s\'està duent a terme a l\'àrea envaïda de la costa Catalana per així poder predir i estimar l\'impacte d\'aquesta invasió.</string>
+
+    <string name="j7a1" >Phyllorhiza punctata</string>
+    <string name="j7a2" > </string>
+    <string name="j7a3" >Perillositat</string>
+    <string name="j7a4" >Aquesta espècie no produeix picades doloroses pel que no constitueix una amenaça per als banyistes.</string>
+    <string name="j7a5" >Distribució i Hàbitat</string>
+    <string name="j7a6" >Phyllorhiza punctata és una medusa costanera i estuarina la distribució nativa de la qual inclou Austràlia i gran part de l\'Indo-Pacífic, incloent l\'Arxipèlag de Filipines.</string>
+    <string name="j7a7" >Freqüència</string>
+    <string name="j7a8" >Al llarg de la costa Catalana la presència d\'aquesta espècie constitueix una invasió, i l\'any 2010 va ser registrada la seva primera observació al sud de Catalunya sense més registres fins avui.</string>
+    <string name="j7a9" >Característiques</string>
+    <string name="j7a10" >És una medusa gran amb una l\’ombrel•la mitjanament aplanada i rodona el diàmetre de la qual pot aconseguir 72 cm, amb una coloració clara i possiblement tenyida de marró amb moltes pigues cristal•lines i refractius en la superfície i distribuïts uniformement. Manca de tentacles marginals, però presenta vuit braços orals dicotòmics que formen un anell al voltant de la boca, i que cadascun porta 14 solapes de teixit i que es fusionen prop de les seves bases. s\'alimenta de plàncton de crustacis i probablement, d\'ous i larves de peixos, sent per tant, un competidor i un depredador dels peixos i que pot causar l\'esgotament dels mars. Pocs anys enrere va envair la costa de Florida, causant un sobtat col•lapse de la fauna marina. Com *Rhizostoma, és comestible.</string>
+
+    <string name="j7b1" >Cassiopea andromeda</string>
+    <string name="j7b2" >cassiopea</string>
+    <string name="j7b3" >Perillositat</string>
+    <string name="j7b4" >No és perillosa, però és millor no tocar-la perquè produeix mucus que conté cèlolules amb verí, i per tant al contacte, podria generar irritació dèrmica.</string>
+    <string name="j7b5" >Distribució i Hàbitat</string>
+    <string name="j7b6" >El seu rang natiu inclou les aigües de l\'Indo-Pacífic, i es troba típicament en llacuna de poca profunditat, en sorres de la zona intermareal o zones de fang, o al voltant de manglars. l\'entrada al Mediterrani va ser a través del Canal de Suez, i en l\'actualitat habita algunes zones de la costa Mediterrània.</string>
+    <string name="j7b7" >Freqüència</string>
+    <string name="j7b8" >No existeixen registres sobre la seva presència en la costa Catalana.</string>
+    <string name="j7b9" >Característiques</string>
+    <string name="j7b10" >Aquesta espècie usualment es troba en el fons amb la boca cap amunt, i acuradament prement la seva ombrelola creant moviments d\'aigua sobre els seus braços. És petita en grandària aconseguint un màxim de 30 cm de diàmetre, i amb una coloració marró groguenca en l\'ombrelola i amb vetes i pigues blanques o pàlolids. Els seus braços estesos també presenten una coloració parduzca amb tentacles estesos com a volants. Aquesta posició de cap per amunt permet que algues unicelolulars, com les de les formacions de corals, visquin en simbiosis amb la medusa.</string>
+
+    <string name="j8a1" >Salpa democratica</string>
+    <string name="j8a2" >Salpas</string>
+    <string name="j8a3" >Perillositat</string>
+    <string name="j8a4" >No és perillosa, però és millor no tocar-la perquè produeix mucus que conté cèl•lules amb verí, i per tant, al contacte podria generar irritació dèrmica.</string>
+    <string name="j8a5" >Distribució i Hàbitat</string>
+    <string name="j8a6" >El seu rang natiu inclou les aigües de l\'Indo-Pacífic, i es troba típicament en llacunes de poca profunditat, en sorres de la zona intermareal o zones de fang, o al voltant de manglars. l\'entrada al Mediterrani va ser a través del Canal de Suez, i en l\'actualitat habita algunes zones de la costa Mediterrània.</string>
+    <string name="j8a7" >Freqüència</string>
+    <string name="j8a8" >No existeixen registres sobre la seva presència a la costa Catalana.</string>
+    <string name="j8a9" >Característiques</string>
+    <string name="j8a10" >Aquesta espècie usualment es troba en el fons amb la boca cap amunt, i acuradament prement la seva ombrel•la creant moviments d\'aigua sobre els seus braços. És petita en grandària aconseguint un màxim de 30 cm de diàmetre, amb una coloració marró groguenca en l\’ombrel•la i amb vetes i pigues blanques o pàl•lides. Els seus braços estesos també presenten una coloració marronosa amb tentacles estesos com a volants. Aquesta posició de cap per amunt permet que algues unicel•lulars, com les de les formacions de corals, visquin en simbiosis amb la medusa.</string>
+    
+    <string name="j8b1" >Discomedusa lobata</string>
+    <string name="j8b2" ></string>
+    <string name="j8b3" >Perillositat</string>
+    <string name="j8b4" >No es coneix massa sobre els efectes de la seva picada, de totes formes poseeix cèl·lules urticants potencialment amb capacitatde produïr reaccions al contacte. Es recomana no tocar-la.</string>
+    <string name="j8b5" >Distribució i Hàbitat</string>
+    <string name="j8b6" >Coneguda al Mar del Nord, Est de l\’Oceà Atlàntic i Mar Mediterrani (sobretot al Mar Adriàtic).</string>
+    <string name="j8b7" >Freqüència</string>
+    <string name="j8b8" >Espècie considerada rara al Mar Mediterrani, però l\’any 2013 va mostar-se en abundàncies importants a diverses costes d’aquest mar. A la costa Catalana, es va detectar en nombroses platges i en grans quantitats. A la literatura antiga, on es trova la seva descripció original es cita que la fase medusa d’aquesta espècie es visible de desembre a març, en canvi l\’any 2013 l\’especie va ser observada durant tots els mesos de maig, juny i principis de juliol.</string>
+    <string name="j8b9" >Característiques</string>
+    <string name="j8b10" >Umbrela aplanada i transparent d’entre 4 i 15 cm de diàmetre, amb gònades visibles de color blanquinós. Poseeix 24 tentacles marginals molt fins i de la boca surten 4 braços orals.</string>
+
+    <string name="j9a1" >Pelagia benovici</string>
+    <string name="j9a2" ></string>
+    <string name="j9a3" >Perillositat</string>
+    <string name="j9a4" >Degut a que es una nova espècie no es coneixen casos de picades per aquesta espècie. Pel que es dedueix de la seva morfología, la picada ha de ser similar a la produïda per l\’espècie Pelagia noctiluca.</string>
+    <string name="j9a5" >Distribució i Hàbitat</string>
+    <string name="j9a6" >Va ser descoberta l\’any 2013 a les costes del Mar Adriàtic. Es desconeix l\’extensió de la seva distribució.</string>
+    <string name="j9a7" >Freqüència</string>
+    <string name="j9a8" >Al ser una espècie nova per la ciencia es desconeix aquesta información.</string>
+    <string name="j9a9" >Característiques</string>
+    <string name="j9a10" >Presenta una umbrela de color groguenc-ocre i les gónades blanques. La umbrela esta armada de vuit largs tentacles marginals de color blanc. De la boca neixen quatre braços orals de consistencia molt delicada i color blanquinós. La superficie de l\’umbrela està densament coberta amb petites verrugues (acúmuls de cèl·lules urticants) de diverses formes i tamanys i de color blanquinós.</string>
+    
+    <string name="it" >Tractament</string>
+
+	<string name="tt3" >Què s\’ha de fer si et pica una medusa?</string>
+    <string name="tt4" >Què fer si hi ha meduses a la platja?</string>
+    <string name="tt5" >La picada de la medusa</string>
+    <string name="tt6" >Què sents quan et pica?</string>
+    <string name="tt7" >Persones que poden presentar major risc </string>
+    <string name="tt8" >Com evitar les meduses?</string>
+    <string name="tt9" >Si veig una medusa lluny, puc bussejar?</string>
+    <string name="tt10" >Les meduses poden arribar a provocar la mort? </string>
+    <string name="tt11" >Es poden tocar les meduses no urticants? </string>
+    <string name="tt12" >De què està fet el líquid urticant de les meduses? </string>
+    <string name="tt13" >Funcionen els remeis naturals?</string>
+    <string name="tt14" >Ulleres, màscares i vestits anti-meduses ajuden?</string>
+    <string name="tt15" >I les cremes anti-meduses? </string>
+
+    <string name="t1a" >Què s’ha de fer si et pica una medusa?</string>
+    <string name="t1b" >El protocol que es presenta a continuació correspon amb el protocol general que es pot aplicar per a totes les espècies o quan no s\'ha pogut identificar l\'espècie que ha produït la picada. A la secció d\'aquesta App dedicada a cada espècie de medusa es pot trobar el protocol específic per cadascuna d\'elles. En cas de picada de medusa recomanem: mantingues la calma, respira normalment, surt immediatament de l\’aigua, i neteja la superfície afectada amb aigua de mar. l\’Aigua de mar és essencial per netejar la pell de possibles trossos de medusa que s’hagin pogut enganxar a aquesta i per a diluir la toxina que encara no ha penetrat\n\n1. Rentar amb aigua de mar\n2. Treure les restes de tentacles amb guants o pinces\n3. Aplicar compreses fredes\n4. En cas que el dolor persisteixi aplicar Lidocaina\n5. Aplicar antisèptic a la ferida fins que cicatritzi\n\nEl que no cal fer:\n1. No rentar amb aigua dolça\n2. No rascar-se ni fregar la zona afectada\n3. No eixugar-se la pell amb una tovallola ni aplicar sorra\n4. No aplicar amoníac\n5. No aplicar vinagre *Aquestes recomanacions constitueixen una síntesi de la literatura mèdica actual sobre el tema de picades de meduses. S’exclouen aquelles intervencions en les quals no hi ha consens. Aquest protocol és el més general i s’aplica a les picades de la majoria de les espècies que es troben en la costa catalana. És molt important intentar identificar l\’espècie que està produint les picades per aconseguir el tractament més adequat.</string>
+
+    <string name="t2a" >Què fer si hi ha meduses a la platja?</string>
+    <string name="t2b" >- No us hi banyeu.\n- No trepitgeu la zona on trenquen les onades: les restes de meduses mig enterrades també són urticants.\n- No toqueu cap medusa encara que estigui morta.\n- Si en veieu una, sortiu lentament de l\'aigua sense fer moviments bruscos. Les meduses mai no ataquen.\n- Utilitzeu la crema solar també com a mida de prevenció.</string>
+
+    <string name="t3a" >La picada de la medusa</string>
+    <string name="t3b" >El contacte amb els tentacles de la medisa, dins o fora de l\'aigua, produeix una sensació molt similar a la d\'una cremada, i el dolor pot durar dies o setmanes.\n\t\nProvoca una erupció a la pell que pot reaparèixer diverses vegades.\n\t\nTingueu present que una persona que ha patit una picada de medusa hi queda sensibilitzada; una segona picada podria produir-li una reacció més greu.\n</string>
+
+    <string name="t4a" >Què sents quan et pica?</string>
+    <string name="t4b" >Una reacció inflamatòria local que provoca cremor i dolor. “La pell s\'enrogeix i apareixen petites faves, però després de 20 minuts, la sensació de cremor disminueix i roman la sensació de picor”, explica Francesco Sacrini, especialista en dermatologia al Institut Clinic Humanitas, a Milà. El grau de dolor-cremor varia depenent de la zona afectada i es torna insuportable en el cas de que es vegi afectada més del 50% de la superfície corporal.</string>
+
+    <string name="t5a" >Persones que poden presentar major risc</string>
+    <string name="t5b" >- Nens i nenes.\n- Persones amb antecedents al•lèrgics (atópia, asma).\n- Persones amb afeccions cardiovasculares importants.\n- Persones sensibilitzades per una picada de medusa anterior.\n\t\nConvé que les persones més sensibles a les picades augmentin les precaucions i, en cas necessari, s\'adrecin a un centre médic.</string>
+
+    <string name="t6a" >Com evitar les meduses?</string>
+    <string name="t6b" >Mirar el mar: si estan, normalment es veuen i la única manera d’evitar-les és… no banyar-se. Les meduses no ens ataquen ni es dirigeixen cap a nosaltres. Les meduses es desplacen verticalment per la columna d’aigua, per tant poden estar a la superfície i poden també baixar fins al fons. Són animals que es mouen i que alhora també són portats pels corrents. No hi ha regles predefinides: es troben a tot arreu degut a que són part del plàncton i que són arrossegades amb els corrents.</string>
+
+    <string name="t7a" >Si veig una medusa lluny, puc bussejar?</string>
+    <string name="t7b" >Si hi ha meduses urticants al mar és millor no banyar-se, llevat que realment siguin molt poques. Les meduses que piquen normalment tenen uns tentacles molt llargs: els de la Pelagia noctiluca, per exemple, poden arribar fins els 10 metres de llarg, i els de la Physalia phisalis (Caravel•la portuguesa) fins els 20 metres.</string>
+
+    <string name="t8a" >Les meduses poden arribar a provocar la mort?</string>
+    <string name="t8b" >Si, algunes poden causar un shock anafilàctic. A més, el dolor agut que causa la picada pot ser fatal per a aquelles persones amb problemes de cor. Per tant, s’ha d’anar al lloc de salvament i socorrisme en cas de reacció cutània difusa, si tenim dificultat per respirar, sudoració, pal•lidesa i desorientació. Ferdinando Boero diu que: “A Australia, les meduses provoquen més víctimes que els taurons. A Florida, la Caravel•la portuguesa també ha ocasionat víctimes. Però fins ara al Mediterrani no s’ha produït cap cas, tot i que moltes de les persones picades per meduses acaben a l\’hospital”.</string>
+
+    <string name="t9a" >Es poden tocar les meduses no urticants?</string>
+    <string name="t9b" >Millor que no, tot i que per a nosaltres el seu verí és casi inofensiu. Fins i tot els tentacles de les meduses inofensives tenen cnidocists (petits orgànuls cel•lulars que contenen verí), que poden romandre al palmell de la mà, si no es renta i després es toquen els ulls (o d’altres parts delicades), podem transferir el verí i causar inflamació.</string>
+
+    <string name="t10a" >De què està fet el líquid urticant de les meduses?</string>
+    <string name="t10b" >A partir d’una barreja de tres proteïnes: una amb un efecte paralitzant, una altra amb un efecte neurotòxic i una tercera amb un efecte inflamatori. No hi ha antídots específics per a aquests verins- però, són sensibles a la calor, és a dir, que es degraden a altes temperatures.</string>
+
+    <string name="t11a" >Funcionen els remeis naturals?</string>
+    <string name="t11b" >Es bo aplicar una pedra o aigua calenta, fregar amb sorra calenta, rentar amb amoníac, orina, vinagre o alcohol?\nAquests remeis no només són inútils, si no que fins i tot poden empitjorar la situació. La calor d\'una pedra o de la sorra no són suficients per a anul•lar els 40-50 graus als que s\'hauria d\'arribar per parar la toxina. I el contingut de l\'amoníac i de l\'orina tampoc desactiven la toxina, i fins i tot poden inflamar encara més la part afectada.</string>
+
+    <string name="t12a" >Les ulleres, les màscares i els vestits anti-meduses ajuden?</string>
+    <string name="t12b" >Nadar amb ulleres o màscara ajuda a mirar i veure els perills sota l\’aigua, i els vestits de surf poden protegir la pell. També són útils els nous vestits anti-meduses que s’han dissenyat i produït a Australia, i que també es poden trobar a Espanya per venda on-line.</string>
+
+    <string name="t13a" >I les cremes anti-meduses?</string>
+    <string name="t13b" >Sacrini explica que: \"Les cremes anomenades anti-meduses van ser creades estudiant els mecanismes de seguretat utilitzats pels peixos pallasso (peix que té una substància repelent per a les meduses). Les cremes anti-medusa, actualment al mercat, s’associen amb filtres solars. Es basen, com es descriu en els articles científics, en 4 principis: fan que la pell estigui relliscosa i per tant eviten que els tentacles es posin; confonen el mecanisme de reconeixement de les meduses (també compost d\'aigua i de GAG); bloquegen el sistema d\'activació de les cèl•lules urticants, i lluiten contra la pressió osmòtica que es forma dins dels nematocists. Es té una resposta diferent depenent de l\'espècie de medusa, de la correcta aplicació i del temps de permanència a l\'aigua\".</string>
+
+</resources>

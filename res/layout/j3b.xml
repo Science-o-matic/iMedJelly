@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical">
+    <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
+            android:layout_height="wrap_content" >
+
+        <ImageView
+                android:layout_width="385dp"
+                android:layout_height="120dp"
+                android:id="@+id/ij3ba"
+                android:contentDescription="@string/nj3b"
+                android:scaleType="fitXY"
+                android:src="@drawable/explicacion3b"/>
+
+        <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:typeface="sans"
+                android:id="@+id/tj3ba"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:background="#FCD9B9"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/j3b1" />
+
+        <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/j3b2"
+                android:id="@+id/tj3bb"
+                android:layout_gravity="left|center_vertical"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp" />
+
+        <TableLayout
+                android:id="@+id/tableLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0"
+                android:stretchColumns="*">
+
+            <TableRow
+                    android:id="@+id/tableRow1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:text="@string/j3b3"
+                        android:id="@+id/tj3bc"
+                        android:layout_gravity="left|center_vertical"
+                        android:paddingLeft="10dp"
+                		android:paddingRight="10dp"
+                        android:textStyle="bold"/>
+
+                <ImageView
+                        android:layout_width="300dp"
+                        android:layout_height="40dp"
+                        android:id="@+id/ij3bb"
+                        android:contentDescription="@string/ij3b"
+                        android:layout_gravity="left"
+                        android:src="@drawable/baja"/>
+            </TableRow>
+
+        </TableLayout>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="@string/j3b4"
+                android:id="@+id/tj3bd"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:layout_gravity="center"/>
+
+        <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:text="@string/j3b5"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:id="@+id/tj3be"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textStyle="bold"/>
+
+        <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:id="@+id/tj3bf"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:layout_gravity="center"
+                android:text="@string/j3b6"/>
+
+        <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:text="@string/j3b7"
+                android:id="@+id/tj3bg"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textStyle="bold"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp" />
+
+        <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="@string/j3b8"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:id="@+id/tj3bh"/>
+
+        <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:text="@string/j3b9"
+                android:id="@+id/tj3bi"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp" />
+
+        <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="@string/j3b10"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:id="@+id/tj3bj"
+                android:singleLine="false"/>
+
+    </LinearLayout>
+</ScrollView>

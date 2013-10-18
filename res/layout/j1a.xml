@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical">
+    <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+        <ImageView
+                android:layout_width="385dp"
+                android:layout_height="120dp"
+                android:id="@+id/ij1aa"
+                android:contentDescription="@string/nj1a"
+                android:scaleType="fitXY"
+                android:src="@drawable/explicacion1a"/>
+
+        <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:typeface="sans"
+                android:id="@+id/tj1aa"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:background="#FCD9B9"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/j1a1" />
+
+        <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/j1a2"
+                android:id="@+id/tj1ab"
+                android:layout_gravity="left|center_vertical"
+                android:paddingLeft="10dp"/>
+
+        <TableLayout
+                android:id="@+id/tableLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0"
+                android:stretchColumns="*">
+
+        <TableRow
+                android:id="@+id/tableRow1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+        <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="@string/j1a3"
+                android:id="@+id/tj1ac"
+                android:layout_gravity="left|center_vertical"
+                android:paddingLeft="10dp"
+                android:textStyle="bold"/>
+
+        <ImageView
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:id="@+id/ij1ab"
+                android:contentDescription="@string/ij1a"
+                android:layout_gravity="left"
+                android:src="@drawable/media"/>
+        </TableRow>
+
+        </TableLayout>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="@string/j1a4"
+                android:id="@+id/tj1ad"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:maxLines="50"
+                android:layout_gravity="center"/>
+
+        <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:text="@string/j1a5"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:id="@+id/tj1ae"
+                android:paddingLeft="10dp"
+                android:textStyle="bold"/>
+
+        <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:id="@+id/tj1af"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:layout_gravity="center"
+                android:maxLines="50"
+                android:text="@string/j1a6"/>
+
+        <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:text="@string/j1a7"
+                android:id="@+id/tj1ag"
+                android:textStyle="bold"
+                android:paddingLeft="10dp"
+                android:textAppearance="?android:attr/textAppearanceSmall"/>
+
+        <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="@string/j1a8"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:maxLines="50"
+                android:id="@+id/tj1ah"/>
+
+        <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:text="@string/j1a9"
+                android:id="@+id/tj1ai"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:paddingLeft="10dp"
+                android:textStyle="bold"/>
+
+        <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="@string/j1a10"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:id="@+id/tj1aj"
+                android:maxLines="50"
+                android:singleLine="false"/>
+
+        <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="@string/j1a11"
+                android:id="@+id/tj1ak"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textStyle="bold"
+                android:maxLines="50"
+                android:singleLine="false"/>
+
+    </LinearLayout>
+</ScrollView>
