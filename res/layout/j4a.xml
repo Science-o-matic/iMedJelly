@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical">
+    <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
+            android:layout_height="wrap_content" >
+
+        <ImageView
+                android:layout_width="385dp"
+                android:layout_height="120dp"
+                android:id="@+id/ij4aa"
+                android:contentDescription="@string/nj4a"
+                android:scaleType="fitXY"
+                android:src="@drawable/explicacion4a"/>
+
+        <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:typeface="sans"
+                android:id="@+id/tj4aa"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:background="#FCD9B9"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/j4a1" />
+
+        <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/j4a2"
+                android:id="@+id/tj4ab"
+                android:layout_gravity="left|center_vertical"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp" />
+
+        <TableLayout
+                android:id="@+id/tableLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0"
+                android:stretchColumns="*">
+
+            <TableRow
+                    android:id="@+id/tableRow1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:text="@string/j4a3"
+                        android:id="@+id/tj4ac"
+                        android:layout_gravity="left|center_vertical"
+                        android:paddingLeft="10dp"
+                		android:paddingRight="10dp"
+                        android:textStyle="bold" />
+
+                <ImageView
+                        android:layout_width="300dp"
+                        android:layout_height="40dp"
+                        android:id="@+id/ij4ab"
+                        android:contentDescription="@string/ij4a"
+                        android:layout_gravity="left"
+                        android:src="@drawable/media"/>
+            </TableRow>
+
+        </TableLayout>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="@string/j4a4"
+                android:id="@+id/tj4ad"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:layout_gravity="center"/>
+
+        <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:text="@string/j4a5"
+                android:id="@+id/tj4ae"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textStyle="bold"/>
+
+        <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:id="@+id/tj4af"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:layout_gravity="center"
+                android:text="@string/j4a6"/>
+
+        <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:text="@string/j4a7"
+                android:id="@+id/tj4ag"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textStyle="bold"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp" />
+
+        <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="@string/j4a8"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:id="@+id/tj4ah"/>
+
+        <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:text="@string/j4a9"
+                android:id="@+id/tj4ai"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textStyle="bold"/>
+
+        <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="@string/j4a10"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:id="@+id/tj4aj"
+                android:singleLine="false"/>
+
+    </LinearLayout>
+</ScrollView>

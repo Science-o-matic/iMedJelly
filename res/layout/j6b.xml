@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical">
+    <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
+            android:layout_height="wrap_content" >
+
+        <ImageView
+                android:layout_width="385dp"
+                android:layout_height="120dp"
+                android:id="@+id/ij6ba"
+                android:contentDescription="@string/nj6b"
+                android:scaleType="fitXY"
+                android:src="@drawable/explicacion6b"/>
+
+        <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:typeface="sans"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:background="#FCD9B9"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/j6b1" />
+
+        <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/j6b2"
+                android:id="@+id/textView2"
+                android:layout_gravity="left|center_vertical"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp" />
+
+        <TableLayout
+                android:id="@+id/tableLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0"
+                android:stretchColumns="*">
+
+            <TableRow
+                    android:id="@+id/tableRow1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:text="@string/j6b3"
+                        android:id="@+id/textView"
+                        android:layout_gravity="left|center_vertical"
+                        android:paddingLeft="10dp"
+                		android:paddingRight="10dp"
+                        android:textStyle="bold"/>
+
+                <ImageView
+                        android:layout_width="300dp"
+                        android:layout_height="40dp"
+                        android:id="@+id/ij6bb"
+                        android:contentDescription="@string/ij6b"
+                        android:layout_gravity="left"
+                        android:src="@drawable/ninguna"/>
+            </TableRow>
+
+        </TableLayout>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="@string/j6b4"
+                android:id="@+id/textView3"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:layout_gravity="center"/>
+
+        <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:text="@string/j6b5"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textStyle="bold"/>
+
+        <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:id="@+id/textView4"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:layout_gravity="center"
+                android:text="@string/j6b6"/>
+
+        <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:text="@string/j6b7"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textStyle="bold"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp" />
+
+        <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="@string/j6b8"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:id="@+id/textView5"/>
+
+        <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:text="@string/j6b9"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textStyle="bold"/>
+
+        <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="@string/j6b10"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:id="@+id/textView6"
+                android:singleLine="false"/>
+
+    </LinearLayout>
+</ScrollView>

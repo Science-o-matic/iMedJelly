@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    
+    <LinearLayout
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical" >
+
+        <TextView
+	        android:id="@+id/title"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:background="#FCD9B9"
+	        android:text="@string/service_legend"
+	        android:textSize="30sp"
+	        android:paddingLeft="20dp" />
+        
+	    <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:paddingLeft="20dp"
+	        android:paddingTop="10dp"
+	        android:paddingBottom="10dp" >
+	
+	        <ImageView
+	            android:id="@+id/bike_parking"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:src="@drawable/bike_parking"
+	            android:contentDescription="@string/bikeParking" />
+	        
+	        <TextView
+		        android:id="@+id/bike_parking_text"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="@string/bikeParking"
+		        android:paddingLeft="10dp" />
+	
+	    </LinearLayout>
+	
+	    <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:paddingLeft="20dp"
+	        android:paddingTop="10dp"
+	        android:paddingBottom="10dp" >
+	
+	        <ImageView
+	            android:id="@+id/blue_flag"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:src="@drawable/blue_flag"
+	            android:contentDescription="@string/blueFlag" />
+	        
+	        <TextView
+		        android:id="@+id/blue_flag_text"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="@string/blueFlag"
+		        android:paddingLeft="10dp" />
+	
+	    </LinearLayout>
+	
+	    <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:paddingLeft="20dp"
+	        android:paddingTop="10dp"
+	        android:paddingBottom="10dp" >
+	
+	        <ImageView
+	            android:id="@+id/children_zone"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:src="@drawable/children_zone"
+	            android:contentDescription="@string/childrenZone" />
+	        
+	        <TextView
+		        android:id="@+id/children_zone_text"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="@string/childrenZone"
+		        android:paddingLeft="10dp" />
+	
+	    </LinearLayout>
+	
+	    <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:paddingLeft="20dp"
+			android:paddingTop="10dp"
+	        android:paddingBottom="10dp" >
+	
+	        <ImageView
+	            android:id="@+id/dump"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:src="@drawable/dump"
+	            android:contentDescription="@string/dump" />
+	        
+	        <TextView
+		        android:id="@+id/dump_text"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="@string/dump"
+		        android:paddingLeft="10dp" />
+	
+	    </LinearLayout>
+	
+	    <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:paddingLeft="20dp"
+	        android:paddingTop="10dp"
+	        android:paddingBottom="10dp" >
+	
+	        <ImageView
+	            android:id="@+id/handicapped_access"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:src="@drawable/handicapped_access"
+	            android:contentDescription="@string/handicappedAccess" />
+	        
+	        <TextView
+		        android:id="@+id/handicapped_access_text"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="@string/handicappedAccess"
+		        android:paddingLeft="10dp" />
+	
+	    </LinearLayout>
+	
+	    <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:paddingLeft="20dp"
+	        android:paddingTop="10dp"
+	        android:paddingBottom="10dp" >
+	
+	        <ImageView
+	            android:id="@+id/handicapped_friendly"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:src="@drawable/handicapped_friendly"
+	            android:contentDescription="@string/handicappedFriendly" />
+	        
+	        <TextView
+		        android:id="@+id/handicapped_friendly_text"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="@string/handicappedFriendly"
+		        android:paddingLeft="10dp" />
+	
+	    </LinearLayout>
+	
+	    <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:paddingLeft="20dp"
+	        android:paddingTop="10dp"
+	        android:paddingBottom="10dp" >
+	
+	        <ImageView
+	            android:id="@+id/parking"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:src="@drawable/parking"
+	            android:contentDescription="@string/parking" />
+	        
+	        <TextView
+		        android:id="@+id/parking_text"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="@string/parking"
+		        android:paddingLeft="10dp" />
+	
+	    </LinearLayout>
+	
+	    <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:paddingLeft="20dp"
+	        android:paddingTop="10dp"
+	        android:paddingBottom="10dp" >
+	
+	        <ImageView
+	            android:id="@+id/rent_umbrella_hammock"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:src="@drawable/rent_umbrella_hammock"
+	            android:contentDescription="@string/rentUmbrellaHammock" />
+	        
+	        <TextView
+		        android:id="@+id/rent_umbrella_hammock_text"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="@string/rentUmbrellaHammock"
+		        android:paddingLeft="10dp" />
+	
+	    </LinearLayout>
+	
+	    <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:paddingLeft="20dp"
+	        android:paddingTop="10dp"
+	        android:paddingBottom="10dp" >
+	
+	        <ImageView
+	            android:id="@+id/restaurant"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:src="@drawable/restaurant"
+	            android:contentDescription="@string/restaurant" />
+	        
+	        <TextView
+		        android:id="@+id/restaurant_text"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="@string/restaurant"
+		        android:paddingLeft="10dp" />
+	
+	    </LinearLayout>
+	
+	    <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:paddingLeft="20dp"
+	        android:paddingTop="10dp"
+	        android:paddingBottom="10dp" >
+	
+	        <ImageView
+	            android:id="@+id/shower"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:src="@drawable/shower"
+	            android:contentDescription="@string/shower" />
+	        
+	        <TextView
+		        android:id="@+id/shower_text"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="@string/shower"
+		        android:paddingLeft="10dp" />
+	
+	    </LinearLayout>
+	
+	    <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:paddingLeft="20dp"
+	        android:paddingTop="10dp"
+	        android:paddingBottom="10dp" >
+	
+	        <ImageView
+	            android:id="@+id/slogans"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:src="@drawable/slogans"
+	            android:contentDescription="@string/slogans" />
+	        
+	        <TextView
+		        android:id="@+id/slogans_text"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="@string/slogans"
+		        android:paddingLeft="10dp" />
+	
+	    </LinearLayout>
+	
+	    <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:paddingLeft="20dp"
+	        android:paddingTop="10dp"
+	        android:paddingBottom="10dp" >
+	
+	        <ImageView
+	            android:id="@+id/sport_zone"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:src="@drawable/sport_zone"
+	            android:contentDescription="@string/sportZone" />
+	        
+	        <TextView
+		        android:id="@+id/sport_zone_text"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="@string/sportZone"
+		        android:paddingLeft="10dp" />
+	
+	    </LinearLayout>
+	
+	    <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:paddingLeft="20dp"
+	        android:paddingTop="10dp"
+	        android:paddingBottom="10dp" >
+	
+	        <ImageView
+	            android:id="@+id/surveillance_tower"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:src="@drawable/surveillance_tower"
+	            android:contentDescription="@string/surveillanceTower" />
+	        
+	        <TextView
+		        android:id="@+id/surveillance_tower_text"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="@string/surveillanceTower"
+		        android:paddingLeft="10dp" />
+	
+	    </LinearLayout>
+	
+	    <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:paddingLeft="20dp"
+	        android:paddingTop="10dp"
+	        android:paddingBottom="10dp" >
+	
+	        <ImageView
+	            android:id="@+id/water_source"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:src="@drawable/water_source"
+	            android:contentDescription="@string/waterSource" />
+	        
+	        <TextView
+		        android:id="@+id/water_source_text"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="@string/waterSource"
+		        android:paddingLeft="10dp" />
+	
+	    </LinearLayout>
+	
+	    <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:paddingLeft="20dp"
+	        android:paddingTop="10dp"
+	        android:paddingBottom="10dp" >
+	
+	        <ImageView
+	            android:id="@+id/wc"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:src="@drawable/wc"
+	            android:contentDescription="@string/wc" />
+	        
+	        <TextView
+		        android:id="@+id/wc_text"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="@string/wc"
+		        android:paddingLeft="10dp" />
+	
+	    </LinearLayout>
+
+	</LinearLayout>
+</ScrollView>

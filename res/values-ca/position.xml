@@ -1,0 +1,7 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <string name="position_latitude">41.297283</string>
+    <string name="position_longitude">2.131764</string>
+    <string name="startZoom">4.0</string>
+    <string name="endZoom">7.0</string>
+</resources>

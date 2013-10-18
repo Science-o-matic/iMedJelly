@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/observation_title"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:background="#FCD9B9"
+        android:paddingLeft="20dp"
+        android:textSize="30sp"
+        android:text="@string/observation_title" />
+    
+	<TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/observation_text"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:background="#DDDDDD"
+        android:id="@+id/observation_text" />
+
+	<ImageView
+        android:id="@+id/image_upload"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:src="@drawable/image_upload"
+        android:contentDescription="@string/image_upload" />
+
+        
+    <Spinner
+        android:id="@+id/jellyFishName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/jellyfish_arrays"
+        android:prompt="@string/observation_jellyFishName"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:ems="10" >
+
+        <requestFocus />
+    </Spinner>
+
+    <EditText
+        android:id="@+id/comment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:gravity="top|left"
+        android:height="100dp"
+        android:inputType="textMultiLine"
+        android:maxLines="10"
+        android:hint="@string/observation_comment"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/observation_send"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:text="@string/observation_send"
+            android:width="80dp" />
+
+    </RelativeLayout>
+    
+</LinearLayout>

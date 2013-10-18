@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    
+    <LinearLayout
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical" >
+
+        <TextView
+	        android:id="@+id/title"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:background="#FCD9B9"
+	        android:text="@string/state_legend"
+	        android:textSize="30sp"
+	        android:paddingLeft="20dp" />
+        
+	    <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:paddingLeft="20dp"
+	        android:paddingTop="10dp"
+	        android:paddingBottom="10dp" >
+	
+	        <ImageView
+	            android:id="@+id/jellyfish_no_info"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:src="@drawable/jellyfish_no_info_small"
+	            android:contentDescription="@string/jellyfish_no_info" />
+	        
+	        <TextView
+		        android:id="@+id/jellyfish_no_info_text"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="@string/jellyfish_no_info"
+		        android:paddingLeft="10dp"
+		        android:paddingRight="20dp" />
+	
+	    </LinearLayout>
+	    
+	    <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:paddingLeft="20dp"
+	        android:paddingTop="10dp"
+	        android:paddingBottom="10dp" >
+	
+	        <ImageView
+	            android:id="@+id/no_warning"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:src="@drawable/no_warning_small"
+	            android:contentDescription="@string/no_warning" />
+	        
+	        <TextView
+		        android:id="@+id/no_warning_text"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="@string/no_warning"
+		        android:paddingLeft="10dp"
+		        android:paddingRight="20dp" />
+	
+	    </LinearLayout>
+	    
+	    <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:paddingLeft="20dp"
+	        android:paddingTop="10dp"
+	        android:paddingBottom="10dp" >
+	
+	        <ImageView
+	            android:id="@+id/low_warning"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:src="@drawable/low_warning_small"
+	            android:contentDescription="@string/low_warning" />
+	        
+	        <TextView
+		        android:id="@+id/low_warning_text"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="@string/low_warning"
+		        android:paddingLeft="10dp"
+		        android:paddingRight="20dp" />
+	
+	    </LinearLayout>
+	    
+	    <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:paddingLeft="20dp"
+	        android:paddingTop="10dp"
+	        android:paddingBottom="10dp" >
+	
+	        <ImageView
+	            android:id="@+id/high_warning"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:src="@drawable/high_warning_small"
+	            android:contentDescription="@string/high_warning" />
+	        
+	        <TextView
+		        android:id="@+id/high_warning_text"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="@string/high_warning"
+		        android:paddingLeft="10dp"
+		        android:paddingRight="20dp" />
+	
+	    </LinearLayout>
+	    
+	    <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:paddingLeft="20dp"
+	        android:paddingTop="10dp"
+	        android:paddingBottom="10dp" >
+	
+	        <ImageView
+	            android:id="@+id/very_high_warning"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:src="@drawable/very_high_warning_small"
+	            android:contentDescription="@string/very_high_warning" />
+	        
+	        <TextView
+		        android:id="@+id/very_high_warning_text"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="@string/very_high_warning"
+		        android:paddingLeft="10dp"
+		        android:paddingRight="20dp" />
+	
+	    </LinearLayout>
+
+	    <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:paddingLeft="20dp"
+	        android:paddingTop="10dp"
+	        android:paddingBottom="10dp" >
+	
+	        <ImageView
+	            android:id="@+id/no_info"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:src="@drawable/flag_small"
+	            android:contentDescription="@string/flag" />
+	        
+	        <TextView
+		        android:id="@+id/no_info_text"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="@string/flag"
+		        android:paddingLeft="10dp"
+		        android:paddingRight="20dp" />
+	
+	    </LinearLayout>
+
+	    <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:paddingLeft="20dp"
+	        android:paddingTop="10dp"
+	        android:paddingBottom="10dp" >
+	
+	        <ImageView
+	            android:id="@+id/green"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:src="@drawable/green_small"
+	            android:contentDescription="@string/flag" />
+	        
+	        <TextView
+		        android:id="@+id/green_text"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="@string/green_flag"
+		        android:paddingLeft="10dp"
+		        android:paddingRight="20dp" />
+	
+	    </LinearLayout>
+
+	    <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:paddingLeft="20dp"
+	        android:paddingTop="10dp"
+	        android:paddingBottom="10dp" >
+	
+	        <ImageView
+	            android:id="@+id/yellow"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:src="@drawable/yellow_small"
+	            android:contentDescription="@string/flag" />
+	        
+	        <TextView
+		        android:id="@+id/yellow_text"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="@string/yellow_flag"
+		        android:paddingLeft="10dp"
+		        android:paddingRight="20dp" />
+	
+	    </LinearLayout>
+	    
+	    <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:paddingLeft="20dp"
+	        android:paddingTop="10dp"
+	        android:paddingBottom="10dp" >
+	
+	        <ImageView
+	            android:id="@+id/red"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:src="@drawable/red_small"
+	            android:contentDescription="@string/flag" />
+	        
+	        <TextView
+		        android:id="@+id/red_text"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="@string/red_flag"
+		        android:paddingLeft="10dp"
+		        android:paddingRight="20dp" />
+	
+	    </LinearLayout>
+
+	</LinearLayout>
+</ScrollView>

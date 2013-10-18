@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="#FCD9B9"
+        android:paddingLeft="20dp"
+        android:text="@string/beachName"
+        android:textSize="30sp" />
+
+    <View
+        android:id="@+id/view1"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/name"
+        android:background="@android:color/black" />
+
+    <ImageView
+        android:id="@+id/jellyFishStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/jellyFishes"
+        android:layout_marginLeft="11dp"
+        android:src="@drawable/jellyfish_no_info"
+        android:contentDescription="@string/jellyfish_no_info" />
+
+    <TextView
+        android:id="@+id/jellyFishes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/jellyFishStatus"
+        android:layout_below="@+id/view1"
+        android:layout_marginRight="29dp"
+        android:layout_marginTop="13dp"
+        android:text="@string/jellyfishPresence" />
+
+    <ImageView
+        android:id="@+id/flagStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imageView2"
+        android:layout_below="@+id/jellyFishes"
+        android:layout_marginLeft="16dp"
+        android:src="@drawable/flag"
+        android:contentDescription="@string/flag" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/flagStatus"
+        android:layout_marginLeft="12dp"
+        android:layout_toRightOf="@+id/flagStatus"
+        android:src="@drawable/termometer"
+        android:contentDescription="@string/termometer" />
+
+    <TextView
+        android:id="@+id/waterTemperature"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/jellyFishes"
+        android:layout_toRightOf="@+id/imageView4"
+        android:text="@string/beachTemperature" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/jellyFishStatus"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/camera_upload"
+        android:layout_toRightOf="@+id/jellyFishStatus"
+        android:contentDescription="@string/beachBackground"
+        android:src="@drawable/beach_background" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/jellyFishes"
+        android:layout_alignBottom="@+id/jellyFishes"
+        android:layout_marginLeft="11dp"
+        android:layout_toRightOf="@+id/jellyFishes"
+        android:text="@string/beachInfoTime" />
+
+    <View
+        android:id="@+id/View01"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/jellyFishStatus"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/black" />
+
+    <View
+        android:id="@+id/View02"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/skyStatusCode"
+        android:layout_marginTop="14dp"
+        android:background="@android:color/black" />
+
+    <TableLayout
+        android:id="@+id/services"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="false"
+        android:layout_below="@+id/View02"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="12dp"
+        android:gravity="center_horizontal"
+        android:textAlignment="center" >
+
+        <TableRow
+            android:id="@+id/services1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:dividerPadding="5dp" >
+
+            <ImageView
+                android:id="@+id/bike_parking"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/bike_parking_"
+                android:contentDescription="@string/bikeParking" />
+
+            <ImageView
+                android:id="@+id/blue_flag"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/blue_flag_"
+                android:contentDescription="@string/blueFlag" />
+
+            <ImageView
+                android:id="@+id/children_zone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/children_zone_"
+                android:contentDescription="@string/childrenZone" />
+
+            <ImageView
+                android:id="@+id/dump"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/dump_"
+                android:contentDescription="@string/dump" />
+
+            <ImageView
+                android:id="@+id/handicapped_access"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/handicapped_access_"
+                android:contentDescription="@string/handicappedAccess" />
+
+            <ImageView
+                android:id="@+id/handicapped_friendly"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/handicapped_friendly_"
+                android:contentDescription="@string/handicappedFriendly" />
+
+            <ImageView
+                android:id="@+id/parking"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/parking_"
+                android:contentDescription="@string/parking" />
+
+            <ImageView
+                android:id="@+id/rent_umbrella_hammock"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/rent_umbrella_hammock_"
+                android:contentDescription="@string/rentUmbrellaHammock" />
+
+        </TableRow>
+        <TableRow
+            android:id="@+id/services2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:dividerPadding="5dp" >
+
+            <ImageView
+                android:id="@+id/restaurant"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/restaurant_" 
+                android:contentDescription="@string/restaurant" />
+
+            <ImageView
+                android:id="@+id/shower"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/shower_"
+                android:contentDescription="@string/shower" />
+
+            <ImageView
+                android:id="@+id/slogans"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/slogans_"
+                android:contentDescription="@string/slogans" />
+
+            <ImageView
+                android:id="@+id/sport_zone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/sport_zone_"
+				android:contentDescription="@string/sportZone" />
+
+            <ImageView
+                android:id="@+id/surveillance_tower"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/surveillance_tower_"
+                android:contentDescription="@string/surveillanceTower" />
+
+            <ImageView
+                android:id="@+id/water_source"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/water_source_"
+                android:contentDescription="@string/waterSource" />
+
+            <ImageView
+                android:id="@+id/wc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/wc_"
+                android:contentDescription="@string/wc" />
+        </TableRow>
+        
+    </TableLayout>
+
+    <View
+        android:id="@+id/View04"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/services"
+        android:layout_marginTop="16dp"
+        android:background="@android:color/black" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/skyStatusCode"
+        android:layout_toRightOf="@+id/jellyFishStatus"
+        android:text="@string/beachTemperature" />
+
+    <TextView
+        android:id="@+id/maxTemperature"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView7"
+        android:layout_alignBottom="@+id/textView7"
+        android:layout_alignRight="@+id/jellyFishStatus"
+        android:text="@string/beachMaxTemp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/maxTemperature"
+        android:layout_alignBottom="@+id/maxTemperature"
+        android:layout_toLeftOf="@+id/maxTemperature"
+        android:text="@string/separator" />
+
+    <TextView
+        android:id="@+id/minTemperature"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView5"
+        android:layout_alignBottom="@+id/textView5"
+        android:layout_alignRight="@+id/jellyFishes"
+        android:text="@string/beachMinTemp" />
+
+    <ImageView
+        android:id="@+id/skyStatusCode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/services"
+        android:layout_below="@+id/View01"
+        android:layout_marginTop="14dp"
+        android:src="@drawable/sky"
+        android:contentDescription="@string/sky" />
+
+    <TextView
+        android:id="@+id/windSpeed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView7"
+        android:layout_alignBottom="@+id/textView7"
+        android:layout_toLeftOf="@+id/secondStar"
+        android:text="@string/beachWindSpeed" />
+
+    <TextView
+        android:id="@+id/maxUV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/windSpeed"
+        android:layout_alignBottom="@+id/windSpeed"
+        android:layout_toRightOf="@+id/fourthStar"
+        android:text="@string/beachMaxUV" />
+
+    <ImageView
+        android:id="@+id/windDirection"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/windSpeed"
+        android:layout_toLeftOf="@+id/windSpeed"
+        android:src="@drawable/wind_direction"
+        android:contentDescription="@string/windDirection" />
+
+    <View
+        android:id="@+id/View03"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/comment_add"
+        android:layout_marginTop="18dp"
+        android:background="@android:color/black" />
+
+    <TextView
+        android:id="@+id/userRating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/View04"
+        android:layout_marginTop="18dp"
+        android:text="@string/beachRatingLabel" />
+
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/View03"
+        android:layout_marginTop="21dp"
+        android:text="@string/beachDescription" />
+
+    <ImageView
+        android:id="@+id/comment_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/fifthStar"
+        android:layout_alignParentRight="true"
+        android:contentDescription="@string/beach_add_comment"
+        android:src="@drawable/comment_add" />
+
+    <ImageView
+        android:id="@+id/fifthStar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/userRating"
+        android:layout_toLeftOf="@+id/comment_add"
+        android:contentDescription="@string/noSelected"
+        android:src="@drawable/rating_no_selected_star" />
+
+    <ImageView
+        android:id="@+id/fourthStar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/fifthStar"
+        android:layout_toLeftOf="@+id/fifthStar"
+        android:contentDescription="@string/noSelected"
+        android:src="@drawable/rating_no_selected_star" />
+
+    <ImageView
+        android:id="@+id/thirdStar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/fourthStar"
+        android:layout_toLeftOf="@+id/fourthStar"
+        android:contentDescription="@string/noSelected"
+        android:src="@drawable/rating_no_selected_star" />
+
+    <ImageView
+        android:id="@+id/secondStar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/thirdStar"
+        android:layout_toLeftOf="@+id/thirdStar"
+        android:contentDescription="@string/noSelected"
+        android:src="@drawable/rating_no_selected_star" />
+
+    <ImageView
+        android:id="@+id/firstStar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/secondStar"
+        android:layout_toLeftOf="@+id/secondStar"
+        android:contentDescription="@string/noSelected"
+        android:src="@drawable/rating_no_selected_star" />
+
+    <ImageView
+        android:id="@+id/camera_upload"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/jellyFishStatus"
+        android:layout_alignTop="@+id/jellyFishStatus"
+        android:src="@drawable/camera_upload" />
+
+</RelativeLayout>
