@@ -32,8 +32,10 @@ public class Client {
 		byte[] bytes = (username + ":" + password).getBytes();
 		String credentials = Base64.encodeToString(bytes, (Base64.DEFAULT));
 		credentials = credentials.trim();
-		mAuthorization = "Basic " + credentials;
+//		mAuthorization = "Basic " + credentials;
+		mAuthorization = "Basic bWVkdXNhczpCQkZLYjhTMTIyUjMx";
 	}
+
 
 	public void setToken(String token) {
 		mAuthorization = "Token " + token;

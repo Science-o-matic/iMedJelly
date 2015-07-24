@@ -9,9 +9,11 @@
     <string name="ServerPassword"></string>
 
     <string name="action_zone">Select zone</string>
-
+    <string name="action_day">Select day</string>
+    
     <string-array name="navigation_options">
         <item>Map</item>
+        <item>Prediction</item>
         <item>Zones</item>
         <item>Jelly Fishes</item>
         <item>Treatment</item>
@@ -21,6 +23,7 @@
 
     <array name="navigation_icons">
         <item>@drawable/ic_tab_map</item>
+        <item>@drawable/ic_tab_prediction</item>
         <item>@drawable/ic_tab_beach</item>
         <item>@drawable/ic_tab_jellyfish</item>
         <item>@drawable/ic_tab_treatment</item>
@@ -42,7 +45,7 @@
     <string name="SplashDescription">Splash</string>
     
     <string name="production_maps_api_key"></string>
-    <string name="development_maps_api_key"></string>
+    <string name="development_maps_api_key">AIzaSyAo619tWac1H0C6n6mLckzk_ZFckhn9tio</string>
 
     <string name="title_main">iMedJelly</string>
     <string name="title_map">Map</string>
@@ -55,6 +58,7 @@
     <string name="title_camera_upload">Upload photo</string>
     
     <string name="select_zone">Select zone</string>
+    <string name="select_day">Select day</string>
     
     <string name="service_legend">Legend</string>
     <string name="state_legend">Legend</string>

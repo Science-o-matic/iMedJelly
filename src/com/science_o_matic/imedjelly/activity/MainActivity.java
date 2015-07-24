@@ -30,6 +30,7 @@ import com.science_o_matic.imedjelly.fragment.BeachesFragment;
 import com.science_o_matic.imedjelly.fragment.BeachesMapFragment;
 import com.science_o_matic.imedjelly.fragment.CommunityFragment;
 import com.science_o_matic.imedjelly.fragment.JellyFishesFragment;
+import com.science_o_matic.imedjelly.fragment.PredictionFragment;
 import com.science_o_matic.imedjelly.fragment.TreatmentFragment;
 import com.science_o_matic.imedjelly.util.Util;
 
@@ -48,11 +49,12 @@ public class MainActivity extends DrawerActivity {
 	
 	// Fragment identifiers.
 	private final int MAP_ID = 0;
-	private final int BEACHES_ID = 1;
-	private final int JELLYFISHES_ID = 2;
-	private final int TREATMENT_ID = 3;
-	private final int ABOUT_ID = 4;
-	private final int COMMUNITY_ID = 5;
+	private final int PREDICTION_ID = 1;
+	private final int BEACHES_ID = 2;
+	private final int JELLYFISHES_ID = 3;
+	private final int TREATMENT_ID = 4;
+	private final int ABOUT_ID = 5;
+	private final int COMMUNITY_ID = 6;
 	
 	// State.
 	private int mPlayServices;
@@ -107,6 +109,9 @@ public class MainActivity extends DrawerActivity {
 	        case MAP_ID:
 	            fragment = new BeachesMapFragment();
 	            break;
+	        case PREDICTION_ID :
+	            fragment = new PredictionFragment();
+	            break;
 	        case BEACHES_ID:
 	            fragment = new BeachesFragment(mBeachItemSelected);
 	            break;
@@ -128,6 +133,7 @@ public class MainActivity extends DrawerActivity {
 	    setTitle(mNavTitles[index]);
 	    if (mMenu != null) {
 	    	mMenu.findItem(R.id.action_zone).setVisible(mIndex == MAP_ID);
+	    	mMenu.findItem(R.id.action_day).setVisible(mIndex == PREDICTION_ID);
 	    }
 	    mFragmentManager.beginTransaction()
 	        .replace(R.id.content, fragment)
@@ -281,6 +287,11 @@ public class MainActivity extends DrawerActivity {
     				((BeachesMapFragment) mCurrentFragment).showZoneDialog();
     			}
     			break;
+    		case R.id.action_day:
+				if(mIndex == PREDICTION_ID) {
+    				((PredictionFragment) mCurrentFragment).showDayDialog();
+    			}
+    			break;
     		default:
 	            return super.onOptionsItemSelected(item);
     	}
@@ -292,6 +303,7 @@ public class MainActivity extends DrawerActivity {
 		getMenuInflater().inflate(R.menu.map_actions, menu);
 		mMenu = menu;
 		mMenu.findItem(R.id.action_zone).setVisible(mIndex == MAP_ID);
+		mMenu.findItem(R.id.action_day).setVisible(mIndex == PREDICTION_ID);
 	    return super.onCreateOptionsMenu(menu);
 	}
 }

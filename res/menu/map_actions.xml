@@ -4,4 +4,8 @@
           android:icon="@drawable/ic_action_map"
           android:title="@string/action_zone"
           imedjelly:showAsAction="ifRoom" />
+    <item android:id="@+id/action_day"
+          android:icon="@drawable/ic_action_map"
+          android:title="@string/action_day"
+          imedjelly:showAsAction="ifRoom" />
 </menu>

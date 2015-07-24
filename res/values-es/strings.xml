@@ -2,9 +2,11 @@
 <resources>
     
     <string name="action_zone">Seleccionad zona</string>
-
+    <string name="action_day">Seleccionad día</string>
+    
     <string-array name="navigation_options">
         <item>Mapa</item>
+		<item>Predicción</item>
         <item>Zonas</item>
         <item>Medusas</item>
         <item>Tratamiento</item>
@@ -14,6 +16,7 @@
 
     <array name="navigation_icons">
         <item>@drawable/ic_tab_map</item>
+        <item>@drawable/ic_tab_prediction</item>
         <item>@drawable/ic_tab_beach</item>
         <item>@drawable/ic_tab_jellyfish</item>
         <item>@drawable/ic_tab_treatment</item>
@@ -42,6 +45,7 @@
 	<string name="title_camera_upload">Subir foto</string>
 	
 	<string name="select_zone">Seleccione zona</string>
+	<string name="select_day">Seleccione día</string>
     
     <string name="service_legend">Leyenda</string>
     <string name="state_legend">Leyenda</string>
