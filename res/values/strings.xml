@@ -491,5 +491,10 @@ It is advisable for people who are more sensitive to stings to take extra precau
 
     <string name="t13a" >Are the anti-jellyfish lotions useful?</string>
     <string name="t13b" >Sacrini explains: "The anti-jellyfish lotions were created considering the security mechanisms used by the clown fish [fish that has a jellyfish repellent substance.) Anti-jellyfish lotions, currently on the market, are associated with sunscreen. They are based, as described in scientific articles, mostly on 4 principles: make sure the skin is slippery and therefore prevent the tentacles from landing; confuse the recognition mechanism of jellyfish (also composed of water and GAG); block the activation system of the stinging cells; and struggle against the osmotic pressure within the nematocysts. It has a different answer depending on the species of jellyfish, the right application and the time spent in water.</string>
-    
+
+    <string-array name="days_array">
+        <item>Today</item>
+        <item>Tomorrow</item>
+        <item>After tomorrow</item>
+    </string-array>
 </resources>

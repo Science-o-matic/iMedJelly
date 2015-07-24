@@ -417,4 +417,9 @@ Mantén la calma, respira normalmente, sal inmediatamente del agua, y lava la su
     <string name="t13a" >¿Y las cremas anti-medusas?</string>
     <string name="t13b" >Sacrini explica que: \"Las cremas llamadas anti-medusa fueron creadas estudiando los mecanismos de seguridad utilizados por los peces payaso [pez que tiene una sustancia repelente para las medusas). Las cremas anti-medusa, actualmente en el mercado, se asocian con filtros solares. Se basan, como se describe en los artículos científicos, en su mayoría en 4 principios: hacen que la piel esté resbaladiza y por tanto evitan que los tentáculos se posen; confunden el mecanismo de reconocimiento de las medusas (también compuesto de agua y de GAG); bloquean el sistema de activación de las células urticantes; y luchan contra la presión osmótica que se forma dentro de los nematocistos. Se tiene una respuesta distinta dependiendo de la especie de medusa, de la correcta aplicación y del tiempo de permanencia en el agua\".</string>
 
+	<string-array name="days_array">
+        <item>Hoy</item>
+        <item>Mañana</item>
+        <item>Pasado mañana</item>
+    </string-array>
 </resources>

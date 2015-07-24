@@ -441,4 +441,9 @@
     <string name="t13a" >Les lotions anti-méduses sont-ils utiles?</string>
     <string name="t13b" >Sacrini explique: "Les lotions anti-méduses ont été créés en tenant compte des mécanismes de sécurité utilisés par le poisson clown (poissons qui ont une substance répulsive aux méduses). Les lotions anti-méduses, actuellement sur le marché, sont associées à un écran solaire. Ils sont basés, comme décrit dans des articles scientifiques, la plupart du temps sur 4 principes: s\'assurer que la peau est glissante et donc éviter que les tentacules ne se déposent; désorienter le mécanisme de reconnaissance des méduses (également composé d\'eau et de GAG); bloquer le système d\'activation des cellules urticantes; et lutte contre la pression osmotique dans les nématocystes. Elle a une réponse différente selon les espèces de méduses, la bonne application et le temps passé dans l\'eau.</string>
 
+    <string-array name="days_array">
+        <item>Aujourd\'hui</item>
+        <item>Demain</item>
+        <item>Après-demain</item>
+    </string-array>
 </resources>

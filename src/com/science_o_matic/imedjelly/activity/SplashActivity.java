@@ -22,6 +22,7 @@ public class SplashActivity extends Activity {
 	private ZonesLoader mZonesLoader = null;
 	private BeachesLoader mBeachesLoader = null;
 	private NotificationsLoader mNotificationsLoader = null;
+	private PredictionsLoader mPredictionsLoader = null;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -222,14 +223,86 @@ public class SplashActivity extends Activity {
 		protected void onPostExecute(Task[] tasks){
 			String result = getResult(tasks);
 			if (result.equals(Task.SUCCESS)) {
-				mBeachesLoader = new BeachesLoader(mContext, getZonesId());
+				int[] zonesId = getZonesId();
+				mBeachesLoader = new BeachesLoader(mContext, zonesId);
 				mBeachesLoader.execute();
+				mPredictionsLoader = new PredictionsLoader(mContext, zonesId);
+				mPredictionsLoader.execute();
 			}
 			else {
 				Toast.makeText(mContext, result, Toast.LENGTH_LONG).show();
 				Intent intent = new Intent(mContext, MainActivity.class);
 				startActivity(intent);
 				finish();
+			}
+		}
+	}
+	
+	public class PredictionsLoader extends TaskLoader {
+		private Context mContext = null;
+		private ApiClient mApi = null;
+		private int[] mZones;
+
+		public PredictionsLoader(Context context, int[] zones) {
+			super(context);
+			mContext = context;
+			mApi = new ApiClient(context);
+			mZones = zones;
+		}
+		
+		public void execute() {
+			Task[] predictionTasks = new Task[mZones.length];
+			for (int i=0; i<mZones.length; i++) {
+				predictionTasks[i] = new Task(
+					mApi.getPredictions(mZones[i]),
+					new PredictionDataSource(mContext, Table.prediction, mZones[i])
+				);
+			}
+			super.execute(predictionTasks);
+		}
+		
+		public class PredictionDataSource extends DataSource {
+			private int mZoneId;
+			
+			public PredictionDataSource(Context context, Table table, int zoneId) {
+				super(context, table);
+				mZoneId = zoneId;
+			}
+			
+			@Override
+			public void parseJson(JsonReader reader) throws IOException {
+				openWrite();
+				delete("zoneId=?", new String[]{Integer.toString(mZoneId)});
+				mDatabase.beginTransaction();
+				try {
+					reader.beginObject();
+					
+					while(reader.hasNext()) {
+						String field = reader.nextName();
+						reader.beginArray();
+						while (reader.hasNext()) {
+							ContentValues values = new ContentValues();
+							values.put("day", field);
+							values.put("zoneId", mZoneId);
+							// Parse object.
+							reader.beginObject();
+							while (reader.hasNext()) {
+								parseJsonField(reader, values);
+							}
+							// Insert object.
+							insert(values);
+							reader.endObject();
+						}
+						reader.endArray();
+					}
+					
+					reader.endObject();
+					mDatabase.setTransactionSuccessful();
+				} finally {
+					mDatabase.endTransaction();
+					close();
+				}
+				
 			}
 		}
 	}

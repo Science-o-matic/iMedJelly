@@ -67,4 +67,20 @@ public class Table {
 			"integer"
 		}
 	);
+	
+	public static Table prediction = new Table(
+		"prediction",
+		new String[] { 
+			"zoneId", 
+			"day", 
+			"url", 
+			"jellyFishName"
+		}, 
+		new String[] {
+			"integer",
+			"text",
+			"text",
+			"text"
+		}
+	);
 }

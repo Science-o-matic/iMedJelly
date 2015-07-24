@@ -6,7 +6,7 @@ import android.database.sqlite.SQLiteOpenHelper;
 
 public class GenericSQLite extends SQLiteOpenHelper {
 	private static final String DATABASE_NAME = "yourchoice.db";
-	private static final int DATABASE_VERSION = 1;
+	private static final int DATABASE_VERSION = 2;
 
 	public GenericSQLite(Context context) {
 		super(context, DATABASE_NAME, null, DATABASE_VERSION);
@@ -32,11 +32,13 @@ public class GenericSQLite extends SQLiteOpenHelper {
 	public void createDatabase(SQLiteDatabase db) {
 		createTable(Table.zone, db);
 		createTable(Table.beach, db);
+		createTable(Table.prediction, db);
 	}
 
 	public void dropDatabase(SQLiteDatabase db) {
 		dropTable(Table.zone, db);
 		dropTable(Table.beach, db);
+		dropTable(Table.prediction, db);
 	}
 
 	@Override

@@ -54,6 +54,11 @@ public class ApiClient extends Client{
 		String url = mServer + "/MEDUSAS/ws/beaches/beach/" + String.valueOf(id) +"/lang/" + mLanguage + "/device/" + uuid;
 		return getRequest(url);
 	}
+	
+	public HttpGet getPredictions(int zoneId) {
+		String url = mServer + "/MEDUSAS/ws/prediction/zones/" + Integer.toString(zoneId) + "/" + mLanguage;
+		return getRequest(url);
+	}
 
 	public HttpPost postObservation(long id, String jellyFishName, String observations, File image) {
 		String url = mServer + "/MEDUSAS/ws/observation/beach/" + String.valueOf(id) + "/deviceId/" + uuid;
