@@ -72,7 +72,9 @@ public class ApiRequest {
 	}
 
 	public String getAllBeachesServiceURL() {
-		return mServerPrefix + mContext.getString(R.string.AllBeachesService);
+		return mServerPrefix
+//				+ mContext.getString(R.string.AllBeachesService)
+				;
 	}
 	
 	public String getBeachServiceURL(long api_id) {
@@ -80,7 +82,7 @@ public class ApiRequest {
 		String uuid = preferences.getString("device", null);
 		String language = preferences.getString("langCode", null);
 		return mServerPrefix
-				+ mContext.getString(R.string.BeachService)
+//				+ mContext.getString(R.string.BeachService)
 				+ String.valueOf(api_id) 
 				+ "/lang/" + language + "/device/" + uuid;
 	}
@@ -90,7 +92,7 @@ public class ApiRequest {
 		String uuid = preferences.getString("device", null);
 		String language = preferences.getString("langCode", null);
 		return mServerPrefix
-				+ mContext.getString(R.string.FeedbackService)
+//				+ mContext.getString(R.string.FeedbackService)
 				+ String.valueOf(api_id) 
 				+ "/deviceId/" + uuid + "/lang/" + language;
 	}
@@ -99,7 +101,7 @@ public class ApiRequest {
 		SharedPreferences preferences = PreferenceManager.getDefaultSharedPreferences(mContext);
 		String uuid = preferences.getString("device", null);
 		return mServerPrefix
-				+ mContext.getString(R.string.ObservationService)
+//				+ mContext.getString(R.string.ObservationService)
 				+ String.valueOf(api_id) 
 				+ "/deviceId/" + uuid;
 	}
@@ -109,7 +111,7 @@ public class ApiRequest {
 		String uuid = preferences.getString("device", null);
 		String language = preferences.getString("langCode", null);
 		return mServerPrefix
-				+ mContext.getString(R.string.NotificationService)
+//				+ mContext.getString(R.string.NotificationService)
 				+ "lang/" + language + "/device/" + uuid;
 	}
 	
@@ -118,7 +120,7 @@ public class ApiRequest {
 		String uuid = preferences.getString("device", null);
 		String language = preferences.getString("langCode", null);
 		return mServerPrefix
-				+ mContext.getString(R.string.RegisterService)
+//				+ mContext.getString(R.string.RegisterService)
 				+ "lang/" + language + "/device/" + uuid;
 	}
 	

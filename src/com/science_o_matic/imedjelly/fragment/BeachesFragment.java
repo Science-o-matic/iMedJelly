@@ -53,6 +53,10 @@ public class BeachesFragment extends ListFragment {
 		mTitleResource = R.string.geo_beach;
 	}
 	
+	public BeachesFragment() {
+		// TODO Auto-generated constructor stub
+	}
+
 	public void setZone(int zoneId) {
 		mZoneId = zoneId;
 	}
