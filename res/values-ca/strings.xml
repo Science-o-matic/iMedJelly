@@ -2,7 +2,7 @@
 <resources>
 
     <string name="action_zone">Seleccioneu zona</string>
-    <string name="action_day">Seleccioneu dia</string>
+	<string name="action_jellyfish">Seleccioneu medusa</string>
     
     <string-array name="navigation_options">
         <item>Mapa</item>
@@ -45,7 +45,8 @@
 	<string name="title_camera_upload">Pujar foto</string>
 	
 	<string name="select_zone">Seleccioneu zona</string>
-	<string name="select_day">Seleccioneu dia</string>
+	<string name="select_jellyfish">Seleccioneu medusa</string>
+
 	
 	<string name="service_legend">Llegenda</string>
 	<string name="state_legend">Llegenda</string>
@@ -455,9 +456,7 @@ En cas de picada d’aquesta espècie: NO APLICAR AIGUA DOLÇA, VINAGRE, VENDATG
     <string name="t13a" >I les cremes anti-meduses?</string>
     <string name="t13b" >Sacrini explica que: \"Les cremes anomenades anti-meduses van ser creades estudiant els mecanismes de seguretat utilitzats pels peixos pallasso (peix que té una substància repelent per a les meduses). Les cremes anti-medusa, actualment al mercat, s’associen amb filtres solars. Es basen, com es descriu en els articles científics, en 4 principis: fan que la pell estigui relliscosa i per tant eviten que els tentacles es posin; confonen el mecanisme de reconeixement de les meduses (també compost d\'aigua i de GAG); bloquegen el sistema d\'activació de les cèl•lules urticants, i lluiten contra la pressió osmòtica que es forma dins dels nematocists. Es té una resposta diferent depenent de l\'espècie de medusa, de la correcta aplicació i del temps de permanència a l\'aigua\".</string>
 
-    <string-array name="days_array">
-        <item>Avui</item>
-        <item>Demà</item>
-        <item>Demà passat</item>
-    </string-array>
+	<string name="today">Avui</string>
+	<string name="tomorrow">Demà</string>
+	<string name="after_tomorrow">Demà passat</string>
 </resources>

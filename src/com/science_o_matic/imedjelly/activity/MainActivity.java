@@ -132,8 +132,8 @@ public class MainActivity extends DrawerActivity {
 	    mCurrentFragment = fragment;
 	    setTitle(mNavTitles[index]);
 	    if (mMenu != null) {
-	    	mMenu.findItem(R.id.action_zone).setVisible(mIndex == MAP_ID);
-	    	mMenu.findItem(R.id.action_day).setVisible(mIndex == PREDICTION_ID);
+	    	mMenu.findItem(R.id.action_zone).setVisible(mIndex == MAP_ID || mIndex == PREDICTION_ID);
+	    	mMenu.findItem(R.id.action_jellyfish).setVisible(mIndex == PREDICTION_ID);
 	    }
 	    mFragmentManager.beginTransaction()
 	        .replace(R.id.content, fragment)
@@ -285,11 +285,13 @@ public class MainActivity extends DrawerActivity {
     		case R.id.action_zone:
     			if (mIndex == MAP_ID) {
     				((BeachesMapFragment) mCurrentFragment).showZoneDialog();
+    			} else if(mIndex == PREDICTION_ID) {
+    				((PredictionFragment) mCurrentFragment).showZoneDialog();
     			}
     			break;
-    		case R.id.action_day:
+    		case R.id.action_jellyfish:
 				if(mIndex == PREDICTION_ID) {
-    				((PredictionFragment) mCurrentFragment).showDayDialog();
+    				((PredictionFragment) mCurrentFragment).showPredictionDialog(getResources());
     			}
     			break;
     		default:
@@ -302,8 +304,8 @@ public class MainActivity extends DrawerActivity {
 	public boolean onCreateOptionsMenu(Menu menu) {
 		getMenuInflater().inflate(R.menu.map_actions, menu);
 		mMenu = menu;
-		mMenu.findItem(R.id.action_zone).setVisible(mIndex == MAP_ID);
-		mMenu.findItem(R.id.action_day).setVisible(mIndex == PREDICTION_ID);
+		mMenu.findItem(R.id.action_zone).setVisible(mIndex == MAP_ID || mIndex == PREDICTION_ID);
+		mMenu.findItem(R.id.action_jellyfish).setVisible(mIndex == PREDICTION_ID);
 	    return super.onCreateOptionsMenu(menu);
 	}
 }

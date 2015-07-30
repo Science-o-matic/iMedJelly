@@ -114,6 +114,19 @@ public class DataSource implements JsonObject {
 		return result;
 	}
 
+	public List<ContentValues> getDistinctItems(String[] fields, String selection, String[] args, String order) {
+		List<ContentValues> result = new ArrayList<ContentValues>();
+		Cursor cursor = getDistinctCursor(fields, selection, args, order);
+		cursor.moveToFirst();
+		while (!cursor.isAfterLast()) {
+			ContentValues values = new ContentValues();
+			DatabaseUtils.cursorRowToContentValues(cursor, values);
+			result.add(values);
+			cursor.moveToNext();
+		}
+		return result;
+	}
+
 	public Cursor rawQuery(String sql, String[] args) {
 		return mDatabase.rawQuery(sql, args);
 	}

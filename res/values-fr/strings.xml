@@ -2,7 +2,7 @@
 <resources>
     
     <string name="action_zone">Sélectionnez la zone</string>
-    <string name="action_day">Sélectionnez día</string>
+    <string name="action_jellyfish">Sélectionnez méduse</string>
 
     <string-array name="navigation_options">
         <item>Carte</item>
@@ -34,7 +34,7 @@
     <string name="map_safe">Sûr</string>
     <string name="map_alert">Alerte</string>
     <string name="map_danger">Danger</string>
-
+    
     <string name="title_main">iMedJelly</string>
     <string name="title_beach">Plage</string>
     <string name="title_jellyfish">Medusa</string>
@@ -45,7 +45,7 @@
 	<string name="title_camera_upload">Télécharger photo</string>
 	
 	<string name="select_zone">Sélectionnez la zone</string>
-	<string name="select_day">Sélectionnez dia</string>
+    <string name="select_jellyfish">Sélectionnez méduse</string>
     
     <string name="service_legend">Légende</string>
     <string name="state_legend">Légende</string>
@@ -440,10 +440,8 @@
 
     <string name="t13a" >Les lotions anti-méduses sont-ils utiles?</string>
     <string name="t13b" >Sacrini explique: "Les lotions anti-méduses ont été créés en tenant compte des mécanismes de sécurité utilisés par le poisson clown (poissons qui ont une substance répulsive aux méduses). Les lotions anti-méduses, actuellement sur le marché, sont associées à un écran solaire. Ils sont basés, comme décrit dans des articles scientifiques, la plupart du temps sur 4 principes: s\'assurer que la peau est glissante et donc éviter que les tentacules ne se déposent; désorienter le mécanisme de reconnaissance des méduses (également composé d\'eau et de GAG); bloquer le système d\'activation des cellules urticantes; et lutte contre la pression osmotique dans les nématocystes. Elle a une réponse différente selon les espèces de méduses, la bonne application et le temps passé dans l\'eau.</string>
-
-    <string-array name="days_array">
-        <item>Aujourd\'hui</item>
-        <item>Demain</item>
-        <item>Après-demain</item>
-    </string-array>
+	
+	<string name="today">Aujourd\'hui</string>
+	<string name="tomorrow">Demain</string>
+	<string name="after_tomorrow">Après-demain</string>
 </resources>
