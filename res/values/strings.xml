@@ -44,7 +44,7 @@
     
     <string name="SplashDescription">Splash</string>
     
-    <string name="production_maps_api_key"></string>
+    <string name="production_maps_api_key">AIzaSyC3l2K_A-a579XUde_8ukspeBKiTMZj40g</string>
     <string name="development_maps_api_key"></string>
 
     <string name="title_main">iMedJelly</string>
