@@ -34,6 +34,7 @@
     <string name="map_safe">Sûr</string>
     <string name="map_alert">Alerte</string>
     <string name="map_danger">Danger</string>
+    <string name="map_nodata">Pas de\ndonnées</string>
     
     <string name="title_main">iMedJelly</string>
     <string name="title_beach">Plage</string>

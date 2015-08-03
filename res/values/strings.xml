@@ -41,6 +41,7 @@
     <string name="map_safe">Safe</string>
     <string name="map_alert">Alert</string>
     <string name="map_danger">Danger</string>
+    <string name="map_nodata">No Data</string>
     
     <string name="SplashDescription">Splash</string>
     
