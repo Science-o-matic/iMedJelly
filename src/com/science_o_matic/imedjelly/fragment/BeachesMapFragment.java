@@ -37,7 +37,8 @@ public class BeachesMapFragment extends SupportMapFragment {
 	private GoogleMap mMap;
 	private List<ContentValues> mZones;
 	private GoogleMap.OnInfoWindowClickListener mMapListener;
-
+	private Marker mMarker;
+	
 	class ZoneConfig {
 		String mCode;
 		float mLatitude;
@@ -162,6 +163,7 @@ public class BeachesMapFragment extends SupportMapFragment {
         mMapListener = new OnInfoWindowClickListener() {
     		public void onInfoWindowClick(Marker marker) {
     			// Start beach activity.
+    			mMarker = marker;
     			long id = Long.parseLong(marker.getSnippet());
             	Context context = getActivity().getBaseContext();
             	Intent intent = new Intent(context, BeachActivity.class)
@@ -171,19 +173,20 @@ public class BeachesMapFragment extends SupportMapFragment {
     	};
     	// Select zone.
 		mZones = DataSource.getTableItems(mActivity, Table.zone);
+		
 		// Get current zone.
 		String zoneCode = getZoneCode();
 		if (zoneCode == null) {
 			showZoneDialog();
-		}
-		else {
+		} else {
 			ContentValues zone = searchZone(zoneCode);
 			ZoneConfig config = searchZoneConfig(zoneCode);
-	    	if (config != null) {
-	    		moveMap(config);
-	    	}
-	    	configureBeaches(zone.getAsInteger("zoneId"));
+			if (config != null) {
+				moveMap(config);
+			}
+			configureBeaches(zone.getAsInteger("zoneId"));
 		}
+
         return view;
     }
     
@@ -212,7 +215,24 @@ public class BeachesMapFragment extends SupportMapFragment {
 	  	}
     }
     
-    private void configureBeaches(int zoneId) {
+	@Override
+	public void onResume() {
+		if (mMarker != null) {
+			DataSource dataSource = new DataSource(mActivity, Table.beach);
+			dataSource.openRead();
+			ContentValues beach = dataSource.getItem("id = ?", new String[] { mMarker.getSnippet() });
+			dataSource.close();
+			mMarker.remove();
+			int icon = getStatusDrawable(beach.getAsString("jellyFishStatus"));
+			mMap.addMarker(new MarkerOptions()
+					.position(new LatLng(beach.getAsDouble("latitude"), beach.getAsDouble("longitude")))
+					.icon(BitmapDescriptorFactory.fromResource(icon)).snippet(String.valueOf(beach.getAsInteger("id")))
+					.title(beach.getAsString("name")));
+		}
+		super.onResume();
+	}
+
+	private void configureBeaches(int zoneId) {
     	mMap.clear();
     	DataSource source = new DataSource(getActivity(), Table.beach);
     	source.openRead();
