@@ -17,7 +17,6 @@ import com.science_o_matic.imedjelly.activity.DrawerItem;
 public class NavigationAdapter extends BaseAdapter {
     private Activity activity;  
 	ArrayList<DrawerItem> itemarray; 
-	boolean ignoreDisabled = false;
 
 	public NavigationAdapter(Activity activity, ArrayList<DrawerItem> itemarray) {  
 		super();  
