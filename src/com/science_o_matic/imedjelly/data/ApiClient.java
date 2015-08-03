@@ -26,7 +26,7 @@ public class ApiClient extends Client{
 	String mLanguage;
 
 	public ApiClient(Context context) {
-		super(context.getString(R.string.DevPrefix));
+		super(context.getString(R.string.ProdPrefix));
 		mContext = context;
 		setAuthentication(
 			mContext.getString(R.string.ServerUsername),
