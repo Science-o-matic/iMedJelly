@@ -158,15 +158,19 @@ public class MainActivity extends DrawerActivity {
 		mDrawerList.setItemChecked(index, true);
 	}
 
-	protected void createMenuView() {
+	protected void createMenuView(boolean existsPrediction) {
 		// Set adapter to view.
 		mDrawerList = (ListView) findViewById(R.id.drawer_left);
 		mMenuItems = new ArrayList<DrawerItem>();
 		mNavIcons = getResources().obtainTypedArray(R.array.navigation_icons);			
         mNavTitles = getResources().getStringArray(R.array.navigation_options);
         mMenuItems = new ArrayList<DrawerItem>();
-        for(int i=0; i<mNavIcons.length(); i++) {
-        	mMenuItems.add(new DrawerItem(mNavTitles[i], mNavIcons.getResourceId(i, -1)));
+        for(int i = 0; i < mNavIcons.length(); i++) {
+        	if(i == PREDICTION_ID) {
+        		mMenuItems.add(new DrawerItem(mNavTitles[i], mNavIcons.getResourceId(i, -1), existsPrediction));
+        	} else {
+        		mMenuItems.add(new DrawerItem(mNavTitles[i], mNavIcons.getResourceId(i, -1)));
+        	}
         }
         mNavAdapter = new NavigationAdapter(this, mMenuItems);
         mDrawerList.setAdapter(mNavAdapter);
@@ -187,25 +191,36 @@ public class MainActivity extends DrawerActivity {
 		mFragmentManager = getSupportFragmentManager();
 		// Check google play services.
 		mPlayServices = GooglePlayServicesUtil.isGooglePlayServicesAvailable(this);
+		
 		// Set drawer.
 		setupDrawer(R.id.drawer_layout, R.drawable.ic_drawer, R.id.drawer_left);
 		setCloseOnBack(true);
+
 		// Create cursor manager.
 		mCursorManager = new CursorManager(this, getSupportLoaderManager());
-		// Initialize.
-		createMenuView();
-		initialize();
-		// Show notifications.
+
+		String notification = null;
+		boolean existsPrediction = false;
 		Bundle extras = getIntent().getExtras();
-        if(extras != null) {
-        	String notification = extras.getString("notification");
-        	if(notification != null) {
-        		Util.ShowNotification(this,
-    				getResources().getString(R.string.notification_title),
-    				notification);
-        	}
+		if(extras != null) {
+			notification = extras.getString("notification");
+			existsPrediction = extras.getBoolean("existsPrediction", false);
 		}
-        // Show fragment.
+
+		// Create NavMenu
+		createMenuView(existsPrediction);
+		
+		// Initialize.
+		initialize();
+		
+		// Show notifications.
+		if(notification != null) {
+			Util.ShowNotification(this,
+					getResources().getString(R.string.notification_title),
+					notification);
+		}
+        
+		// Show fragment.
         showFragment(MAP_ID, this);
     }
 	

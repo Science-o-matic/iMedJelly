@@ -3,6 +3,7 @@ package com.science_o_matic.imedjelly.adapter;
 import java.util.ArrayList;
 
 import android.app.Activity;
+import android.graphics.Color;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -16,6 +17,7 @@ import com.science_o_matic.imedjelly.activity.DrawerItem;
 public class NavigationAdapter extends BaseAdapter {
     private Activity activity;  
 	ArrayList<DrawerItem> itemarray; 
+	boolean ignoreDisabled = false;
 
 	public NavigationAdapter(Activity activity, ArrayList<DrawerItem> itemarray) {  
 		super();  
@@ -37,7 +39,17 @@ public class NavigationAdapter extends BaseAdapter {
     	return position;
     }
 
-    public static class Row  
+    @Override
+	public boolean areAllItemsEnabled() {
+    	 return true;
+	}
+
+	@Override
+	public boolean isEnabled(int position) {
+		return itemarray.get(position).isEnable();
+	}
+
+	public static class Row  
     {  
     	TextView title;
     	ImageView icon;
@@ -52,10 +64,13 @@ public class NavigationAdapter extends BaseAdapter {
            DrawerItem item = itemarray.get(position);
            convertView = inflator.inflate(R.layout.drawer_item, null);
            view.title = (TextView) convertView.findViewById(R.id.title_item);
-           view.title.setText(item.getTitle());     
+           view.title.setText(item.getTitle());
+           if(!item.isEnable()){
+        	   view.title.setTextColor(Color.GRAY);
+           }
            view.icon = (ImageView) convertView.findViewById(R.id.icon);
            view.icon.setImageResource(item.getIcon());           
-           convertView.setTag(view);  
+           convertView.setTag(view);
         }  
         else  
         {  
