@@ -4,6 +4,7 @@ import java.io.IOException;
 import java.util.Locale;
 
 import android.app.ListActivity;
+import android.content.ContentValues;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
@@ -23,6 +24,7 @@ import com.science_o_matic.imedjelly.R;
 import com.science_o_matic.imedjelly.adapter.CommentListAdapter;
 import com.science_o_matic.imedjelly.data.BeachDescription;
 import com.science_o_matic.imedjelly.data.JsonObject;
+import com.science_o_matic.imedjelly.data.Table;
 import com.science_o_matic.imedjelly.data.TaskLoader;
 import com.science_o_matic.imedjelly.util.Util;
 
@@ -49,13 +51,24 @@ public class BeachActivity extends ListActivity implements JsonObject {
 						Toast.makeText(mContext, result, Toast.LENGTH_SHORT).show();
 					}
 					else {
+						updateJellyFishStatus();
 						showDescription();
 					}
 				}
+
 			};
 			TaskLoader.Task task = mLoader.new Task(mLoader.getApiClient().getBeachData(mId), this);
 			mLoader.execute(task);
 		}
+	}
+
+	private void updateJellyFishStatus() {
+		DataSource dataSource = new DataSource(mContext, Table.beach);
+		dataSource.openWrite();
+		ContentValues values = new ContentValues();
+		values.put("jellyFishStatus", mDescription.jellyFishStatus);
+		dataSource.update(values, "id = ?", new String[] {Long.toString(mId)});
+		dataSource.close();
 	}
 
 	public void showDescription() {
