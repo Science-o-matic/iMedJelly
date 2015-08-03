@@ -132,8 +132,8 @@ public class MainActivity extends DrawerActivity {
 	    mCurrentFragment = fragment;
 	    setTitle(mNavTitles[index]);
 	    if (mMenu != null) {
-	    	mMenu.findItem(R.id.action_zone).setVisible(mIndex == MAP_ID);
-	    	mMenu.findItem(R.id.action_day).setVisible(mIndex == PREDICTION_ID);
+	    	mMenu.findItem(R.id.action_zone).setVisible(mIndex == MAP_ID || mIndex == PREDICTION_ID);
+	    	mMenu.findItem(R.id.action_jellyfish).setVisible(mIndex == PREDICTION_ID);
 	    }
 	    mFragmentManager.beginTransaction()
 	        .replace(R.id.content, fragment)
@@ -158,15 +158,19 @@ public class MainActivity extends DrawerActivity {
 		mDrawerList.setItemChecked(index, true);
 	}
 
-	protected void createMenuView() {
+	protected void createMenuView(boolean existsPrediction) {
 		// Set adapter to view.
 		mDrawerList = (ListView) findViewById(R.id.drawer_left);
 		mMenuItems = new ArrayList<DrawerItem>();
 		mNavIcons = getResources().obtainTypedArray(R.array.navigation_icons);			
         mNavTitles = getResources().getStringArray(R.array.navigation_options);
         mMenuItems = new ArrayList<DrawerItem>();
-        for(int i=0; i<mNavIcons.length(); i++) {
-        	mMenuItems.add(new DrawerItem(mNavTitles[i], mNavIcons.getResourceId(i, -1)));
+        for(int i = 0; i < mNavIcons.length(); i++) {
+        	if(i == PREDICTION_ID) {
+        		mMenuItems.add(new DrawerItem(mNavTitles[i], mNavIcons.getResourceId(i, -1), existsPrediction));
+        	} else {
+        		mMenuItems.add(new DrawerItem(mNavTitles[i], mNavIcons.getResourceId(i, -1)));
+        	}
         }
         mNavAdapter = new NavigationAdapter(this, mMenuItems);
         mDrawerList.setAdapter(mNavAdapter);
@@ -187,25 +191,36 @@ public class MainActivity extends DrawerActivity {
 		mFragmentManager = getSupportFragmentManager();
 		// Check google play services.
 		mPlayServices = GooglePlayServicesUtil.isGooglePlayServicesAvailable(this);
+		
 		// Set drawer.
 		setupDrawer(R.id.drawer_layout, R.drawable.ic_drawer, R.id.drawer_left);
 		setCloseOnBack(true);
+
 		// Create cursor manager.
 		mCursorManager = new CursorManager(this, getSupportLoaderManager());
-		// Initialize.
-		createMenuView();
-		initialize();
-		// Show notifications.
+
+		String notification = null;
+		boolean existsPrediction = false;
 		Bundle extras = getIntent().getExtras();
-        if(extras != null) {
-        	String notification = extras.getString("notification");
-        	if(notification != null) {
-        		Util.ShowNotification(this,
-    				getResources().getString(R.string.notification_title),
-    				notification);
-        	}
+		if(extras != null) {
+			notification = extras.getString("notification");
+			existsPrediction = extras.getBoolean("existsPrediction", false);
 		}
-        // Show fragment.
+
+		// Create NavMenu
+		createMenuView(existsPrediction);
+		
+		// Initialize.
+		initialize();
+		
+		// Show notifications.
+		if(notification != null) {
+			Util.ShowNotification(this,
+					getResources().getString(R.string.notification_title),
+					notification);
+		}
+        
+		// Show fragment.
         showFragment(MAP_ID, this);
     }
 	
@@ -285,11 +300,13 @@ public class MainActivity extends DrawerActivity {
     		case R.id.action_zone:
     			if (mIndex == MAP_ID) {
     				((BeachesMapFragment) mCurrentFragment).showZoneDialog();
+    			} else if(mIndex == PREDICTION_ID) {
+    				((PredictionFragment) mCurrentFragment).showZoneDialog();
     			}
     			break;
-    		case R.id.action_day:
+    		case R.id.action_jellyfish:
 				if(mIndex == PREDICTION_ID) {
-    				((PredictionFragment) mCurrentFragment).showDayDialog();
+    				((PredictionFragment) mCurrentFragment).showPredictionDialog(getResources());
     			}
     			break;
     		default:
@@ -302,8 +319,8 @@ public class MainActivity extends DrawerActivity {
 	public boolean onCreateOptionsMenu(Menu menu) {
 		getMenuInflater().inflate(R.menu.map_actions, menu);
 		mMenu = menu;
-		mMenu.findItem(R.id.action_zone).setVisible(mIndex == MAP_ID);
-		mMenu.findItem(R.id.action_day).setVisible(mIndex == PREDICTION_ID);
+		mMenu.findItem(R.id.action_zone).setVisible(mIndex == MAP_ID || mIndex == PREDICTION_ID);
+		mMenu.findItem(R.id.action_jellyfish).setVisible(mIndex == PREDICTION_ID);
 	    return super.onCreateOptionsMenu(menu);
 	}
 }

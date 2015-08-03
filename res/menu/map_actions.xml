@@ -4,8 +4,8 @@
           android:icon="@drawable/ic_action_map"
           android:title="@string/action_zone"
           imedjelly:showAsAction="ifRoom" />
-    <item android:id="@+id/action_day"
-          android:icon="@drawable/ic_action_map"
-          android:title="@string/action_day"
+    <item android:id="@+id/action_jellyfish"
+          android:icon="@drawable/ic_action_jellyfish"
+          android:title="@string/action_jellyfish"
           imedjelly:showAsAction="ifRoom" />
 </menu>

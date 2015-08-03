@@ -24,6 +24,9 @@ public class SplashActivity extends Activity {
 	private NotificationsLoader mNotificationsLoader = null;
 	private PredictionsLoader mPredictionsLoader = null;
 
+	private int[] mZonesIds;
+	private boolean mExistsPrediction = false;
+
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -74,6 +77,7 @@ public class SplashActivity extends Activity {
 			if (mNotification != null) {
 				intent.putExtra("notification", mNotification);
 			}
+			intent.putExtra("existsPrediction", mExistsPrediction);
 			startActivity(intent);
 			finish();
 		}
@@ -151,8 +155,8 @@ public class SplashActivity extends Activity {
 		protected void onPostExecute(Task[] tasks){
 			String result = getResult(tasks);
 			if (result.equals(Task.SUCCESS)) {
-				mNotificationsLoader = new NotificationsLoader(mContext);
-				mNotificationsLoader.execute();
+				mPredictionsLoader = new PredictionsLoader(mContext, mZonesIds);
+				mPredictionsLoader.execute();
 			}
 			else {
 				Toast.makeText(mContext, result, Toast.LENGTH_LONG).show();
@@ -220,16 +224,13 @@ public class SplashActivity extends Activity {
 		}
 
 		@Override
-		protected void onPostExecute(Task[] tasks){
+		protected void onPostExecute(Task[] tasks) {
 			String result = getResult(tasks);
 			if (result.equals(Task.SUCCESS)) {
-				int[] zonesId = getZonesId();
-				mBeachesLoader = new BeachesLoader(mContext, zonesId);
+				mZonesIds = getZonesId();
+				mBeachesLoader = new BeachesLoader(mContext, mZonesIds);
 				mBeachesLoader.execute();
-				mPredictionsLoader = new PredictionsLoader(mContext, zonesId);
-				mPredictionsLoader.execute();
-			}
-			else {
+			} else {
 				Toast.makeText(mContext, result, Toast.LENGTH_LONG).show();
 				Intent intent = new Intent(mContext, MainActivity.class);
 				startActivity(intent);
@@ -278,6 +279,7 @@ public class SplashActivity extends Activity {
 					reader.beginObject();
 					
 					while(reader.hasNext()) {
+						mExistsPrediction = true;
 						String field = reader.nextName();
 						reader.beginArray();
 						while (reader.hasNext()) {
@@ -303,6 +305,20 @@ public class SplashActivity extends Activity {
 					close();
 				}
 				
+			}
+		}
+		
+		@Override
+		protected void onPostExecute(Task[] tasks) {
+			String result = getResult(tasks);
+			if (result.equals(Task.SUCCESS)) {
+				mNotificationsLoader = new NotificationsLoader(mContext);
+				mNotificationsLoader.execute();
+			} else {
+				Toast.makeText(mContext, result, Toast.LENGTH_LONG).show();
+				Intent intent = new Intent(mContext, MainActivity.class);
+				startActivity(intent);
+				finish();
 			}
 		}
 	}

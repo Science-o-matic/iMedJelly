@@ -36,12 +36,14 @@ public class Table {
 		new String[] {
 			"zoneId",
 			"name",
-			"code"
+			"code",
+			"predictionAvailable"
 		},
 		new String[] {
 			"integer primary key",
 			"text",
-			"text"
+			"text",
+			"integer"
 		}
 	);
 
