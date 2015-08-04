@@ -58,7 +58,7 @@
     <string name="beachName">Nom de la plage</string>
     <string name="jellyfishPresence">Non vérifié</string>
     <string name="beachDescription">Description</string>
-    <string name="beachRatingLabel">Note des utilisateurs</string>
+    <string name="beachRatingLabel">Evaluation des utilisateurs</string>
 
     <string name="jellyfish_no_info">Aucune information disponible</string>
     <string name="no_warning">Pas observé de méduses</string>
@@ -95,8 +95,8 @@
     <string name="beach_add_comment">Ajouter un commentaire</string>
     
     <string name="treatment_image">Image</string>
-    <string name="treatment_title">Picaduras de medusas: qué se debe hacer</string>
-    <string name="treatment_description" >Méduses sont des invertébrés qui vivent flottant dans la mer et ont des cellules urticantes qui utilisé pour capturer des proies et se défendre. Ces dernières années, les proliférations de méduses sont devenues quelque chose de commun.</string>
+    <string name="treatment_title">Piqûres de méduses: ce qu\'il faut faire</string>
+    <string name="treatment_description">Méduses sont des invertébrés qui vivent flottant dans la mer et ont des cellules urticantes qui sont utilisées pour capturer les proies et se défendre. Ces dernières années, les proliférations de méduses sont devenues quelque chose de commun.</string>
     <string name="observation_title">Observations</string>
     
     <string name="feedback_success">Commentaire posté avec succès.</string>
@@ -132,8 +132,8 @@
 	<string name="about_colaborators">Cruz Roja\nRescatadores\nPro-Activa\nMarsave-Mallorca\nSIRESA\nAltsport 2000\nMunicipalities of the Catalan coast\nAEMET\nGIEM\nCatalan Agency of Water\nCivil protection (Generalitat de Catalunya)\n</string>
 	
 	<string name="about_financed">Projet cofinancé par:</string>
-	<string name="about_description">Les données concernant la présence ou l\'absence des méduses sur les plages sont fournies par les équipes de la Faculté des Sciences de Bizerte (FSB) et de l\'Institut National Agronomique de Tunisie (INAT), ainsi que par nos partenaires associés : l\’APAL, la DGPA, le croissant rouge, la protection civile, l\’association « Réseau Enfants de la Terre », et les scouts, dans le cadre d\'une coopération établie avec l\’INAT et la FSB, pour informer les baigneurs et les professionnels de la mer sur la présence des méduses, les risques et les protocoles d\'actions en cas de piqûres. Cependant, ces informations peuvent varier durant la journée, vu que les méduses se déplacent en groupe dans la masse d\'eau et peuvent être dispersés par les courants et les vents d\'une zone à une autre, les emmenant soit près des côtes, soit au large en une courte période. Pour cela, l\'application Medjelly-Tunisie publie des informations selon l\'état de la plage dans la matinée, mais avec une possibilité que cet état change au cours de la journée. L\'application va mettre à jour les informations dès que possible, quand ces changements ainsi que de nouvelles données seront reçus.</string>
-	<string name="about_phone_number">900 102 289</string>
+	<string name="about_description">Les données concernant la présence ou l\'absence des méduses sur les plages sont fournies par les équipes de la Faculté des Sciences de Bizerte (FSB) et de l\'Institut National Agronomique de Tunisie (INAT), ainsi que par nos partenaires associés: l\'APAL, la DGPA, le croissant rouge, la protection civile, l\'association « Réseau Enfants de la Terre », et les scouts, dans le cadre d\'une coopération établie avec l\'INAT et la FSB, pour informer les baigneurs et les professionnels de la mer sur la présence des méduses, les risques et les protocoles d\'actions en cas de piqûres. Cependant, ces informations peuvent varier durant la journée, vu que les méduses se déplacent en groupe dans la masse d\'eau et peuvent être dispersées par les courants et les vents d\'une zone à une autre, les emmenant soit près des côtes, soit au large en une courte période. Pour cela, l\'application Medjelly-Tunisie publie des informations selon l\'état de la plage dans la matinée, mais avec une possibilité que cet état change au cours de la journée. L\'application va mettre à jour les informations dès que possible, quand ces changements ainsi que de nouvelles données seront reçus.</string>
+	<string name="about_phone_number">00 216 22 522 705</string>
 	<string name="about_more_information">Pour plus d\'informations sur les méduses, contactez nous sur le numéro vert:</string>	
 
     <string name="nj1a" >Pelagia noctiluca</string>
@@ -198,7 +198,7 @@
     <string name="j2a1" >Aequorea forskalea</string>
     <string name="j2a2" >Aequora</string>
     <string name="j2a3" >Dangerosité</string>
-    <string name="j2a4" >Inoffensif pour les humains, mais il vaut mieux ne pas y toucher.</string>
+    <string name="j2a4" >Inoffensif pour les humains, mais il vaut mieux ne pas les toucher.</string>
     <string name="j2a5" >Distribution et habitat</string>
     <string name="j2a6" >\nElle est présente dans les océans Atlantique et Indo-Pacifique, dans les eaux tropicales et tempérées. Elle habite les eaux côtières et hauturière</string>
     <string name="j2a7" >Fréquence</string>
@@ -220,7 +220,7 @@
     <string name="j3a1" >Velella velella</string>
     <string name="j3a2" >Vélelle ou Barque de la Saint-Jean</string>
     <string name="j3a3" >Dangerosité</string>
-    <string name="j3a4" >Inoffensif pour les humains, mais il vaut mieux ne pas y toucher.</string>
+    <string name="j3a4" >Inoffensif pour les humains, mais il vaut mieux ne pas les toucher.</string>
     <string name="j3a5" >Distribution et habitat</string>
     <string name="j3a6" >Prolifère dans les eaux chaudes et tempérées de tous les océans du monde, elle est très commune dans la Méditerranée. Elle vit à l\'interface eau / air, avec un flotteur au-dessus de l\'eau, et des polypes suspendus à environ un centimètre ci-dessous. Elle peut être présente dans d\'énormes essaims atteignant même plusieurs kilomètres. Comme leur mouvement dépend totalement des courants et des vents de surface, elles peuvent être présentent sur la côte ou échouées sur les plages.</string>
     <string name="j3a7" >Fréquence</string>
