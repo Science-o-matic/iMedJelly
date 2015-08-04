@@ -29,10 +29,10 @@ public class BeachDescription {
 	public String flagStatusUpdated;
 	public String jellyFishStatus;
 	public String skyStatusCode;
-	public int maxTemperature;
-	public int minTemperature;
+	public double maxTemperature;
+	public double minTemperature;
 	public String windDirection;
-	public int waterTemperature;
+	public double waterTemperature;
 	public List<Comment> comments;
 
 	final String services_available[] = {
@@ -206,16 +206,16 @@ public class BeachDescription {
 				skyStatusCode = reader.nextString();
 			}
 			else if (item.equals("maxTemperature") && reader.peek() != JsonToken.NULL) {
-				maxTemperature = reader.nextInt();
+				maxTemperature = reader.nextDouble();
 			}
 			else if (item.equals("minTemperature") && reader.peek() != JsonToken.NULL) {
-				minTemperature = reader.nextInt();
+				minTemperature = reader.nextDouble();
 			}
 			else if (item.equals("windDirection") && reader.peek() != JsonToken.NULL) {
 				windDirection = reader.nextString();
 			}
 			else if (item.equals("waterTemperature") && reader.peek() != JsonToken.NULL) {
-				waterTemperature = reader.nextInt();
+				waterTemperature = reader.nextDouble();
 			}
 			else if (item.equals("jellyFishStatusUpdated") && reader.peek() != JsonToken.NULL) {
 				//TODO windDirection, not even in layout

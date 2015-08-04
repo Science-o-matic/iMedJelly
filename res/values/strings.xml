@@ -80,7 +80,7 @@
     <string name="jellyfishPresence">Still not verified</string>
     <string name="beachDescription">Description</string>
     <string name="beachRatingLabel">User rating</string>
-    <string name="beachTemperature"> ºC</string>
+    <string name="beachTemperature">" ºC"</string>
     <string name="beachInfoTime">12:10</string>
     <string name="separator">" / "</string>
     <string name="beachMinTemp">17</string>

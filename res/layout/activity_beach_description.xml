@@ -57,7 +57,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignTop="@+id/flagStatus"
-        android:layout_marginLeft="12dp"
+        android:layout_marginLeft="0dp"
         android:layout_toRightOf="@+id/flagStatus"
         android:src="@drawable/termometer"
         android:contentDescription="@string/termometer" />
@@ -253,8 +253,8 @@
         android:id="@+id/maxUV"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignBaseline="@+id/windSpeed"
-        android:layout_alignBottom="@+id/windSpeed"
+        android:layout_below="@+id/View01"
+        android:layout_marginTop="10dp"
         android:layout_toRightOf="@+id/fourthStar"
         android:text="@string/beachMaxUV" />
 
@@ -262,7 +262,8 @@
         android:id="@+id/windDirection"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignTop="@+id/windSpeed"
+        android:layout_below="@+id/View01"
+        android:layout_marginTop="8dp"
         android:layout_toLeftOf="@+id/windSpeed"
         android:src="@drawable/wind_direction"
         android:contentDescription="@string/windDirection" />
@@ -379,8 +380,8 @@
         android:id="@+id/windSpeed"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignBaseline="@+id/textView7"
-        android:layout_alignBottom="@+id/textView7"
+        android:layout_below="@+id/View01"
+        android:layout_marginTop="10dp"
         android:layout_alignRight="@+id/secondStar"
         android:text="@string/beachWindSpeed" />
 
@@ -388,17 +389,17 @@
         android:id="@+id/minTemperature"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignBaseline="@+id/textView5"
-        android:layout_alignBottom="@+id/textView5"
-        android:layout_toRightOf="@+id/description"
+        android:layout_below="@+id/View01"
+        android:layout_marginTop="10dp"
+        android:layout_toLeftOf="@+id/textView5"
         android:text="@string/beachMinTemp" />
 
     <TextView
         android:id="@+id/textView5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignBaseline="@+id/maxTemperature"
-        android:layout_alignBottom="@+id/maxTemperature"
+        android:layout_below="@+id/View01"
+        android:layout_marginTop="10dp"
         android:layout_toLeftOf="@+id/camera_upload"
         android:text="@string/separator" />
 
@@ -406,17 +407,18 @@
         android:id="@+id/maxTemperature"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignBaseline="@+id/textView7"
-        android:layout_alignBottom="@+id/textView7"
-        android:layout_alignLeft="@+id/camera_upload"
+        android:layout_below="@+id/View01"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@+id/textView5"
         android:text="@string/beachMaxTemp" />
 
     <TextView
         android:id="@+id/textView7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignTop="@+id/skyStatusCode"
-        android:layout_toLeftOf="@+id/imageView2"
+        android:layout_below="@+id/View01"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@+id/maxTemperature"
         android:text="@string/beachTemperature" />
 
 </RelativeLayout>
